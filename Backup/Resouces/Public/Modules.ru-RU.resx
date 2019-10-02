@@ -1,0 +1,1374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Topis" xml:space="preserve">
+    <value>Система управления по закупке</value>
+    <comment>Topis</comment>
+  </data>
+  <data name="Topis.Account" xml:space="preserve">
+    <value>Аккаунт пользователя</value>
+    <comment>Accounts</comment>
+  </data>
+  <data name="Topis.Account.ChangePassword" xml:space="preserve">
+    <value>Изменение пароля</value>
+    <comment>Change Password</comment>
+  </data>
+  <data name="Topis.Account.OnlineUser" xml:space="preserve">
+    <value>Пользователь  онлайна</value>
+    <comment>Online Users</comment>
+  </data>
+  <data name="Topis.Account.Profile" xml:space="preserve">
+    <value>Данные пользователя</value>
+    <comment>Profile</comment>
+  </data>
+  <data name="Topis.Account.SystemLog" xml:space="preserve">
+    <value>Личный дневник</value>
+    <comment>SystemLog</comment>
+  </data>
+  <data name="Topis.Configuration" xml:space="preserve">
+    <value>Системные параметры</value>
+    <comment>Configuration</comment>
+  </data>
+  <data name="Topis.Configuration.SystemInit" xml:space="preserve">
+    <value>Процесс инициализации системы</value>
+  </data>
+  <data name="Topis.Configuration.SystemInit.SystemInit" xml:space="preserve">
+    <value>Процесс инициализации системы</value>
+    <comment>System init</comment>
+  </data>
+  <data name="Topis.Configuration.SystemLog" xml:space="preserve">
+    <value>Журнал системы</value>
+    <comment>SystemLog</comment>
+  </data>
+  <data name="Topis.Configuration.SystemInit.ViewInitStatus" xml:space="preserve">
+    <value>Осмотр состаяния процесса инициализации</value>
+    <comment>View Init Status</comment>
+  </data>
+  <data name="Topis.Configuration.AuthorityManagement" xml:space="preserve">
+    <value>Управление правами</value>
+    <comment>Authority Management</comment>
+  </data>
+  <data name="Topis.Configuration.AuthorityManagement.Authority" xml:space="preserve">
+    <value>Ведомость права</value>
+    <comment>Authority</comment>
+  </data>
+  <data name="Topis.Configuration.AuthorityManagement.Role" xml:space="preserve">
+    <value>Роль</value>
+    <comment>Role</comment>
+  </data>
+  <data name="Topis.Configuration.UserManagement.Department" xml:space="preserve">
+    <value>Департамент</value>
+    <comment>Department</comment>
+  </data>
+  <data name="Topis.Configuration.Employee" xml:space="preserve">
+    <value>Пользователь</value>
+    <comment>Employee</comment>
+  </data>
+  <data name="Topis.Configuration.ModuleAuthority" xml:space="preserve">
+    <value>Право модуля</value>
+    <comment>Authorities of Module</comment>
+  </data>
+  <data name="Topis.Configuration.BasicInfo" xml:space="preserve">
+    <value>Основная информация</value>
+    <comment>Basic Info</comment>
+  </data>
+  <data name="Topis.Configuration.BasicInfo.Project" xml:space="preserve">
+    <value>Информация по проекту</value>
+    <comment>Project</comment>
+  </data>
+  <data name="Topis.Configuration.SubProject" xml:space="preserve">
+    <value>Подпроект</value>
+    <comment>SubProject</comment>
+  </data>
+  <data name="Topis.Configuration.BasicInfo.SystemLog" xml:space="preserve">
+    <value>Журнал системы</value>
+    <comment>SystemLog</comment>
+  </data>
+  <data name="Topis.Configuration.UOM" xml:space="preserve">
+    <value>Единица</value>
+    <comment>UOM</comment>
+  </data>
+  <data name="Topis.Configuration.UserManagement" xml:space="preserve">
+    <value>Управление пользователями департамента </value>
+    <comment>User Management</comment>
+  </data>
+  <data name="Topis.Configuration.UserManagement.UpdateUserPasswd" xml:space="preserve">
+    <value>Изменение пароля пользователя</value>
+    <comment>UpdateUserPasswd</comment>
+  </data>
+  <data name="Topis.Configuration.UserManagement.User" xml:space="preserve">
+    <value>Пользователь</value>
+    <comment>User</comment>
+  </data>
+  <data name="Topis.Configuration.Warehouse" xml:space="preserve">
+    <value>Склад</value>
+    <comment>Warehouse</comment>
+  </data>
+  <data name="Topis.Default" xml:space="preserve">
+    <value>Главная страница</value>
+    <comment>Default</comment>
+  </data>
+  <data name="Topis.Desktop" xml:space="preserve">
+    <value>Рабочий стол</value>
+    <comment>Desktop</comment>
+  </data>
+  <data name="Topis.Head" xml:space="preserve">
+    <value>Верхний колонтитул страницы</value>
+    <comment>Head</comment>
+  </data>
+  <data name="Topis.Initialization" xml:space="preserve">
+    <value>Процесс инициализации системы</value>
+    <comment>System Init</comment>
+  </data>
+  <data name="Topis.Inventory" xml:space="preserve">
+    <value>Склад</value>
+    <comment>Inventory</comment>
+  </data>
+  <data name="Topis.Inventory.InStoreMaterialMaxMin" xml:space="preserve">
+    <value>Управление ёмкостями складирования</value>
+    <comment>InStoreMaterialMaxMin</comment>
+  </data>
+  <data name="Topis.Inventory.InStoreMaterial" xml:space="preserve">
+    <value>Управление материалами складирования</value>
+    <comment>InStoreMaterial</comment>
+  </data>
+  <data name="Topis.Inventory.HistoryInStoreMaterial" xml:space="preserve">
+    <value>Управление историческом складированием</value>
+    <comment>HistoryInStoreMaterial</comment>
+  </data>
+  <data name="Topis.Inventory.ThroughToDepartment" xml:space="preserve">
+    <value>Прямая доставка</value>
+    <comment>ThroughToDepartment</comment>
+  </data>
+  <data name="Topis.Inventory.Adjust.InStoreMaterialAdjust" xml:space="preserve">
+    <value>Инвентаризация складирования</value>
+    <comment>InStoreMaterialAdjust</comment>
+  </data>
+  <data name="Topis.Report.Inventory.ThroughToDepartmentMaterial" xml:space="preserve">
+    <value>Материал прямой доставки</value>
+    <comment>ThroughToDepartmentMaterial</comment>
+  </data>
+  <data name="Topis.Inventory.Receive" xml:space="preserve">
+    <value>Получение</value>
+    <comment>Receive</comment>
+  </data>
+  <data name="Topis.Inventory.WHPurchaseOrder" xml:space="preserve">
+    <value>Приписать ордер на закупку</value>
+    <comment>WHPurchaseOrder</comment>
+  </data>
+  <data name="Topis.Inventory.Reserve" xml:space="preserve">
+    <value>Бронированные</value>
+    <comment>Reserve</comment>
+  </data>
+  <data name="Topis.Inventory.Issue" xml:space="preserve">
+    <value>Отгрузка</value>
+    <comment>Issue</comment>
+  </data>
+  <data name="Topis.Inventory.Transfer.TransferBin2Bin" xml:space="preserve">
+    <value>Перегрузка(На складе)</value>
+    <comment>TransferBin2Bin</comment>
+  </data>
+  <data name="Topis.Inventory.Transfer.TransferWH2WH" xml:space="preserve">
+    <value>Перегрузка(Между складами)</value>
+    <comment>TransferBin2Bin</comment>
+  </data>
+  <data name="Topis.Inventory.Transfer.TransferDep2Dep" xml:space="preserve">
+    <value>Перегрузка(Между департаментами)</value>
+    <comment>TransferDep2Dep</comment>
+  </data>
+  <data name="Topis.Inventory.Return" xml:space="preserve">
+    <value>Возвращение</value>
+    <comment>Return</comment>
+  </data>
+  <data name="Topis.Inventory.Adjust.AdjustIn" xml:space="preserve">
+    <value>Сальдо инвентаризации</value>
+    <comment>AdjustIn</comment>
+  </data>
+  <data name="Topis.Inventory.Adjust.AdjustOut" xml:space="preserve">
+    <value>Убыток инвентаризации</value>
+    <comment>AdjustOut</comment>
+  </data>
+  <data name="Topis.Logout" xml:space="preserve">
+    <value>Выход</value>
+    <comment>Logout</comment>
+  </data>
+  <data name="Topis.Material" xml:space="preserve">
+    <value>Материалы</value>
+    <comment>Material</comment>
+  </data>
+  <data name="Topis.Material.Material" xml:space="preserve">
+    <value>Управление материалами</value>
+    <comment>Material</comment>
+  </data>
+  <data name="Topis.Material.MaterialVendor" xml:space="preserve">
+    <value>Поставщик материалов</value>
+    <comment>MaterialVendor</comment>
+  </data>
+  <data name="Topis.Material.PurchaseHistory" xml:space="preserve">
+    <value>История закупки</value>
+    <comment>PurchaseHistory</comment>
+  </data>
+  <data name="Topis.Material.InventoryHistory" xml:space="preserve">
+    <value>История склада</value>
+    <comment>InventoryHistory</comment>
+  </data>
+  <data name="Topis.Purchase" xml:space="preserve">
+    <value>Закупка</value>
+    <comment>Purchase</comment>
+  </data>
+  <data name="Topis.Purchase.MaterialRequest" xml:space="preserve">
+    <value>Заявка на материалы</value>
+    <comment>MaterialRequest</comment>
+  </data>
+  <data name="Topis.Purchase.Enquiry" xml:space="preserve">
+    <value>Запрос</value>
+    <comment>Enquiry</comment>
+  </data>
+  <data name="Topis.Purchase.Quotation" xml:space="preserve">
+    <value>Предложение</value>
+    <comment>Quotation</comment>
+  </data>
+  <data name="Topis.Purchase.BidEvaluation" xml:space="preserve">
+    <value>Оценка тендера</value>
+    <comment>BidEvaluation</comment>
+  </data>
+  <data name="Topis.Purchase.PurchaseOrder" xml:space="preserve">
+    <value>Наряд-заказ закупки</value>
+    <comment>PurchaseOrder</comment>
+  </data>
+  <data name="Topis.Purchase.SDT" xml:space="preserve">
+    <value>SDT</value>
+    <comment>SDT</comment>
+  </data>
+  <data name="Topis.Purchase.WorkOrder" xml:space="preserve">
+    <value>Наряд-заказ работы</value>
+    <comment>WorkOrder</comment>
+  </data>
+  <data name="Topis.Purchase.InlandShipping" xml:space="preserve">
+    <value>Внутриконтинентавльный транспорт</value>
+    <comment>Inland Shipping</comment>
+  </data>
+  <data name="Topis.Purchase.PaymentRequirement" xml:space="preserve">
+    <value>Заявка на платеж</value>
+    <comment>Payment Requirement</comment>
+  </data>
+  <data name="Topis.SystemLogin" xml:space="preserve">
+    <value>Войти в систему</value>
+    <comment>SystemLogin</comment>
+  </data>
+  <data name="Topis.Vendor" xml:space="preserve">
+    <value>Поставщик</value>
+    <comment>Vendor</comment>
+  </data>
+  <data name="Topis.Vendor.Vendor" xml:space="preserve">
+    <value>Управление поставщиками</value>
+    <comment>Vendor</comment>
+  </data>
+  <data name="Topis.Vendor.BusinessHistory" xml:space="preserve">
+    <value>Деловая история</value>
+    <comment>BusinessHistory</comment>
+  </data>
+  <data name="Topis.Contract" xml:space="preserve">
+    <value>Контракты</value>
+    <comment>Contract</comment>
+  </data>
+  <data name="Topis.Contract.SR" xml:space="preserve">
+    <value>Заявка на материалы/услуги</value>
+    <comment>SR/MR</comment>
+  </data>
+  <data name="Topis.Help" xml:space="preserve">
+    <value>Справка</value>
+    <comment>Help</comment>
+  </data>
+  <data name="Topis.Report" xml:space="preserve">
+    <value>Отчётность</value>
+    <comment>Report</comment>
+  </data>
+  <data name="Topis.Report.Purchase" xml:space="preserve">
+    <value>Отчётность о закупке</value>
+    <comment>Purchase</comment>
+  </data>
+  <data name="Topis.Report.Purchase.PaymentRequirementByVendor" xml:space="preserve">
+    <value>Заявка на платеж（по поставщикам）</value>
+  </data>
+  <data name="Topis.Report.Purchase.PurchaseOrderByVendor" xml:space="preserve">
+    <value>Наряд-заказ закупк（по поставщикам）</value>
+  </data>
+  <data name="Topis.Report.Purchase.PurchaseOrderByMaterial" xml:space="preserve">
+    <value>Наряд-заказ закупк（по материалам）</value>
+  </data>
+  <data name="Topis.Report.Purchase.PurchaseOrderByBuyer" xml:space="preserve">
+    <value>Наряд-заказ закупк（по заготовщикам）</value>
+  </data>
+  <data name="Topis.Report.Inventory" xml:space="preserve">
+    <value>Отчётность о складах</value>
+    <comment>Inventory</comment>
+  </data>
+  <data name="Topis.Report.Inventory.InStockSummary" xml:space="preserve">
+    <value>Общая обстановка складирования</value>
+    <comment>InStock Summary</comment>
+  </data>
+  <data name="Topis.Report.Inventory.InStockDetails" xml:space="preserve">
+    <value>Ведомость складирования</value>
+    <comment>InStock Details</comment>
+  </data>
+  <data name="Topis.Report.Inventory.ReturnMaterial" xml:space="preserve">
+    <value>Возвращение материалов складу</value>
+  </data>
+  <data name="Topis.Report.Contract" xml:space="preserve">
+    <value>Отчётность о контрактах</value>
+    <comment>Contract</comment>
+  </data>
+  <data name="Topis.Report.Crossed" xml:space="preserve">
+    <value>Перекрёстная отчётность</value>
+    <comment>Crossed</comment>
+  </data>
+  <data name="Topis.Report.Others" xml:space="preserve">
+    <value>Прочие отчётности</value>
+    <comment>Others</comment>
+  </data>
+  <data name="Topis.Report.Others.SystemLog" xml:space="preserve">
+    <value>Журнал системы</value>
+    <comment>SystemLog</comment>
+  </data>
+  <data name="Topis.Report.Purchase.MRByBuyer" xml:space="preserve">
+    <value>Отчётность о заявках на материалы （по заготовщикам）</value>
+  </data>
+  <data name="Topis.Report.Purchase.EnquiryByEnquiryEmployee" xml:space="preserve">
+    <value>Отчётность о запросах （по персаналам запросов）</value>
+  </data>
+  <data name="Topis.Report.Purchase.QuotationByVendor" xml:space="preserve">
+    <value>Отчётность о предложениях （по поставщикам）</value>
+  </data>
+  <data name="Topis.Report.Purchase.QuotationByMaterial" xml:space="preserve">
+    <value>Отчётность о предложениях （по материалам）</value>
+  </data>
+  <data name="Topis.Report.Inventory.ReceiveMaterial" xml:space="preserve">
+    <value>Получение материалов</value>
+    <comment>ReceiveMaterial</comment>
+  </data>
+  <data name="Topis.Report.Inventory.IssueMaterial" xml:space="preserve">
+    <value>Отгрузка материалов</value>
+    <comment>IssueMaterial</comment>
+  </data>
+  <data name="Topis.Report.Inventory.TransferBin2BinMaterial" xml:space="preserve">
+    <value>Перегрузка материалов(на складе)</value>
+    <comment>TransferBin2BinMaterial</comment>
+  </data>
+  <data name="Topis.Report.Inventory.TransferWH2WHMaterial" xml:space="preserve">
+    <value>Перегрузка материалов(между складами)</value>
+    <comment>TransferWH2WHMaterial</comment>
+  </data>
+  <data name="Topis.Report.Inventory.TransferDep2DepMaterial" xml:space="preserve">
+    <value>Перегрузка материалов(между департаментами)</value>
+    <comment>TransferDep2DepMaterial</comment>
+  </data>
+  <data name="Topis.Report.Inventory.ReserveMaterial" xml:space="preserve">
+    <value>Бронированные материалы</value>
+    <comment>ReserveMaterial</comment>
+  </data>
+  <data name="Topis.Report.Inventory.AdjustInMaterial" xml:space="preserve">
+    <value>Материалы сальдо инвентаризации</value>
+    <comment>AdjustInMaterial</comment>
+  </data>
+  <data name="Topis.Report.Inventory.AdjustOutMaterial" xml:space="preserve">
+    <value>Материалы убытка инвентаризации</value>
+    <comment>AdjustOutMaterial</comment>
+  </data>
+  <data name="Topis.Report.Inventory.WHPurchaseOrderMaterial" xml:space="preserve">
+    <value>Наряд-заказ закупки метериала</value>
+    <comment>WHPurchaseOrderMaterial</comment>
+  </data>
+  <data name="Topis.Report.Inventory.InventoryMaterial" xml:space="preserve">
+    <value>Инвентаризация остатка материалов</value>
+    <comment>InventoryMaterial</comment>
+  </data>
+  <data name="Topis.Inventory.Transfer" xml:space="preserve">
+    <value>Перегрузка</value>
+    <comment>Transfer</comment>
+  </data>
+  <data name="Topis.Inventory.Adjust" xml:space="preserve">
+    <value>Инвентаризация складирования</value>
+    <comment>Adjust</comment>
+  </data>
+  <data name="Topis.Report.Purchase.MRTracking" xml:space="preserve">
+    <value>Прослеживание заявки на материалы</value>
+    <comment>MRTracking</comment>
+  </data>
+  <data name="Topis.Report.Purchase.MRWarning" xml:space="preserve">
+    <value>Предупреждение заявки на материалы</value>
+    <comment>MRWarning</comment>
+  </data>
+  <data name="Topis.Report.Purchase.POTracking" xml:space="preserve">
+    <value>Прослеживание наряд-заказа закупки</value>
+    <comment>POTracking</comment>
+  </data>
+  <data name="Topis.Report.Purchase.POWarning" xml:space="preserve">
+    <value>Предупреждение наряд-заказа закупки</value>
+    <comment>POWarning</comment>
+  </data>
+  <data name="Topis.Management" xml:space="preserve">
+    <value>Управление закупкой</value>
+    <comment>Procurement Management</comment>
+  </data>
+  <data name="Topis.Management.Policy" xml:space="preserve">
+    <value>Политика закупки</value>
+    <comment>Procurement Policy</comment>
+  </data>
+  <data name="Topis.Management.Policy.Sort" xml:space="preserve">
+    <value>Тип</value>
+    <comment>Procurement Policy Sort</comment>
+  </data>
+  <data name="Topis.Contract.ContractStrategy" xml:space="preserve">
+    <value>Тактический доклад</value>
+    <comment>ContractStrategy</comment>
+  </data>
+  <data name="Topis.Contract.TCMeetting" xml:space="preserve">
+    <value>График  заседания  ТК</value>
+    <comment>TCMeetting</comment>
+  </data>
+  <data name="Topis.Contract.ITB" xml:space="preserve">
+    <value>ITB</value>
+    <comment>ITB</comment>
+  </data>
+  <data name="Topis.Contract.BIDOpenAndEval" xml:space="preserve">
+    <value>Открыть и оценить тендеры</value>
+    <comment>BID Open And Evaluation</comment>
+  </data>
+  <data name="Topis.Contract.BIDOpenAndEval.BIDOpen" xml:space="preserve">
+    <value>Открыть тендеры</value>
+    <comment>BID Open</comment>
+  </data>
+  <data name="Topis.Contract.BIDOpenAndEval.CommReport" xml:space="preserve">
+    <value>Комм. доклад</value>
+    <comment>Commercial Report</comment>
+  </data>
+  <data name="Topis.Contract.BIDOpenAndEval.IntegReport" xml:space="preserve">
+    <value>Общий доклад</value>
+    <comment>Integerate Report</comment>
+  </data>
+  <data name="Topis.Contract.BIDOpenAndEval.TechReport" xml:space="preserve">
+    <value>Технический доклад</value>
+    <comment>Technical Report</comment>
+  </data>
+  <data name="Topis.Contract.Contract" xml:space="preserve">
+    <value>Контракт</value>
+    <comment>Contract</comment>
+  </data>
+  <data name="Topis.Contract.Letter" xml:space="preserve">
+    <value>Письмо</value>
+    <comment>Letter</comment>
+  </data>
+  <data name="Topis.Configuration.ContractConfiguration" xml:space="preserve">
+    <value>Параметры контрактных дел</value>
+    <comment>合同业务配置</comment>
+  </data>
+  <data name="Topis.Configuration.ContractConfiguration.CommGroup" xml:space="preserve">
+    <value>Параметры  коммерческой группы для оценки тендера</value>
+    <comment>商务评标小组配置</comment>
+  </data>
+  <data name="Topis.Configuration.ContractConfiguration.TechGroup" xml:space="preserve">
+    <value>Параметры технической группы для оценки тендера</value>
+    <comment>Technique Evaluation Group</comment>
+  </data>
+  <data name="Topis.Configuration.ContractConfiguration.ConfirmerGroup" xml:space="preserve">
+    <value>Параметры проверки и утверждения</value>
+    <comment>Confirmer Group</comment>
+  </data>
+  <data name="Topis.Configuration.ContractConfiguration.SealConfig" xml:space="preserve">
+    <value>Стандартное расположение уплотняющего тендера</value>
+    <comment>Seal Configuration</comment>
+  </data>
+  <data name="Topis.Configuration.ContractConfiguration.TCGroup" xml:space="preserve">
+    <value>Параметры дендерной камиссии</value>
+    <comment>TC Group</comment>
+  </data>
+  <data name="Topis.Configuration.ContractConfiguration.ViewerGroup" xml:space="preserve">
+    <value>Параметры  дополнительного для осмотра персонала по умолчанию</value>
+    <comment>Viewer Group</comment>
+  </data>
+  <data name="Topis.Configuration.ContractConfiguration.SRRemark" xml:space="preserve">
+    <value>Параметры описания заявки</value>
+    <comment>SR Description</comment>
+  </data>
+  <data name="Topis.Contract.TCMeettingMinutes" xml:space="preserve">
+    <value>Протокол заседания ТК</value>
+    <comment>TC minutes</comment>
+  </data>
+  <data name="Topis.Report.Contract_Report" xml:space="preserve">
+    <value>Взаимосвязанная отчётность с контрактами</value>
+    <comment>Contract_Report</comment>
+  </data>
+  <data name="Topis.Report.Contract_Report.ReportCancaledContract" xml:space="preserve">
+    <value>Отчётность о исключённых контрактах</value>
+    <comment>Report Cancaled Contract</comment>
+  </data>
+  <data name="Topis.Report.Contract_Report.ReportContract3" xml:space="preserve">
+    <value>Отчётность о контрактах за три месяцы </value>
+    <comment>ReportContract3</comment>
+  </data>
+  <data name="Topis.Report.Contract_Report.ReportContract6" xml:space="preserve">
+    <value>Отчётность о контрактах за полгода </value>
+    <comment>Report Contract 6 Months</comment>
+  </data>
+  <data name="Topis.Report.Contract_Report.ReportCurrentContract" xml:space="preserve">
+    <value>Отчётность о текущих контрактах  </value>
+    <comment>ReportCurrentContract</comment>
+  </data>
+  <data name="Topis.Report.Contract_Report.ReportFinishContract" xml:space="preserve">
+    <value>Отчётность о отработанных контрактах</value>
+    <comment>Finish Contract</comment>
+  </data>
+  <data name="Topis.Report.Contract_Report.ReportPandingContract" xml:space="preserve">
+    <value>Отчётность о висячих контрактах</value>
+    <comment>Panding Contract</comment>
+  </data>
+  <data name="Topis.Report.Delay_Report.ReportCommBID" xml:space="preserve">
+    <value>Отчётность о коммерческих оценках тендеров</value>
+    <comment>Comm BID</comment>
+  </data>
+  <data name="Topis.Report.Delay_Report" xml:space="preserve">
+    <value>Отчётность о задержанных дакументациях</value>
+    <comment>Comm BID</comment>
+  </data>
+  <data name="Topis.Report.Delay_Report.ReportCommConfirm" xml:space="preserve">
+    <value>Отчётность о проверках коммерческих докладов</value>
+    <comment>Comm Confirm</comment>
+  </data>
+  <data name="Topis.Report.Delay_Report.ReportCommOpen" xml:space="preserve">
+    <value>Отчётность о коммерческих открытиях тендеров</value>
+    <comment>Commercial Open</comment>
+  </data>
+  <data name="Topis.Report.Delay_Report.ReportContractAward" xml:space="preserve">
+    <value>Отчётность о заключённых контрактах</value>
+    <comment>ContractAward</comment>
+  </data>
+  <data name="Topis.Report.Delay_Report.ReportContractModify" xml:space="preserve">
+    <value>Отчётность о изменённых контрактах</value>
+    <comment>ContractModify</comment>
+  </data>
+  <data name="Topis.Report.Delay_Report.ReportContractValid" xml:space="preserve">
+    <value>Отчётность о актуальностях контрактов</value>
+    <comment>ContractValid</comment>
+  </data>
+  <data name="Topis.Report.Delay_Report.ReportITBConfirm" xml:space="preserve">
+    <value>Отчётность о проверках ITB</value>
+    <comment>ITB Confirm</comment>
+  </data>
+  <data name="Topis.Report.Delay_Report.ReportITBEdit" xml:space="preserve">
+    <value>Отчётность о составлениях ITB</value>
+    <comment>ITB Edit</comment>
+  </data>
+  <data name="Topis.Report.Delay_Report.ReportITBFinish" xml:space="preserve">
+    <value>Отчётность о оконченных тендерах</value>
+    <comment>ITB Finish</comment>
+  </data>
+  <data name="Topis.Report.Delay_Report.ReportTC" xml:space="preserve">
+    <value>Отчётность о заседаниях ТК</value>
+    <comment>TC Meetting</comment>
+  </data>
+  <data name="Topis.Report.Delay_Report.ReportTechBID" xml:space="preserve">
+    <value>Отчётность о технических оценках тендеров</value>
+    <comment>Technique BID Report</comment>
+  </data>
+  <data name="Topis.Report.Delay_Report.ReportTechConfirm" xml:space="preserve">
+    <value>Отчётность о технических докладах утверждений ТК</value>
+    <comment>Technique Confirm Report</comment>
+  </data>
+  <data name="Topis.Report.Delay_Report.ReportTechOpen" xml:space="preserve">
+    <value>Отчётность о технических открытиях тендеров</value>
+    <comment>Technique Open Report</comment>
+  </data>
+  <data name="Topis.Report.Delay_Report.ReportTenderDocValid" xml:space="preserve">
+    <value>Отчётность о актуальностях тендерных документацией </value>
+    <comment>Tender Doc Valid Report</comment>
+  </data>
+  <data name="Topis.Report.SR_Report" xml:space="preserve">
+    <value>Отчётность о прослеживаниях статусов SR</value>
+    <comment>SR Report</comment>
+  </data>
+  <data name="Topis.Report.SR_Report.ReportCommercialBID" xml:space="preserve">
+    <value>Отчётность о SR коммерческих оценк тендеров</value>
+    <comment>Commercial BID Report</comment>
+  </data>
+  <data name="Topis.Report.SR_Report.ReportCommercialTC" xml:space="preserve">
+    <value>Отчётность о SR коммерческих докладах для ожидания обработки заседания ТК</value>
+    <comment>CommercialTC</comment>
+  </data>
+  <data name="Topis.Report.SR_Report.ReportContractStrategy" xml:space="preserve">
+    <value>Отчётность о SR этапов тактических докладов</value>
+    <comment>Contract Strategy Report</comment>
+  </data>
+  <data name="Topis.Report.SR_Report.ReportContractStrategyTC" xml:space="preserve">
+    <value>Отчётность о SR тактических докладов для ожидания обработки заседания ТК</value>
+    <comment>Contract Strategy TC Report</comment>
+  </data>
+  <data name="Topis.Report.SR_Report.ReportForITB" xml:space="preserve">
+    <value>Отчётность о SR ожиданий ITB</value>
+    <comment>For BID Report</comment>
+  </data>
+  <data name="Topis.Report.SR_Report.ReportITB" xml:space="preserve">
+    <value>Отчётность о SR положений ITB </value>
+    <comment>ITB Report</comment>
+  </data>
+  <data name="Topis.Report.SR_Report.ReportITBFinished" xml:space="preserve">
+    <value>Отчётность о SR окончаний тендеров</value>
+    <comment>ITB Finished Report</comment>
+  </data>
+  <data name="Topis.Report.SR_Report.ReportNew" xml:space="preserve">
+    <value>Новая отчётность о SR</value>
+    <comment>New SR Report</comment>
+  </data>
+  <data name="Topis.Report.SR_Report.ReportServiceRequest" xml:space="preserve">
+    <value>Отчётность о SR</value>
+    <comment>SR Report</comment>
+  </data>
+  <data name="Topis.Report.SR_Report.ReportSRConfirmBack" xml:space="preserve">
+    <value>Отчётность о SR отозванных проверк</value>
+    <comment>Confirm Back SR Report</comment>
+  </data>
+  <data name="Topis.Report.SR_Report.ReportSRProcessing" xml:space="preserve">
+    <value>Отчётность о SR ожиданий проверк</value>
+    <comment>Processing SR Report</comment>
+  </data>
+  <data name="Topis.Report.SR_Report.ReportTechBID" xml:space="preserve">
+    <value>Отчётность о SR технических оценк тендеров</value>
+    <comment>Technique BID Report</comment>
+  </data>
+  <data name="Topis.Report.SR_Report.ReportTechTC" xml:space="preserve">
+    <value>Отчётность о SR технических докладов для ожидания обработки заседания ТК</value>
+    <comment>Technique TC</comment>
+  </data>
+  <data name="Topis.Contract.AtachmentManagment" xml:space="preserve">
+    <value>Управление приложениями</value>
+    <comment>AttachmentManagment</comment>
+  </data>
+  <data name="Topis.Contract.Award" xml:space="preserve">
+    <value>Предоставить право</value>
+    <comment>Award</comment>
+  </data>
+  <data name="Topis.Management.Policy.Management" xml:space="preserve">
+    <value>Управление политиками закупки</value>
+  </data>
+  <data name="Topis.Management.Contract.Category" xml:space="preserve">
+    <value>Тип контракта/тендерной документации</value>
+    <comment>Contract</comment>
+  </data>
+  <data name="Topis.Management.Contract.OrigContract.OrigContract" xml:space="preserve">
+    <value>Управление первичными контрактами и тендерными документациями</value>
+    <comment>Contract</comment>
+  </data>
+  <data name="Topis.Management.Contract.PriceContract.PriceContract" xml:space="preserve">
+    <value>Управление ценами на контракты</value>
+    <comment>Contract</comment>
+  </data>
+  <data name="Topis.Management.Contract.RefeContract.RefeContract" xml:space="preserve">
+    <value>Управление справочными контрактами и тендерными документациями</value>
+    <comment>Contract</comment>
+  </data>
+  <data name="Topis.Management.Contract.Search" xml:space="preserve">
+    <value>Комплексный поиск</value>
+    <comment>Contract</comment>
+  </data>
+  <data name="Topis.Management.Contract.StdContract.StdContract" xml:space="preserve">
+    <value>Управрение стандартными контрактами и тендерными документациями</value>
+    <comment>Contract</comment>
+  </data>
+  <data name="Topis.Contract.Unlock" xml:space="preserve">
+    <value>Отмыкание закрытого тендера</value>
+    <comment>Unlock</comment>
+  </data>
+  <data name="Topis.Contract.ModelDoc" xml:space="preserve">
+    <value>Поддержание шаблонов</value>
+    <comment>ModelDoc</comment>
+  </data>
+  <data name="Topis.Contract.SRTracking" xml:space="preserve">
+    <value>Прослеживание ЗУ</value>
+  </data>
+  <data name="Topis.Management.Contract" xml:space="preserve">
+    <value>База щаблонов контрактов и тендерных документаций</value>
+  </data>
+  <data name="Topis.Management.Policy.Search" xml:space="preserve">
+    <value>База политики закупки</value>
+  </data>
+  <data name="Topis.Configuration.AllProject" xml:space="preserve">
+    <value>Все проекты</value>
+  </data>
+  <data name="Topis.Configuration.ContractMode" xml:space="preserve">
+    <value>Образцы контрактов</value>
+  </data>
+  <data name="Topis.Management.AbroadData.Report" xml:space="preserve">
+    <value>Отчётность</value>
+    <comment>Report</comment>
+  </data>
+  <data name="Topis.Management.AbroadData.OperationData" xml:space="preserve">
+    <value>Данные дел</value>
+    <comment>Operation data</comment>
+  </data>
+  <data name="Topis.Configuration.ContractConfiguration.ProcurementManager" xml:space="preserve">
+    <value>Параметры департаментского директора по закупке</value>
+    <comment>Procurement Manager Configuration</comment>
+  </data>
+  <data name="Topis.Contract.ITBStart" xml:space="preserve">
+    <value>Продажа ТД</value>
+    <comment>ITB Start</comment>
+  </data>
+  <data name="Topis.Contract.ITBFinish" xml:space="preserve">
+    <value>Завер. приёма тенд. пред.</value>
+    <comment>ITB Finish</comment>
+  </data>
+  <data name="Topis.Configuration.UserManagement.Employee" xml:space="preserve">
+    <value>Пользователь</value>
+  </data>
+  <data name="Topis.Configuration.BasicInfo.BasicTables" xml:space="preserve">
+    <value>Основные таблицы</value>
+  </data>
+  <data name="Topis.BasicConfig" xml:space="preserve">
+    <value>Основные параметры</value>
+  </data>
+  <data name="Topis.BasicConfig.Bin" xml:space="preserve">
+    <value>Стеллаж</value>
+  </data>
+  <data name="Topis.BasicConfig.CurrencyExchangeRate" xml:space="preserve">
+    <value>Валютный курс</value>
+  </data>
+  <data name="Topis.BasicConfig.ExchangeRateHistory" xml:space="preserve">
+    <value>Исторический валютный курс</value>
+  </data>
+  <data name="Topis.BasicConfig.UOM" xml:space="preserve">
+    <value>Единица</value>
+  </data>
+  <data name="Topis.BasicConfig.WareHouse" xml:space="preserve">
+    <value>Склад</value>
+  </data>
+  <data name="Topis.Configuration.Authority" xml:space="preserve">
+    <value>Права в системе</value>
+  </data>
+  <data name="Topis.Configuration.CalCurrency" xml:space="preserve">
+    <value>Стан./учёт. валюта</value>
+  </data>
+  <data name="Topis.Configuration.Currency" xml:space="preserve">
+    <value>Валюта</value>
+  </data>
+  <data name="Topis.Configuration.Department" xml:space="preserve">
+    <value>Департамент</value>
+  </data>
+  <data name="Topis.Configuration.DepartmentEmployee" xml:space="preserve">
+    <value>Сотрудник департамента</value>
+  </data>
+  <data name="Topis.Configuration.MaterialCode" xml:space="preserve">
+    <value>Прав. код. материала</value>
+  </data>
+  <data name="Topis.Configuration.ModifyPassword" xml:space="preserve">
+    <value>Изменение пароля</value>
+  </data>
+  <data name="Topis.Configuration.PositionType" xml:space="preserve">
+    <value>Должность</value>
+  </data>
+  <data name="Topis.Configuration.Projects" xml:space="preserve">
+    <value>Информация по проекту</value>
+  </data>
+  <data name="Topis.Configuration.Role" xml:space="preserve">
+    <value>Роль</value>
+  </data>
+  <data name="Topis.Configuration.GenerateIDRule" xml:space="preserve">
+    <value>Образов. прав. код.</value>
+  </data>
+  <data name="Topis.Configuration.BasicType" xml:space="preserve">
+    <value>Основные типы</value>
+  </data>
+  <data name="Topis.TendorOperation" xml:space="preserve">
+    <value>Процесс тендера</value>
+  </data>
+  <data name="Topis.TendorOperation.ServiceRequistion" xml:space="preserve">
+    <value>Заявка на услуги</value>
+  </data>
+  <data name="Topis.TendorOperation.ProcurementPolicy" xml:space="preserve">
+    <value>Тактика пров. закупки</value>
+  </data>
+  <data name="Topis.TendorOperation.ITB" xml:space="preserve">
+    <value>Составление ТД </value>
+  </data>
+  <data name="Topis.TendorOperation.Approve" xml:space="preserve">
+    <value>Проверка и утверждение</value>
+  </data>
+  <data name="Topis.TenderConfig" xml:space="preserve">
+    <value>Параметры тендера</value>
+  </data>
+  <data name="Topis.TenderConfig.SealConfig" xml:space="preserve">
+    <value>Сумма закрытого тендера</value>
+  </data>
+  <data name="Topis.TenderConfig.ApproveFlow" xml:space="preserve">
+    <value>Процесс проверки и утверждения</value>
+  </data>
+  <data name="Topis.TenderConfig.DefaultTCGroup" xml:space="preserve">
+    <value>Тендерная комиссия</value>
+  </data>
+  <data name="Topis.TenderConfig.DefaultGroup" xml:space="preserve">
+    <value>Тендерная группа </value>
+  </data>
+  <data name="Topis.TenderConfig.VendorAppraise" xml:space="preserve">
+    <value>Таблица оценки</value>
+  </data>
+  <data name="Topis.ProcurementManagement" xml:space="preserve">
+    <value>Управление закупками</value>
+  </data>
+  <data name="Topis.ProcurementManagement.VendorDatabase" xml:space="preserve">
+    <value>База поставщиков</value>
+  </data>
+  <data name="Topis.ProcurementManagement.VendorDatabase.VendorPrejudication" xml:space="preserve">
+    <value>Пред.проверка поставщика</value>
+  </data>
+  <data name="Topis.ProcurementManagement.VendorDatabase.BusyHistory" xml:space="preserve">
+    <value>Деловая история</value>
+  </data>
+  <data name="Topis.ProcurementManagement.VendorDatabase.CreditAppraise" xml:space="preserve">
+    <value>Оценка доверия</value>
+  </data>
+  <data name="Topis.ProcurementManagement.VendorDatabase.Database" xml:space="preserve">
+    <value>База поставщиков</value>
+  </data>
+  <data name="Topis.ProcurementManagement.TenderManagement" xml:space="preserve">
+    <value>График заседания ТК</value>
+  </data>
+  <data name="Topis.ProcurementManagement.TenderManagement.TenderBulletin" xml:space="preserve">
+    <value>Объявление о пров. тендера</value>
+  </data>
+  <data name="Topis.ProcurementManagement.VendorDatabase.VendorsPermited" xml:space="preserve">
+    <value>Список поставщиков</value>
+  </data>
+  <data name="Topis.ProcurementManagement.VendorDatabase.SearchContact" xml:space="preserve">
+    <value>Поиск контактного лица</value>
+  </data>
+  <data name="Topis.ProcurementManagement.VendorDatabase.DealHistory" xml:space="preserve">
+    <value>Поиск контракта</value>
+  </data>
+  <data name="Topis.ProcurementManagement.VendorDatabase.VendorRegister" xml:space="preserve">
+    <value>Регистрация поставщиков</value>
+  </data>
+  <data name="Topis.ProcurementManagement.VendorDatabase.BlackList" xml:space="preserve">
+    <value>Чёрный список</value>
+  </data>
+  <data name="Topis.ProcurementManagement.VendorDatabase.VendorModification" xml:space="preserve">
+    <value>Изменение дневника</value>
+  </data>
+  <data name="Topis.ProcurementManagement.TenderManagement.TCSchedule" xml:space="preserve">
+    <value>График заседания ТК</value>
+  </data>
+  <data name="Topis.ProcurementManagement.TenderManagement.TCSummary" xml:space="preserve">
+    <value>Протокол заседания ТК</value>
+  </data>
+  <data name="Topis.Tendor" xml:space="preserve">
+    <value>Дела тендеров</value>
+  </data>
+  <data name="Topis.Tendor.SR" xml:space="preserve">
+    <value>Заявка на услуги</value>
+  </data>
+  <data name="Topis.TenderConfig.VendorPlan" xml:space="preserve">
+    <value>График проведения тендера</value>
+  </data>
+  <data name="Topis.BasicConfig.VendorEvaluateStandard" xml:space="preserve">
+    <value>Стандарт оценки по баллам</value>
+  </data>
+  <data name="Topis.BasicConfig.VendorGradeEvaluateStandard" xml:space="preserve">
+    <value>Стандарт оценки по степени</value>
+  </data>
+  <data name="Topis.BasicConfig.VendorAssociationName" xml:space="preserve">
+    <value>Отношение</value>
+  </data>
+  <data name="Topis.TendorOperation.SuperView" xml:space="preserve">
+    <value>Полный просмотр</value>
+  </data>
+  <data name="Topis.Configuration.UserRole" xml:space="preserve">
+    <value>Роль пользователя</value>
+  </data>
+  <data name="Topis.ProcurementManagement.ContractDatabase" xml:space="preserve">
+    <value>База данных контрактов</value>
+  </data>
+  <data name="Topis.ProcurementManagement.ContractDatabase.ContractCategory" xml:space="preserve">
+    <value>Тип контракта</value>
+  </data>
+  <data name="Topis.ProcurementManagement.ContractDatabase.Contract" xml:space="preserve">
+    <value>База контрактов
+</value>
+  </data>
+  <data name="Topis.ProcurementManagement.ContractDatabase.VendorSearch" xml:space="preserve">
+    <value>Поиск контракта</value>
+  </data>
+  <data name="Topis.ProcurementManagement.ContractDatabase.ExecuteManagement" xml:space="preserve">
+    <value>Управление испол. конт.</value>
+  </data>
+  <data name="Topis.ProcurementManagement.ContractDatabase.ContractPayment" xml:space="preserve">
+    <value>Регистрация платежа</value>
+  </data>
+  <data name="Topis.ProcurementManagement.ITBDocumentDatabase" xml:space="preserve">
+    <value>База данных ТД</value>
+  </data>
+  <data name="Topis.ProcurementManagement.ITBDocumentDatabase.ITBDocument" xml:space="preserve">
+    <value>База ТД</value>
+  </data>
+  <data name="Topis.TendorOperation.TenderSend" xml:space="preserve">
+    <value>Продажа ТД</value>
+  </data>
+  <data name="Topis.TendorOperation.TenderEnd" xml:space="preserve">
+    <value>Завер. приёма тенд. пред.</value>
+  </data>
+  <data name="Topis.TendorOperation.TenderOpen" xml:space="preserve">
+    <value>Открытие тендера</value>
+  </data>
+  <data name="Topis.AppoveFlow" xml:space="preserve">
+    <value>Процесс проверки</value>
+  </data>
+  <data name="Topis.AppoveFlow.ApproveProcess" xml:space="preserve">
+    <value>Обработка проверки</value>
+  </data>
+  <data name="Topis.AppoveFlow.ApproveProcedure" xml:space="preserve">
+    <value>Ход проверки</value>
+  </data>
+  <data name="Topis.TendorOperation.TenderEvaluation" xml:space="preserve">
+    <value>Тех. оценка тендера</value>
+  </data>
+  <data name="Topis.TendorOperation.TenderBulletin" xml:space="preserve">
+    <value>Объявление о пров. тендера</value>
+  </data>
+  <data name="Topis.TenderConfig.SRPlanType" xml:space="preserve">
+    <value>Тип заявки </value>
+  </data>
+  <data name="Topis.TendorOperation.CommTenderEvaluation" xml:space="preserve">
+    <value>Комм. оценка тендера</value>
+  </data>
+  <data name="Topis.TendorOperation.ContractSign" xml:space="preserve">
+    <value>Закл. конт. по процессу</value>
+  </data>
+  <data name="Topis.ProcurementManagement.VendorDatabase.VendorPrejudication.Application" xml:space="preserve">
+    <value>Заявка на регистрацию</value>
+  </data>
+  <data name="Topis.ProcurementManagement.VendorDatabase.VendorPrejudication.SubmitFailure" xml:space="preserve">
+    <value>Не утверждена пред. проверка</value>
+  </data>
+  <data name="Topis.ProcurementManagement.VendorDatabase.VendorPrejudication.SuccessfullyRegister" xml:space="preserve">
+    <value>Зарегистрировано</value>
+  </data>
+  <data name="Topis.ProcurementManagement.VendorDatabase.VendorPrejudication.Submit" xml:space="preserve">
+    <value>Отпр. на пред.пров.</value>
+  </data>
+  <data name="Topis.TendorOperation.NoFlowContractSign" xml:space="preserve">
+    <value>Прямо закл. конт.</value>
+  </data>
+  <data name="Topis.ReportSystem" xml:space="preserve">
+    <value>Отчётность</value>
+  </data>
+  <data name="Topis.ReportSystem.VendorDatabaseReportSystem" xml:space="preserve">
+    <value>О базе данных постав.</value>
+  </data>
+  <data name="Topis.ReportSystem.VendorDatabaseReportSystem.VendorReport" xml:space="preserve">
+    <value>О статистике постав.</value>
+  </data>
+  <data name="Topis.ReportSystem.VendorDatabaseReportSystem.VendorReport1" xml:space="preserve">
+    <value>О статистике суммы конт.</value>
+  </data>
+  <data name="Topis.ReportSystem.ContractDatabaseReportSystem" xml:space="preserve">
+    <value>О базе данных конт.</value>
+  </data>
+  <data name="Topis.ReportSystem.ContractDatabaseReportSystem.ContractReport" xml:space="preserve">
+    <value>О статистике конт.</value>
+  </data>
+  <data name="Topis.ReportSystem.ContractDatabaseReportSystem.ContractReport1" xml:space="preserve">
+    <value>О статистике подрядчиков</value>
+  </data>
+  <data name="Topis.ReportSystem.ContractDatabaseReportSystem.ContractReport2" xml:space="preserve">
+    <value>О статистике взаимо.конт.</value>
+  </data>
+  <data name="Topis.ReportSystem.SRReportSystem" xml:space="preserve">
+    <value>О базе данных ЗУ</value>
+  </data>
+  <data name="Topis.ReportSystem.SRReportSystem.SRReport" xml:space="preserve">
+    <value>О статистике ЗУ</value>
+  </data>
+  <data name="Topis.ReportSystem.SRReportSystem.SRReport1" xml:space="preserve">
+    <value>О прослеживении ЗУ</value>
+  </data>
+  <data name="Topis.ReportSystem.ITBDocumentReportSystem" xml:space="preserve">
+    <value>О базе данных тен.док.</value>
+  </data>
+  <data name="Topis.ReportSystem.ITBDocumentReportSystem.ITBDocumentReport" xml:space="preserve">
+    <value>О статистике тен.док.</value>
+  </data>
+  <data name="Topis.TendorOperation.FlowTrack" xml:space="preserve">
+    <value>Прослеживание ЗУ</value>
+  </data>
+  <data name="Topis.BasicConfig.SubProject" xml:space="preserve">
+    <value>Подпроект</value>
+  </data>
+  <data name="Topis.MaterialManagement" xml:space="preserve">
+    <value>Управление материалами</value>
+  </data>
+  <data name="Topis.MaterialManagement.MaterialCatalog" xml:space="preserve">
+    <value>Категория материалов </value>
+  </data>
+  <data name="Topis.BasicConfig.AFE" xml:space="preserve">
+    <value>Капитальный бюджет</value>
+  </data>
+  <data name="Topis.MaterialManagement.MaterialCode" xml:space="preserve">
+    <value>Кодирование материалов</value>
+  </data>
+  <data name="Topis.BasicConfig.ABCCalssScale" xml:space="preserve">
+    <value>Класификация ABC</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseManagment.BinSearch" xml:space="preserve">
+    <value>Поиск стеллажев</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseManagment.POSearch" xml:space="preserve">
+    <value>Поиск заказов</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseManagment" xml:space="preserve">
+    <value>Управление наличностью</value>
+  </data>
+  <data name="Topis.MaterialManagement.MaterialHistory" xml:space="preserve">
+    <value>История материалов</value>
+  </data>
+  <data name="Topis.MaterialManagement.POHistory" xml:space="preserve">
+    <value>История заказов</value>
+  </data>
+  <data name="Topis.BasicConfig.ImportantMaterial" xml:space="preserve">
+    <value>Важные материалы</value>
+  </data>
+  <data name="Topis.BasicConfig.MaxMinMaterial" xml:space="preserve">
+    <value>Наличность</value>
+  </data>
+  <data name="Topis.WareHouse" xml:space="preserve">
+    <value>Склад</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseOperation" xml:space="preserve">
+    <value>Дело склада</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseOperation.Receive" xml:space="preserve">
+    <value>Получение</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseOperation.Issue" xml:space="preserve">
+    <value>Расход</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseManagment.InStoreMaterialDetail" xml:space="preserve">
+    <value>Ведомость наличности</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseOperation.Return" xml:space="preserve">
+    <value>Возврат</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseOperation.Transfer" xml:space="preserve">
+    <value>Передвижение</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseOperation.Transfer.TransferBin2Bin" xml:space="preserve">
+    <value>Передвижение по складам
+</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseOperation.Transfer.TransferWH2WH" xml:space="preserve">
+    <value>Передвижение между складами
+</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseOperation.Transfer.TransferDEP2DEP" xml:space="preserve">
+    <value>Передвижение между департаментами
+</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseOperation.Preserve.Preserve" xml:space="preserve">
+    <value>Оставление</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseOperation.Reject" xml:space="preserve">
+    <value>Забраковка и решение</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseOperation.Borrow" xml:space="preserve">
+    <value>Заимствование</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseManagment.MaterialCapacity" xml:space="preserve">
+    <value>Наличность раннего обнаружения</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseOperation.DirectArrivalMaterial" xml:space="preserve">
+    <value>Прямые материалы</value>
+  </data>
+  <data name="Topis.WareHouse.Inventory" xml:space="preserve">
+    <value>Инвентаризация</value>
+  </data>
+  <data name="Topis.WareHouse.Inventory.CheckStock" xml:space="preserve">
+    <value>Отчет инвентаризации</value>
+  </data>
+  <data name="Topis.WareHouse.Inventory.InventoryReport" xml:space="preserve">
+    <value>Отчётность инвентаризации</value>
+  </data>
+  <data name="Topis.WareHouse.Inventory.AdjustIn" xml:space="preserve">
+    <value>Излишек при инвентаризации</value>
+  </data>
+  <data name="Topis.WareHouse.Inventory.AdjustOut" xml:space="preserve">
+    <value>Недостача при инвентаризации</value>
+  </data>
+  <data name="Topis.ReportSystem.WareHouse" xml:space="preserve">
+    <value>О складе</value>
+  </data>
+  <data name="Topis.ReportSystem.WareHouse.AdjustIn" xml:space="preserve">
+    <value>Излишек при инвентаризации</value>
+  </data>
+  <data name="Topis.ReportSystem.WareHouse.InStoreMaterialDetail" xml:space="preserve">
+    <value>Ведомость наличности</value>
+  </data>
+  <data name="Topis.ReportSystem.WareHouse.Issue" xml:space="preserve">
+    <value>Расход</value>
+  </data>
+  <data name="Topis.ReportSystem.WareHouse.Preserve" xml:space="preserve">
+    <value>Оставление</value>
+  </data>
+  <data name="Topis.ReportSystem.WareHouse.PurchaseOrder" xml:space="preserve">
+    <value>Отчётность П.Р.С. заказов</value>
+  </data>
+  <data name="Topis.ReportSystem.WareHouse.Receive" xml:space="preserve">
+    <value>Получения</value>
+  </data>
+  <data name="Topis.ReportSystem.WareHouse.Return" xml:space="preserve">
+    <value>Возврат</value>
+  </data>
+  <data name="Topis.ReportSystem.WareHouse.TransferBin2Bin" xml:space="preserve">
+    <value>Передвижение по складам</value>
+  </data>
+  <data name="Topis.ReportSystem.WareHouse.TransferDep2Dep" xml:space="preserve">
+    <value>Передвижение между департаментами</value>
+  </data>
+  <data name="Topis.ReportSystem.WareHouse.TransferWH2WH" xml:space="preserve">
+    <value>Передвижение между складами</value>
+  </data>
+  <data name="Topis.Statistic" xml:space="preserve">
+    <value>Анализ наличности</value>
+  </data>
+  <data name="Topis.Statistic.FinancingUseAnalysis" xml:space="preserve">
+    <value>Анализ капитала</value>
+  </data>
+  <data name="Topis.Statistic.MaterialUseAnalysis" xml:space="preserve">
+    <value>Анализ материалов</value>
+  </data>
+  <data name="Topis.ProcurementManagement.ContractDatabase.PurchaseOrder" xml:space="preserve">
+    <value>Заказ</value>
+  </data>
+  <data name="Topis.ReportSystem.WareHouse.InventoryReport" xml:space="preserve">
+    <value>Отчётность инвентаризации</value>
+  </data>
+  <data name="Topis.ReportSystem.WareHouse.POInWareHouse" xml:space="preserve">
+    <value>Сумма заказов</value>
+  </data>
+  <data name="Topis.DocumentManagement.DocumentModelCategory" xml:space="preserve">
+    <value>Классификация файла</value>
+  </data>
+  <data name="Topis.DocumentManagement.DocumentModel" xml:space="preserve">
+    <value>Папка</value>
+  </data>
+  <data name="Topis.DocumentManagement.AttachmentManagment" xml:space="preserve">
+    <value>Управление предложениями</value>
+  </data>
+  <data name="Topis.DocumentManagement" xml:space="preserve">
+    <value>Управление документами</value>
+  </data>
+  <data name="Topis.BasicConfig.WareHouseEmployee" xml:space="preserve">
+    <value>Персонал складов</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseOperation.Preserve" xml:space="preserve">
+    <value>Материалы оставления</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseOperation.Preserve.CancelPreserve" xml:space="preserve">
+    <value>Отзыв</value>
+  </data>
+  <data name="Topis.ReportSystem.WareHouse.AdjustOut" xml:space="preserve">
+    <value>Недостача при инвентаризации</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseManagment.ABCClass" xml:space="preserve">
+    <value>ABC Материал подробно</value>
+  </data>
+  <data name="Topis.ProcurementManagement.VendorDatabase.VendorMaterialHistory" xml:space="preserve">
+    <value>История материалов</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseManagment.InterfaceOfFinance" xml:space="preserve">
+    <value>Интерфаза финансов</value>
+  </data>
+  <data name="Topis.Statistic.ImportantMaterialFinancingUseAnalysis" xml:space="preserve">
+    <value>Капитальный анализ важнных материалов</value>
+  </data>
+  <data name="Topis.MaterialPurchase.MaterialRequest" xml:space="preserve">
+    <value>Заявка на материалы</value>
+  </data>
+  <data name="Topis.MaterialPurchase" xml:space="preserve">
+    <value>Закупка материалов</value>
+  </data>
+  <data name="Topis.MaterialPurchase.EnquiryPrice" xml:space="preserve">
+    <value>Запрос</value>
+  </data>
+  <data name="Topis.MaterialPurchase.Quotation" xml:space="preserve">
+    <value>Предложение</value>
+  </data>
+  <data name="Topis.MaterialPurchase.BIDEvaluation" xml:space="preserve">
+    <value>Оценка тендера</value>
+  </data>
+  <data name="Topis.MaterialPurchase.POBidFlow" xml:space="preserve">
+    <value>Заключение заказов</value>
+  </data>
+  <data name="Topis.MaterialPurchase.PONOBidFlow" xml:space="preserve">
+    <value>Заключение заказов</value>
+  </data>
+  <data name="Topis.TendorOperation.ProcurementStrategy" xml:space="preserve">
+    <value>Взаимосвязанная тактика</value>
+  </data>
+  <data name="Topis.TendorOperation.ProcurementStrategy.ProcurementPolicy" xml:space="preserve">
+    <value>Тактика ЗУ</value>
+  </data>
+  <data name="Topis.TendorOperation.ProcurementStrategy.MRStrategy" xml:space="preserve">
+    <value>Тактика ЗМ</value>
+  </data>
+  <data name="Topis.TendorOperation.POSign" xml:space="preserve">
+    <value>Заклю. заказов по процессу</value>
+  </data>
+  <data name="Topis.MaterialPurchase.NoFlowPOSign" xml:space="preserve">
+    <value>Прямо заклю. заказов</value>
+  </data>
+  <data name="Topis.BasicConfig.EnquiryComments" xml:space="preserve">
+    <value>Примечание запросов</value>
+  </data>
+  <data name="Topis.ReportSystem.MaterialPurchase" xml:space="preserve">
+    <value>О закупки материалов</value>
+  </data>
+  <data name="Topis.ReportSystem.MaterialPurchase.EnquiryByBuyer" xml:space="preserve">
+    <value>Запрос по заготовщику</value>
+  </data>
+  <data name="Topis.ReportSystem.MaterialPurchase.POTracking" xml:space="preserve">
+    <value>Прослеживание заказов</value>
+  </data>
+  <data name="Topis.ReportSystem.MaterialPurchase.POWarning" xml:space="preserve">
+    <value>Раннее обнаружения заказов</value>
+  </data>
+  <data name="Topis.ReportSystem.MaterialPurchase.PurchaseOrderByBuyer" xml:space="preserve">
+    <value>Заказ по заготовщику</value>
+  </data>
+  <data name="Topis.ReportSystem.MaterialPurchase.PurchaseOrderByMaterial" xml:space="preserve">
+    <value>Заказ по материалу</value>
+  </data>
+  <data name="Topis.ReportSystem.MaterialPurchase.PurchaseOrderByVendor" xml:space="preserve">
+    <value>Заказ по поставщику</value>
+  </data>
+  <data name="Topis.ReportSystem.MaterialPurchase.QuotationByMaterial" xml:space="preserve">
+    <value>Предложение по материалу</value>
+  </data>
+  <data name="Topis.ReportSystem.MaterialPurchase.QuotationByVendor" xml:space="preserve">
+    <value>Предложение по поставщику</value>
+  </data>
+  <data name="Topis.ReportSystem.MaterialPurchase.MRByBuyer" xml:space="preserve">
+    <value>ЗМ по заготовщику</value>
+  </data>
+</root>

@@ -1,0 +1,518 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CC3C6131-9E4B-45EF-9C8A-D4516C764D96}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>Business</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Business</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>doc/dataaccess.xml</DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Cnwit.Utility, Version=1.0.3000.31788, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Cnwit.Utility.dll</HintPath>
+    </Reference>
+    <Reference Include="Common, Version=2.0.3100.31726, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Common.dll</HintPath>
+    </Reference>
+    <Reference Include="DictionaryAccess, Version=2.0.3002.31076, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\DictionaryAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApproveProcess\BUSApproveProcessing.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ApproveProcess\BUSApproveProcessing_Edit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BUSBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BUSFileSubmit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CBLBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CDAAttachment.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CDACommon.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CDADesktop.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CMD5Encrypt.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\BasicInfo\BUSABCCalssScale.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\BasicInfo\BUSABCCalssScaleEdit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\BasicInfo\BUSAFE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\BasicInfo\BUSAFEEdit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\BasicInfo\BUSBasicInfoBin.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\BasicInfo\BUSBasicInfoWareHouseEmployee.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\BasicInfo\BUSBasicInfoWareHouseEmployee_Edit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\BasicInfo\BUSBasicTables.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\BasicInfo\BUSBBin.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\BasicInfo\BUSBIDepartEmployee.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\BasicInfo\BUSBIDepartment.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\BasicInfo\BUSBIER.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\BasicInfo\BUSBITables.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\BasicInfo\BUSImportantMaterial.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\BasicInfo\BUSImportantMaterialEdit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\BasicInfo\BUSMaxMinMaterial.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\BasicInfo\BUSMaxMinMaterialEdit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\BasicInfo\BUSWareHouse.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\BasicInfo\BUSWareHouseEdit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\TenderConfig\BUSApproveFlow.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\TenderConfig\BUSDefaultGroup.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\TenderConfig\BUSDefaultTCGroup.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\TenderConfig\BUSSealConfig.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\TenderConfig\BUSTenderGroup.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\TenderConfig\BUSTenderPlan.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\TenderConfig\BUSTenderPlan_Edit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\UserManagement\BUSRole.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DocumentManagement\BUSDocumentModel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DocumentManagement\BUSDocumentModelCategory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DocumentManagement\BUSDocumentModelCategoryEdit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DocumentManagement\BUSDocumentModelEdit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MaterialManagement\BUSMaterialCatalog.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MaterialManagement\BUSMaterialCatalogEdit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MaterialManagement\BUSMaterialCode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MaterialManagement\BUSMaterialCodeEdit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MaterialPurchase\BUSBIDEvaluation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MaterialPurchase\BUSEnquiryPrice.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MaterialPurchase\BUSGetExcelData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MaterialPurchase\BUSMaterialRequest.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MaterialPurchase\BUSMisDepApprove.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MaterialPurchase\BUSNoFlowPOSign.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MaterialPurchase\BUSPOBidFlow.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MaterialPurchase\BusPONoBidFlow.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MaterialPurchase\BUSQuotation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProcurementManagement\ContractDatabase\BUSContractCatagory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProcurementManagement\ContractDatabase\BUSContractDatabase_Edit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProcurementManagement\ContractDatabase\BUSContractExecute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProcurementManagement\ContractDatabase\BUSPurchaseOrder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProcurementManagement\ITBDocumentDatabase\BUSITBDocument.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProcurementManagement\TenderManagement\BUSTCSchedule.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProcurementManagement\TenderManagement\BUSTCSummary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProcurementManagement\TenderManagement\BUSTenderBulletin.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProcurementManagement\TenderManagement\BUSTenderBulletin_Edit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProcurementManagement\VendorDatabase\BUSOperationhistory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProcurementManagement\VendorDatabase\BUSVenderList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProcurementManagement\VendorDatabase\BUSVenderRegister.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProcurementManagement\VendorDatabase\BUSVendorAssociationName.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProcurementManagement\VendorDatabase\BUSVendorBlackList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProcurementManagement\VendorDatabase\BUSVendorContract.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProcurementManagement\VendorDatabase\BUSVendorEvaluateStandard.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProcurementManagement\VendorDatabase\BUSVendorGradeEvaluateStandard.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProcurementManagement\VendorDatabase\BUSVendorMaterial.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProcurementManagement\VendorDatabase\BUSVendorPrejudication.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProcurementManagement\VendorDatabase\BUSVendorPrejudicationResult.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProcurementManagement\VendorDatabase\BUSVendorPrejudication_Edit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProcurementManagement\VendorDatabase\BUSVendorSubmit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Public\BUSSearchList.cs" />
+    <Compile Include="SystemConfig\CBLBasicTableManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SystemConfig\CBLEmployeeManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SystemConfig\CDADepartment.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SystemConfig\CDAEmployee.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SystemConfig\CDAPM.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SystemConfig\CDAProject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SystemConfig\CDASystemLog.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SystemConfig\CDAUserRoleAuthority.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SystemInit\CDASystemInit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TENDOROPERATION\BUSCommEvaluation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TENDOROPERATION\BUSContractSign.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TENDOROPERATION\BUSITBDocumentWrite.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TENDOROPERATION\BUSMRStrategy.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TENDOROPERATION\BUSNoFlowContractSign.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TENDOROPERATION\BUSPOSign.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TENDOROPERATION\BUSServiceRequistion.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TENDOROPERATION\BUSServiceRequistion_Edit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TENDOROPERATION\BUSTCStrategy.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TENDOROPERATION\BUSTCStrategy_Edit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TENDOROPERATION\BUSTenderEvaluation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TENDOROPERATION\BUSTenderExpiry_Edit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TENDOROPERATION\BUSTenderOpen.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TENDOROPERATION\BUSTenderSend.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TopisSystem\CDAModule.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TopisUser.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\Inventory\BUSAdjustIn.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\Inventory\BUSAdjustInEdit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\Inventory\BUSAdjustOut.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\Inventory\BUSAdjustOutEdit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\Inventory\BUSCheckStock.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\WareHouseManagment\BUSABCClass.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\WareHouseManagment\BUSInStoreMaterialDetail.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\WareHouseManagment\BUSMaterialCapacity.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\WareHouseOperation\BUSBorrow.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\WareHouseOperation\BUSBorrowEdit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\WareHouseOperation\BUSDirectArrivalMaterial.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\WareHouseOperation\BUSIssue.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\WareHouseOperation\BUSIssueEdit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\WareHouseOperation\BUSReceive.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\WareHouseOperation\BUSReject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\WareHouseOperation\BUSRejectEdit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\WareHouseOperation\BUSReturn.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\WareHouseOperation\BUSReturnEdit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\WareHouseOperation\Preserve\BUSCancelPreserve.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\WareHouseOperation\Preserve\BUSCancelPreserveEdit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\WareHouseOperation\Preserve\BUSPreserve.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\WareHouseOperation\Preserve\BUSPreserveEdit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\WareHouseOperation\Transfer\BUSTransferBin2Bin.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\WareHouseOperation\Transfer\BUSTransferBin2BinEdit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\WareHouseOperation\Transfer\BUSTransferDEP2DEP.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\WareHouseOperation\Transfer\BUSTransferDEP2DEPEdit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\WareHouseOperation\Transfer\BUSTransferWH2WH.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\WareHouseOperation\Transfer\BUSTransferWH2WHEdit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <None Include="DocumentManagement\vssver.scc" />
+    <None Include="MaterialPurchase\vssver.scc" />
+    <None Include="WareHouse\WareHouseOperation\Preserve\vssver.scc" />
+    <None Include="WareHouse\WareHouseOperation\Transfer\vssver.scc" />
+    <None Include="WareHouse\WareHouseOperation\vssver.scc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataEntity\DataEntity.csproj">
+      <Project>{DFBA324A-1DD1-4218-878A-6C0701C05235}</Project>
+      <Name>DataEntity</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Configuration\AuthorityManagement\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

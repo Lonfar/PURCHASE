@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="gb2312"?>
+<MSPlus>
+<!--
+Width = 宽度
+EnableViewState = 是否保存VIEWSTATE状态
+ImagePath = 图片路径
+
+-->
+	<MenuConfig Width="810" EnableViewState="True"></MenuConfig>
+	<MD>
+<!--
+D = ID
+L = Label
+C = LeftIcon
+O = LeftIconOver
+V = Visible
+S = Disable
+U = Url Or JavaScript
+-->		<I D="tbSearch" C="icon_fileSearch" O="icon_fileSearch" L="Add"></I>
+		<I D="tbExport" C="icon_export" L="Export"></I>
+		<I D="tbHelp" C="icon_help" L="Help"></I>
+	</MD>
+</MSPlus>

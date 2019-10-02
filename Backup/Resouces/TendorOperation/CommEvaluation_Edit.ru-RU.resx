@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="Viewer">
+		<value>Группа оценки тендера</value>
+	</data>
+	<data name="lbSeePerson">
+		<value>Персонал осмотра</value>
+	</data>
+	<data name="lbUserName">
+		<value>Добавить имя пользователя</value>
+	</data>
+	<data name="lbDepartmentName">
+		<value>Добавить департамент(Отдел)</value>
+	</data>
+	<data name="lbGroupName">
+		<value>Добавить группу тендера</value>
+	</data>
+	<data name="HeaderTextUserName">
+		<value>Имя пользователя</value>
+	</data>
+	<data name="HeaderTextPosition">
+		<value>Должность</value>
+	</data>
+	<data name="HeaderTextDelete">
+		<value>Удалить</value>
+	</data>
+	<data name="HeaderTextGroupPosition">
+		<value>Должность в группе</value>
+	</data>
+	<data name="lbEvaluationGroup">
+		<value>Группа коммерческой оценке тендера</value>
+	</data>
+	<data name="Cancel">
+		<value>Отзыв проверки</value>
+	</data>
+	<data name="Approve">
+		<value>Принятие проверки</value>
+	</data>
+	<data name="lbSuggestion">
+		<value>Рекомендальное замечание</value>
+	</data>
+	<data name="lbCurrency">
+		<value>Учётная валюта</value>
+	</data>
+	<data name="BasicInfomation">
+		<value>Основная информация</value>
+	</data>
+	<data name="CommResult">
+		<value>Результат коммерческой оценки тендера</value>
+	</data>
+	<data name="MustHaveOneVendorPassed">
+		<value>Необходимо выбрать одного подрядчика добывшего тендера. </value>
+	</data>
+	<data name="Submit">
+		<value>Отправка</value>
+	</data>
+	<data name="ToConfirmApproved">
+		<value>Утвердить принять?</value>
+	</data>
+	<data name="ToConfirmCancel">
+		<value>Утвердить отозвать?</value>
+	</data>
+	<data name="lbCommGroupName">
+		<value>Добавить группу комм. оценки тендера</value>
+	</data>
+	<data name="lbCommEvaluationGroup">
+		<value>Группа оценки тендера</value>
+	</data>
+	<data name="SRView">
+		<value>Информация по ЗУ
+</value>
+	</data>
+	<data name="btnTCStrategyPlan">
+		<value>График проведения тендера</value>
+	</data>
+	<data name="lbViewUser">
+		<value>Добавить персонала комм. оценки тендера</value>
+	</data>
+	<data name="ExsitNotFinishContract">
+		<value>Существует незаключаемый контракт!</value>
+	</data>
+	<data name="SRView">
+		<value>Взаимосвязанная заявка</value>
+	</data>
+	<data name="ErrDelete">
+		<value>Удалить нельзя,так как деловой узел оприрован!</value>
+	</data>
+</root>

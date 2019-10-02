@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="BaseInfo">
+		<value>基本信息</value>
+	</data>
+	<data name="DownloadITBDocument">
+		<value>下载标书</value>
+	</data>
+	<data name="Viewer">
+		<value>查看人</value>
+	</data>
+	<data name="btnTenderPlan">
+		<value>招标计划</value>
+	</data>
+	<data name="btnPass">
+		<value>内审通过</value>
+	</data>
+	<data name="lbSearch">
+		<value>查询</value>
+	</data>
+	<data name="lbTitle">
+		<value>下载参考标书</value>
+	</data>
+	<data name="btnSearch">
+		<value>确定</value>
+	</data>
+	<data name="ITBNumber">
+		<value>标书编号</value>
+	</data>
+	<data name="SRName">
+		<value>申请编号</value>
+	</data>
+	<data name="ProjectName">
+		<value>标的名称</value>
+	</data>
+	<data name="AttachName">
+		<value>文件名称</value>
+	</data>
+	<data name="AttachSize">
+		<value>文件大小</value>
+	</data>
+	<data name="UploadTime">
+		<value>上传日期</value>
+	</data>
+	<data name="DownloadFiles">
+		<value>下载文件</value>
+	</data>
+	<data name="Download">
+		<value>下载</value>
+	</data>
+	<data name="lbUserName">
+		<value>添加用户</value>
+	</data>
+	<data name="lbDepartmentName">
+		<value>添加部门</value>
+	</data>
+	<data name="lbGroupName">
+		<value>添加查看小组</value>
+	</data>
+	<data name="HeaderTextUserNo">
+		<value>NO.</value>
+	</data>
+	<data name="HeaderTextUserName">
+		<value>姓名</value>
+	</data>
+	<data name="HeaderTextPosition">
+		<value>职务</value>
+	</data>
+	<data name="HeaderTextDelete">
+		<value>删除</value>
+	</data>
+	<data name="lbSeePerson">
+		<value>查看人</value>
+	</data>
+	<data name="btnDownload">
+		<value>参考标书</value>
+	</data>
+	<data name="SRView">
+		<value>服务申请信息</value>
+	</data>
+	<data name="sNeedITBDocumentID">
+		<value>请先选择招标编号</value>
+	</data>
+	<data name="RelateRequistion">
+		<value>相关申请</value>
+	</data>
+	<data name="ErrDelete">
+		<value>业务节点被引用，不可删除!</value>
+	</data>
+</root>

@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<BaseTypes>
+	<BaseType>
+		<TypeName>Shipping methods</TypeName>
+		<TableName>TypeShippingMethod</TableName>
+	</BaseType>
+	<BaseType>
+		<TypeName>Shipping terms</TypeName>
+		<TableName>TypeShippingTerm</TableName>
+	</BaseType>
+	<BaseType>
+		<TypeName>Incoterms</TypeName>
+		<TableName>TypeIncoterms</TableName>
+	</BaseType>
+	<BaseType>
+		<TypeName>Payment terms</TypeName>
+		<TableName>TypePaymentTerm</TableName>
+	</BaseType>
+	<BaseType>
+		<TypeName>Means Of inquiry</TypeName>
+		<TableName>TypeMeansOfInquiry</TableName>
+	</BaseType>
+	<BaseType>
+		<TypeName>Vendor Type</TypeName>
+		<TableName>TypeVendor</TableName>
+	</BaseType>
+	<BaseType>
+		<TypeName>Receive types in inventory</TypeName>
+		<TableName>TypeWHReceive</TableName>
+	</BaseType>
+	<BaseType>
+		<TypeName>Issue types in inventory</TypeName>
+		<TableName>TypeWHIssue</TableName>
+	</BaseType>
+	<BaseType>
+		<TypeName>Adjuest in types in inventory</TypeName>
+		<TableName>TypeWHAdjustIn</TableName>
+	</BaseType>
+	<BaseType>
+		<TypeName>Adjuest out types in inventory</TypeName>
+		<TableName>TypeWHAdjustOut</TableName>
+	</BaseType>
+	<BaseType>
+		<TypeName>Bin to bin transfter types in inventory</TypeName>
+		<TableName>TypeWHTransferBin2Bin</TableName>
+	</BaseType>
+	<BaseType>
+		<TypeName>Warehouse to warehouse transfter types in inventory</TypeName>
+		<TableName>TypeWHTransferWH2WH</TableName>
+	</BaseType>
+	<BaseType>
+		<TypeName>Department to department transfter types in inventory</TypeName>
+		<TableName>TypeWHTransferDep2Dep</TableName>
+	</BaseType>
+	<BaseType>
+		<TypeName>Return material types in inventory</TypeName>
+		<TableName>TypeWHReturn</TableName>
+	</BaseType>
+	<BaseType>
+		<TypeName>Reserve material types in inventory</TypeName>
+		<TableName>TypeWHReserve</TableName>
+	</BaseType>
+	<BaseType ReadOnly="true">
+		<TypeName>MR status</TypeName>
+		<TableName>TypeMRStatus</TableName>
+	</BaseType>
+	<BaseType>
+		<TypeName>Work order status</TypeName>
+		<TableName>TypeWorkOrderStatus</TableName>
+	</BaseType>
+	<BaseType>
+		<TypeName>Inland Shipping status</TypeName>
+		<TableName>TypeSDStatus</TableName>
+	</BaseType>
+	<BaseType>
+		<TypeName>Letter Patten</TypeName>
+		<TableName>TypeLetterPatten</TableName>
+	</BaseType>
+	<BaseType>
+		<TypeName>ITB Bider Source</TypeName>
+		<TableName>TypeITBBiderSource</TableName>
+	</BaseType>
+	<BaseType>
+		<TypeName>TC Remark</TypeName>
+		<TableName>TypeTCRemark</TableName>
+	</BaseType>
+	<BaseType>
+		<TypeName>Tech Report Result</TypeName>
+		<TableName>TypeTechReportResult</TableName>
+	</BaseType>
+	<BaseType>
+		<TypeName>Tech Report Grade</TypeName>
+		<TableName>TypeTechReportGrade</TableName>
+	</BaseType>
+	<BaseType>
+		<TypeName>Meetting Room</TypeName>
+		<TableName>TypeMeetingRoom</TableName>
+	</BaseType>
+	<BaseType>
+		<TypeName>Position</TypeName>
+		<TableName>TypePosition</TableName>
+	</BaseType>
+	<BaseType ReadOnly="true">
+		<TypeName>BidderResponse</TypeName>
+		<TableName>TypeBidderResponse</TableName>
+	</BaseType>
+		<BaseType>
+		<TypeName>TypeITBSendOutType</TypeName>
+		<TableName>TypeITBSendOutType</TableName>
+	</BaseType>
+
+</BaseTypes>

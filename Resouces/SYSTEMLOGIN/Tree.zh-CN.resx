@@ -1,0 +1,831 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="Topis">
+		<value>CNODC采办一体化</value>
+		<comment>Topis</comment>
+	</data>
+	<data name="Topis.Account">
+		<value>用户帐号</value>
+		<comment>Accounts</comment>
+	</data>
+	<data name="Topis.Account.ChangePassword">
+		<value>修改密码</value>
+		<comment>Change Password</comment>
+	</data>
+	<data name="Topis.Account.OnlineUser">
+		<value>在线用户</value>
+		<comment>Online Users</comment>
+	</data>
+	<data name="Topis.Account.Profile">
+		<value>用户档案</value>
+		<comment>Profile</comment>
+	</data>
+	<data name="Topis.Account.SystemLog">
+		<value>个人日志</value>
+		<comment>UserLog</comment>
+	</data>
+	<data name="Topis.Configuration.BasicInfo.SystemLog">
+		<value>系统日志</value>
+		<comment>System Log</comment>
+	</data>
+	<data name="Topis.Configuration">
+		<value>系统配置</value>
+		<comment>Configuration</comment>
+	</data>
+	<data name="Topis.Configuration.BasicInfo.AFE">
+		<value>资金预算</value>
+		<comment>AFE</comment>
+	</data>
+	<data name="Topis.Configuration.AuthorityManagement.Authority">
+		<value>权限</value>
+		<comment>Authority</comment>
+	</data>
+	<data name="Topis.Configuration.BasicInfo.BaseTypes">
+		<value>基本类型</value>
+		<comment>Base Types</comment>
+	</data>
+	<data name="Topis.Configuration.BasicInfo.Bin">
+		<value>库位</value>
+		<comment>Bin</comment>
+	</data>
+	<data name="Topis.Configuration.BasicInfo.Currency">
+		<value>货币</value>
+		<comment>Currency</comment>
+	</data>
+	<data name="Topis.Configuration.BasicInfo.CurrencyExchangeRate">
+		<value>汇率</value>
+		<comment>CurrencyExchangeRate</comment>
+	</data>
+	<data name="Topis.Configuration.BasicInfo.CurrencyExRateHistory">
+		<value>历史汇率</value>
+		<comment>History Exchange Rate</comment>
+	</data>
+	<data name="Topis.Configuration.Department">
+		<value>部门</value>
+		<comment>Department</comment>
+	</data>
+	<data name="Topis.Configuration.Employee">
+		<value>员工</value>
+		<comment>Employee</comment>
+	</data>
+	<data name="Topis.Configuration.AuthorityManagement.ModuleAuthority">
+		<value>模块权限</value>
+		<comment>Authorities of Module</comment>
+	</data>
+	<data name="Topis.Configuration.BasicInfo.Project">
+		<value>项目</value>
+		<comment>Project</comment>
+	</data>
+	<data name="Topis.Configuration.AuthorityManagement.Role">
+		<value>角色</value>
+		<comment>Role</comment>
+	</data>
+	<data name="Topis.Configuration.BasicInfo.SubProject">
+		<value>子项目</value>
+		<comment>SubProject</comment>
+	</data>
+	<data name="Topis.Configuration.BasicInfo.SystemLog">
+		<value>系统日志</value>
+		<comment>SystemLog</comment>
+	</data>
+	<data name="Topis.Configuration.BasicInfo.UOM">
+		<value>单位</value>
+		<comment>UOM</comment>
+	</data>
+	<data name="Topis.Configuration.UserManagement.UpdateUserPasswd">
+		<value>用户密码修改</value>
+		<comment>UpdateUserPasswd</comment>
+	</data>
+	<data name="Topis.Configuration.UserManagement.UserRole">
+		<value>用户角色</value>
+		<comment>UserRole</comment>
+	</data>
+	<data name="Topis.Configuration.BasicInfo.Warehouse">
+		<value>库房</value>
+		<comment>Warehouse</comment>
+	</data>
+	<data name="Topis.Default">
+		<value>首页</value>
+		<comment>Default</comment>
+	</data>
+	<data name="Topis.Desktop">
+		<value>桌面</value>
+		<comment>Desktop</comment>
+	</data>
+	<data name="Topis.Head">
+		<value>页头</value>
+		<comment>Head</comment>
+	</data>
+	<data name="Topis.Configuration.Initialization">
+		<value>系统初始化</value>
+		<comment>System Init</comment>
+	</data>
+	<data name="topis.configuration.initialization.SystemInit">
+		<value>系统初始化</value>
+		<comment>System init</comment>
+	</data>
+	<data name="topis.configuration.initialization.ViewInitStatus">
+		<value>初始化状态查看</value>
+		<comment>View Init Status</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Inventory">
+		<value>库房</value>
+		<comment>Inventory</comment>
+	</data>
+	<!--Liu Dian-Xin Add -->
+	<data name="Topis.ProcurementOperation.Purchase.Inventory.InStoreMaterialMaxMin">
+		<value>库存容量管理</value>
+		<comment>InStoreMaterialMaxMin</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Inventory.InStoreMaterial">
+		<value>库存物资管理</value>
+		<comment>InStoreMaterial</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Inventory.HistoryInStoreMaterial">
+		<value>历史库存管理</value>
+		<comment>HistoryInStoreMaterial</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Inventory.ThroughToDepartment">
+		<value>直达料</value>
+		<comment>ThroughToDepartment</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Inventory.Adjust.InStoreMaterialAdjust">
+		<value>盘库</value>
+		<comment>InStoreMaterialAdjust</comment>
+	</data>
+	<data name="Topis.Report.ProcurementOperation.Purchase.Inventory.ThroughToDepartmentMaterial">
+		<value>物资直达料</value>
+		<comment>ThroughToDepartmentMaterial</comment>
+	</data>
+	<!-- End -->
+	<data name="Topis.ProcurementOperation.Purchase.Inventory.Receive">
+		<value>收料</value>
+		<comment>Receive</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Inventory.WHPurchaseOrder">
+		<value>补录采购单</value>
+		<comment>WHPurchaseOrder</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Inventory.Reserve">
+		<value>预留料</value>
+		<comment>Reserve</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Inventory.Issue">
+		<value>发料</value>
+		<comment>Issue</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Inventory.Transfer.TransferBin2Bin">
+		<value>转料(库内)</value>
+		<comment>TransferBin2Bin</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Inventory.Transfer.TransferWH2WH">
+		<value>转料(库间)</value>
+		<comment>TransferBin2Bin</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Inventory.Transfer.TransferDep2Dep">
+		<value>转料(部门间)</value>
+		<comment>TransferDep2Dep</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Inventory.Return">
+		<value>返料</value>
+		<comment>Return</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Inventory.Adjust.AdjustIn">
+		<value>盘赢</value>
+		<comment>AdjustIn</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Inventory.Adjust.AdjustOut">
+		<value>盘亏</value>
+		<comment>AdjustOut</comment>
+	</data>
+	<data name="Topis.Logout">
+		<value>注销</value>
+		<comment>Logout</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Material">
+		<value>物资</value>
+		<comment>Material</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Material.Material">
+		<value>物资管理</value>
+		<comment>Material</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Material.MaterialVendor">
+		<value>物资供应商</value>
+		<comment>MaterialVendor</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Material.PurchaseHistory">
+		<value>采购历史</value>
+		<comment>PurchaseHistory</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Material.InventoryHistory">
+		<value>库房历史</value>
+		<comment>InventoryHistory</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.PurchaseWork">
+		<value>采购流程</value>
+		<comment>Purchase</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.PurchaseWork.MaterialRequest">
+		<value>物资申请</value>
+		<comment>MaterialRequest</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.PurchaseWork.Enquiry">
+		<value>询价</value>
+		<comment>Enquiry</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.PurchaseWork.Quotation">
+		<value>报价</value>
+		<comment>Quotation</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.PurchaseWork.BidEvaluation">
+		<value>评标</value>
+		<comment>BidEvaluation</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.PurchaseWork.PurchaseOrder">
+		<value>采购订单</value>
+		<comment>PurchaseOrder</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Logistics.SDT">
+		<value>SDT</value>
+		<comment>SDT</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Logistics.WorkOrder">
+		<value>工作订单</value>
+		<comment>WorkOrder</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Logistics.InlandShipping">
+		<value>内陆运输</value>
+		<comment>Inland Shipping</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.PaymentRequirement">
+		<value>付款申请</value>
+		<comment>Payment Requirement</comment>
+	</data>
+	<data name="Topis.SystemLogin">
+		<value>系统登录</value>
+		<comment>SystemLogin</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.Vendor">
+		<value>供应商</value>
+		<comment>Vendor</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.Vendor.Vendor">
+		<value>供应商管理</value>
+		<comment>Vendor</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.Vendor.BusinessHistory">
+		<value>业务历史</value>
+		<comment>BusinessHistory</comment>
+	</data>
+	<!--2005.7.22-->
+	<data name="Topis.ProcurementOperation.Contract">
+		<value>合同业务</value>
+		<comment>Contract</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Contract.SR">
+		<value>服务/物资申请单</value>
+		<comment>SR/MR</comment>
+	</data>
+	<data name="Topis.Help">
+		<value>帮助</value>
+		<comment>Help</comment>
+	</data>
+	<!--2005.8.17-->
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report">
+		<value>CNODC采办业务报表</value>
+		<comment>Report</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Purchase">
+		<value>采购报表</value>
+		<comment>Purchase</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Purchase.PaymentRequirementByVendor">
+		<value>付款申请（按供应商）</value>
+		<comment></comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Purchase.PurchaseOrderByVendor">
+		<value>采购订单（按供应商）</value>
+		<comment></comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Purchase.PurchaseOrderByMaterial">
+		<value>采购订单（按物资）</value>
+		<comment></comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Purchase.PurchaseOrderByBuyer">
+		<value>采购订单（按采购员）</value>
+		<comment></comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Inventory">
+		<value>库房报表</value>
+		<comment>Inventory</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Inventory.InStockSummary">
+		<value>库存概况</value>
+		<comment>InStock Summary</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Inventory.InStockDetails">
+		<value>库存明细</value>
+		<comment>InStock Details</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Inventory.ReturnMaterial">
+		<value>物资返库</value>
+		<comment></comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Contract">
+		<value>合同报表</value>
+		<comment>Contract</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Crossed">
+		<value>交叉报表</value>
+		<comment>Crossed</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Others">
+		<value>其他报表</value>
+		<comment>Others</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Others.SystemLog">
+		<value>系统日志</value>
+		<comment>SystemLog</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Purchase.MRByBuyer">
+		<value>物资申请报表（按采购员）</value>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Purchase.EnquiryByEnquiryEmployee">
+		<value>询价报表（按询价人）</value>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Purchase.QuotationByVendor">
+		<value>报价报表（按供应商）</value>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Purchase.QuotationByMaterial">
+		<value>报价报表（按物资）</value>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Inventory.ReceiveMaterial">
+		<value>物资收料</value>
+		<comment>ReceiveMaterial</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Inventory.IssueMaterial">
+		<value>物资发料</value>
+		<comment>IssueMaterial</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Inventory.TransferBin2BinMaterial">
+		<value>物资转料（库内）</value>
+		<comment>TransferBin2BinMaterial</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Inventory.TransferWH2WHMaterial">
+		<value>物资转料（库间）</value>
+		<comment>TransferWH2WHMaterial</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Inventory.TransferDep2DepMaterial">
+		<value>物资转料（部门间）</value>
+		<comment>TransferDep2DepMaterial</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Inventory.ReserveMaterial">
+		<value>物资预留料</value>
+		<comment>ReserveMaterial</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Inventory.AdjustInMaterial">
+		<value>物资盘赢</value>
+		<comment>AdjustInMaterial</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Inventory.AdjustOutMaterial">
+		<value>物资盘亏</value>
+		<comment>AdjustOutMaterial</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Inventory.WHPurchaseOrderMaterial">
+		<value>采购订单</value>
+		<comment>WHPurchaseOrderMaterial</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Inventory.InventoryMaterial">
+		<value>物资盘存</value>
+		<comment>InventoryMaterial</comment>
+	</data>
+	<!--Liu Dian-xin Add-->
+	<data name="Topis.Configuration.GenerateIDRule">
+		<value>编号规则</value>
+		<comment>GenerateIDRule</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Inventory.Transfer">
+		<value>转料</value>
+		<comment>Transfer</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Inventory.Adjust">
+		<value>盘库</value>
+		<comment>Adjust</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Purchase.MRTracking">
+		<value>物资申请单跟踪</value>
+		<comment>MRTracking</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Purchase.MRWarning">
+		<value>物资申请单警告</value>
+		<comment>MRWarning</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Purchase.POTracking">
+		<value>采购订单跟踪</value>
+		<comment>POTracking</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Purchase.POWarning">
+		<value>采购订单警告</value>
+		<comment>POWarning</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement">
+		<value>采办管理</value>
+		<comment>Procurement Management</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.Policy">
+		<value>采办政策</value>
+		<comment>Procurement Policy</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.Policy.Sort">
+		<value>采办政策类别</value>
+		<comment>Procurement Policy Sort</comment>
+	</data>
+	<data name="Topis.ProcurementOperation">
+		<value>采办业务</value>
+		<comment>ProcurementOperation</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase">
+		<value>采购业务</value>
+	</data>
+	<data name="Topis.ProcurementMenagement.ContractTemplate">
+		<value>标书/合同模板库</value>
+		<comment>Contract Template</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard">
+		<value>采办数据</value>
+		<comment>Data From Aboard</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.InviteAndBidMenagment">
+		<value>招投标管理</value>
+		<comment>Invite And Bid Menagment</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.ContractTemplate.ContractCatolog">
+		<value>标书/合同类别</value>
+		<comment>Contract/BID Catolog</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.ContractTemplate.Search">
+		<value>综合查询</value>
+		<comment>Search</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.ContractTemplate.OriginalContract">
+		<value>原始标书/合同管理</value>
+		<comment>Original Contract/Tender</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.ContractTemplate.StandardContract">
+		<value>标准标书/合同管理</value>
+		<comment>StandardContract</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.ContractTemplate.PriceContract">
+		<value>合同价格管理</value>
+		<comment>Price Contract/Tender</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.ContractTemplate.ReferenceContract">
+		<value>参考标书/合同管理</value>
+		<comment>refernce Contract</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Data">
+		<value>海外数据与报表</value>
+		<comment>Data And Report</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Data.OperationData">
+		<value>业务数据</value>
+		<comment>Operation Data</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Data.Report">
+		<value>报表</value>
+		<comment>Report</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.Policy.Manegment">
+		<value>采办政策管理</value>
+		<comment>Procurement Policy Management</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Contract.ContractStrategy">
+		<value>合同策略</value>
+		<comment>Contract Strategy</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.TCMeeting.TCMeeetting">
+		<value>TC会议日程</value>
+		<comment>TC Meetting</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Contract.ITB">
+		<value>标书撰写</value>
+		<comment>ITB</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Contract.BIDOpenAndEval">
+		<value>开标/评标</value>
+		<comment>BID Open And Evaluation</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Contract.BIDOpenAndEval.BIDOpen">
+		<value>开标</value>
+		<comment>BID Open</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Contract.BIDOpenAndEval.TechReport">
+		<value>技术评标</value>
+		<comment>Technical Report</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Contract.BIDOpenAndEval.CommReport">
+		<value>商务评标</value>
+		<comment>Commercial Report</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Contract.BIDOpenAndEval.IntegReport">
+		<value>综合评标</value>
+		<comment>Integrate Report</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Contract.Contract">
+		<value>合同</value>
+		<comment>Contract</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.ContractConfiguration.Letter">
+		<value>信件登记</value>
+		<comment>Letter</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Logistics">
+		<value>后勤</value>
+	</data>
+	<data name="Topis.Configuration.ContractConfiguration">
+		<value>招标业务配置</value>
+		<comment>Tender Configuration</comment>
+	</data>
+	<data name="Topis.Configuration.ContractConfiguration.CommGroup">
+		<value>商务评标小组配置</value>
+		<comment>商务评标小组配置</comment>
+	</data>
+	<data name="Topis.Configuration.ContractConfiguration.TechGroup">
+		<value>技术评标小组配置</value>
+		<comment>Technique Evaluation Group</comment>
+	</data>
+	<data name="Topis.Configuration.ContractConfiguration.ConfirmerGroup">
+		<value>审批流程配置</value>
+		<comment>Approve Group</comment>
+	</data>
+	<data name="Topis.Configuration.ContractConfiguration.SealConfig">
+		<value>密封标标准配置</value>
+		<comment>Seal Configuration</comment>
+	</data>
+	<data name="Topis.Configuration.ContractConfiguration.TCGroup">
+		<value>TC 小组配置</value>
+		<comment>TC Group</comment>
+	</data>
+	<data name="Topis.Configuration.ContractConfiguration.ViewerGroup">
+		<value>默认附加查看人配置</value>
+		<comment>Viewer Group</comment>
+	</data>
+	<data name="Topis.Configuration.ContractConfiguration.SRRemark">
+		<value>SR描述配置</value>
+		<comment>SR Description</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.TCMeeting.TCMeettingMinutes">
+		<value>TC会议纪要</value>
+		<comment>TC Minutes</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Contract">
+		<value>合同相关的报表</value>
+		<comment>Contract_Report</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Contract.ReportCancaledContract">
+		<value>取消的合同报表</value>
+		<comment>Report Cancaled Contract</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Contract.ReportContract3">
+		<value>3个月内合同报表</value>
+		<comment>ReportContract3</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Contract.ReportContract6">
+		<value>半年内合同报表</value>
+		<comment>Report Contract 6 Months</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Contract.ReportCurrentContract">
+		<value>当前合同报表</value>
+		<comment>ReportCurrentContract</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Contract.ReportFinishContract">
+		<value>合同终止报表</value>
+		<comment>Finish Contract</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Contract.ReportPandingContract">
+		<value>合同挂起报表</value>
+		<comment>Panding Contract</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Delay_Report.ReportCommBID">
+		<value>商务评标报表</value>
+		<comment>Comm BID</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Delay_Report">
+		<value>延期文件报表</value>
+		<comment>Comm BID</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Delay_Report.ReportCommConfirm">
+		<value>商务报告审核报表</value>
+		<comment>Comm Confirm</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Delay_Report.ReportCommOpen">
+		<value>商务开标报表</value>
+		<comment>Commercial Open</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Delay_Report.ReportContractAward">
+		<value>合同授标报表</value>
+		<comment>ContractAward</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Delay_Report.ReportContractModify">
+		<value>合同修改报表</value>
+		<comment>ContractModify</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Delay_Report.ReportContractValid">
+		<value>合同生效报表</value>
+		<comment>ContractValid</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Delay_Report.ReportITBConfirm">
+		<value>ITB审核报表</value>
+		<comment>ITB Confirm</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Delay_Report.ReportITBEdit">
+		<value>ITB编制报表</value>
+		<comment>ITB Edit</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Delay_Report.ReportITBFinish">
+		<value>截标报表</value>
+		<comment>ITB Finish</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Delay_Report.ReportTC">
+		<value>TC会议报表</value>
+		<comment>TC Meetting</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Delay_Report.ReportTechBID">
+		<value>技术评标报表</value>
+		<comment>Technique BID Report</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Delay_Report.ReportTechConfirm">
+		<value>技术报告通过TC审核报表</value>
+		<comment>Technique Confirm Report</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Delay_Report.ReportTechOpen">
+		<value>技术开标报表</value>
+		<comment>Technique Open Report</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Delay_Report.ReportTenderDocValid">
+		<value>招标文件生效报表</value>
+		<comment>Tender Doc Valid Report</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.SR_Report">
+		<value>SR状态跟踪报表</value>
+		<comment>SR Report</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.SR_Report.ReportCommercialBID">
+		<value>商务评标的SR报表</value>
+		<comment>Commercial BID Report</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.SR_Report.ReportCommercialTC">
+		<value>商务报告待TC会议处理的SR报表</value>
+		<comment>CommercialTC</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.SR_Report.ReportContractStrategy">
+		<value>策略报告阶段的SR报表</value>
+		<comment>Contract Strategy Report</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.SR_Report.ReportContractStrategyTC">
+		<value>策略报告待TC会议处理的SR报表</value>
+		<comment>Contract Strategy TC Report</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.SR_Report.ReportForITB">
+		<value>等待ITB的SR报表</value>
+		<comment>For BID Report</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.SR_Report.ReportITB">
+		<value>处于ITB状态的SR报表</value>
+		<comment>ITB Report</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.SR_Report.ReportITBFinished">
+		<value>截标SR报表</value>
+		<comment>ITB Finished Report</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.SR_Report.ReportNew">
+		<value>新建的SR报表</value>
+		<comment>New SR Report</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.SR_Report.ReportServiceRequest">
+		<value>SR报表</value>
+		<comment>SR Report</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.SR_Report.ReportSRConfirmBack">
+		<value>审核退回的SR报表</value>
+		<comment>Confirm Back SR Report</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.SR_Report.ReportSRProcessing">
+		<value>待审核的SR报表</value>
+		<comment>Processing SR Report</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.SR_Report.ReportTechBID">
+		<value>技术评标的SR报表</value>
+		<comment>Technique BID Report</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.SR_Report.ReportTechTC">
+		<value>技术报告待TC会议处理的SR报表</value>
+		<comment>Technique TC</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.ContractConfiguration.AttachmentManagment">
+		<value>附件管理</value>
+	</data>
+	<data name="Topis.ProcurementMenagement.ContractConfiguration.Award">
+		<value>授权</value>
+	</data>
+	<data name="Topis.ProcurementOperation.Contract.Unlock">
+		<value>密封标开锁</value>
+		<comment>Unlock</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.ContractConfiguration.ModelDoc">
+		<value>TCPAPER模板</value>
+		<comment>ModelDoc</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.SRTracking">
+		<value>SR跟踪</value>
+		<comment>SRTracking</comment>
+	</data>
+	<data name="Topis.Configuration.AuthorityManagement">
+		<value>权限管理</value>
+		<comment>Authority Management</comment>
+	</data>
+	<data name="Topis.Configuration.BasicInfo">
+		<value>基础信息</value>
+		<comment>Basic Info</comment>
+	</data>
+	<data name="Topis.Configuration.UserManagement">
+		<value>用户管理</value>
+		<comment>User Management</comment>
+	</data>
+	<data name="Topis.Configuration.BasicInfo.AllProject">
+		<value>所有项目</value>
+		<comment>All Project</comment>
+	</data>
+	<data name="Topis.Configuration.BasicInfo.ContractMode">
+		<value>合同模式</value>
+		<comment>Contract Mode</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.TCMeeting">
+		<value>TC会议</value>
+		<comment>TC Meeting</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.ContractConfiguration">
+		<value>招标相关</value>
+		<comment>Tender Relatively</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.ContractConfiguration.SRTracking">
+		<value>SR跟踪</value>
+		<comment>SR Tracking</comment>
+	</data>
+	<!--Add LiuFang 20060513 BEGIN-->
+	<data name="Topis.Configuration.ContractConfiguration.ProcurementManager">
+		<value>采办经理配置</value>
+		<comment>Procurement Manager Configuration</comment>
+	</data>
+	<!--Add LiuFang 20060513 END-->
+	<!--Add LiuFang 20060517 BEGIN-->
+	<data name="Topis.ProcurementOperation.Contract.BIDOpenAndEval.ITBStart">
+		<value>发标</value>
+		<comment>ITB Start</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Contract.BIDOpenAndEval.ITBFinish">
+		<value>截标</value>
+		<comment>ITB Finish</comment>
+	</data>
+	<!--Add LiuFang 20060517 END-->
+</root>

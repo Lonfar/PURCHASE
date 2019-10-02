@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="Topis.BasicConfig.Bin.Add">
+		<value>Добавить информацию стеллажа</value>
+	</data>
+	<data name="Topis.BasicConfig.Bin.Delete">
+		<value>Удалить информацию стеллажа</value>
+	</data>
+	<data name="Topis.BasicConfig.Bin.Update">
+		<value>Изменить информацию стеллажа</value>
+	</data>
+	<data name="Topis.BasicConfig.Bin.View">
+		<value>Осмотреть информацию стеллажа</value>
+	</data>
+	<data name="Topis.BasicConfig.CurrencyExchangeRate.Add">
+		<value>Добавить информацию валютного курса</value>
+	</data>
+	<data name="Topis.BasicConfig.CurrencyExchangeRate.Delete">
+		<value>Удалить информацию  валютного курса</value>
+	</data>
+	<data name="Topis.BasicConfig.CurrencyExchangeRate.Update">
+		<value>Изменить информацию валютного курса</value>
+	</data>
+	<data name="Topis.BasicConfig.CurrencyExchangeRate.View">
+		<value>Осмотреть информацию валютного курса</value>
+	</data>
+	<data name="Topis.BasicConfig.ExchangeRateHistory.Add">
+		<value>Добавить информацию исторического валютного курса</value>
+	</data>
+	<data name="Topis.BasicConfig.ExchangeRateHistory.Delete">
+		<value>Удалить информацию исторического валютного курса</value>
+	</data>
+	<data name="Topis.BasicConfig.ExchangeRateHistory.Update">
+		<value>Изменить информацию исторического валютного курса</value>
+	</data>
+	<data name="Topis.BasicConfig.ExchangeRateHistory.View">
+		<value>Осмотреть информацию исторического валютного курса</value>
+	</data>
+	<data name="Topis.BasicConfig.UOM.Add">
+		<value>Добавить информацию единицы</value>
+	</data>
+	<data name="Topis.BasicConfig.UOM.Delete">
+		<value>Удалить информацию единицы</value>
+	</data>
+	<data name="Topis.BasicConfig.UOM.Update">
+		<value>Изменить информацию единицы</value>
+	</data>
+	<data name="Topis.BasicConfig.UOM.View">
+		<value>Осмотреть информацию единицы измерения</value>
+	</data>
+	<data name="Topis.BasicConfig.WareHouse.Add">
+		<value>Добавить информацию склада</value>
+	</data>
+	<data name="Topis.BasicConfig.WareHouse.Delete">
+		<value>Удалить информацию склада</value>
+	</data>
+	<data name="Topis.BasicConfig.WareHouse.Update">
+		<value>Изменить информацию склада</value>
+	</data>
+	<data name="Topis.BasicConfig.WareHouse.View">
+		<value>Осмотреть информацию склада</value>
+	</data>
+	<data name="Topis.Configuration.Authority.Add">
+		<value>Добавить право</value>
+	</data>
+	<data name="Topis.Configuration.Authority.Delete">
+		<value>Удалить право</value>
+	</data>
+	<data name="Topis.Configuration.Authority.Update">
+		<value>Изменить право</value>
+	</data>
+	<data name="Topis.Configuration.Authority.View">
+		<value>Осмотреть право</value>
+	</data>
+	<data name="Topis.Configuration.Authority.ViewSingle">
+		<value>Право осмотра отдельной информации</value>
+	</data>
+	<data name="Topis.Configuration.CalCurrency.Add">
+		<value>Добавить учётные валюты</value>
+	</data>
+	<data name="Topis.Configuration.CalCurrency.Delete">
+		<value>Удалить учётные валюты</value>
+	</data>
+	<data name="Topis.Configuration.CalCurrency.Update">
+		<value>Изменить учётные валюты</value>
+	</data>
+	<data name="Topis.Configuration.CalCurrency.View">
+		<value>Осмотреть учётные валюты</value>
+	</data>
+	<data name="Topis.Configuration.CalCurrency.ViewSingle">
+		<value>Осмотреть отдельную учётную валюту</value>
+	</data>
+	<data name="Topis.Configuration.Currency.Add">
+		<value>Добавить информацию валюты</value>
+	</data>
+	<data name="Topis.Configuration.Currency.Delete">
+		<value>Удалить информацию валюты</value>
+	</data>
+	<data name="Topis.Configuration.Currency.Update">
+		<value>Изменить информацию валюты</value>
+	</data>
+	<data name="Topis.Configuration.Currency.View">
+		<value>Осмотреть информацию валюты</value>
+	</data>
+	<data name="Topis.Configuration.Currency.ViewSingle">
+		<value>Осмотреть информацию отдельной валюты</value>
+	</data>
+	<data name="Topis.Configuration.Department.Add">
+		<value>Добавить информацию департамента</value>
+	</data>
+	<data name="Topis.Configuration.Department.Delete">
+		<value>Удалить информацию департамента</value>
+	</data>
+	<data name="Topis.Configuration.Department.Update">
+		<value>Изменить информацию департамента</value>
+	</data>
+	<data name="Topis.Configuration.Department.View">
+		<value>Осмотреть информацию подрезделения</value>
+	</data>
+	<data name="Topis.Configuration.Department.ViewSingle">
+		<value>Осмотреть информацию отдельного департамента</value>
+	</data>
+	<data name="Topis.Configuration.DepartmentEmployee.Add">
+		<value>Добавить информацию сотрудника департамента</value>
+	</data>
+	<data name="Topis.Configuration.DepartmentEmployee.Delete">
+		<value>Удалить информацию сотрудника департамента</value>
+	</data>
+	<data name="Topis.Configuration.DepartmentEmployee.Update">
+		<value>Изменить информацию сотрудника департамента</value>
+	</data>
+	<data name="Topis.Configuration.DepartmentEmployee.View">
+		<value>Осмотреть информацию сотрудника департамента</value>
+	</data>
+	<data name="Topis.Configuration.DepartmentEmployee.ViewSingle">
+		<value>Осмотреть информацию сотрудника отдельного департамента</value>
+	</data>
+	<data name="Topis.Configuration.Employee.Add">
+		<value>Добавить  информацию сотрудника</value>
+	</data>
+	<data name="Topis.Configuration.Employee.Delete">
+		<value>Удалить информацию сотрудника</value>
+	</data>
+	<data name="Topis.Configuration.Employee.Update">
+		<value>Изменить информацию сотрудника</value>
+	</data>
+	<data name="Topis.Configuration.Employee.View">
+		<value>Осмотреть информацию сотрудника</value>
+	</data>
+	<data name="Topis.Configuration.Employee.ViewSingle">
+		<value>Осмотреть информацию отдельного сотрудника</value>
+	</data>
+	<data name="Topis.Configuration.GenerateIDRule.Add">
+		<value>Добавить информацию правила закодирования</value>
+	</data>
+	<data name="Topis.Configuration.GenerateIDRule.Delete">
+		<value>Удалить информацию правила закодирования</value>
+	</data>
+	<data name="Topis.Configuration.GenerateIDRule.Update">
+		<value>Изменить информацию правила закодирования</value>
+	</data>
+	<data name="Topis.Configuration.GenerateIDRule.View">
+		<value>Осмотреть информацию правила закодирования</value>
+	</data>
+	<data name="Topis.Configuration.GenerateIDRule.ViewSingle">
+		<value>Осмотреть информацию отдельного правила закодирования</value>
+	</data>
+	<data name="Topis.Configuration.MaterialCode.Add">
+		<value>Добавить информацию кодирования материалов</value>
+	</data>
+	<data name="Topis.Configuration.MaterialCode.Delete">
+		<value>Удалить информацию кодирования материалов</value>
+	</data>
+	<data name="Topis.Configuration.MaterialCode.Update">
+		<value>Изменить информацию кодирования материалов</value>
+	</data>
+	<data name="Topis.Configuration.MaterialCode.View">
+		<value>Осмотреть информацию кодирования материалов</value>
+	</data>
+	<data name="Topis.Configuration.MaterialCode.ViewSingle">
+		<value>Осмотреть информацию отдельного закодирования материалов</value>
+	</data>
+	<data name="Topis.Configuration.ModifyPassword.Add">
+		<value>Добавить информацию изменения пароля</value>
+	</data>
+	<data name="Topis.Configuration.ModifyPassword.Delete">
+		<value>Удалить информацию изменения пароля</value>
+	</data>
+	<data name="Topis.Configuration.ModifyPassword.Update">
+		<value>Изменить информацию изменения пароля</value>
+	</data>
+	<data name="Topis.Configuration.ModifyPassword.View">
+		<value>Осмотреть информацию изменения пароля</value>
+	</data>
+	<data name="Topis.Configuration.ModifyPassword.ViewSingle">
+		<value>Осмотреть информацию отдельного изменения пароля</value>
+	</data>
+	<data name="Topis.Configuration.PositionType.Add">
+		<value>Добавить информацию типа должности</value>
+	</data>
+	<data name="Topis.Configuration.PositionType.Delete">
+		<value>Удалить информацию типа должности</value>
+	</data>
+	<data name="Topis.Configuration.PositionType.Update">
+		<value>Изменить информацию типа должности</value>
+	</data>
+	<data name="Topis.Configuration.PositionType.View">
+		<value>Осмотреть информацию типа должности</value>
+	</data>
+	<data name="Topis.Configuration.PositionType.ViewSingle">
+		<value>Осмотреть информацию отдельного типа должности</value>
+	</data>
+	<data name="Topis.Configuration.Projects.Add">
+		<value>Добавить информацию проекта</value>
+	</data>
+	<data name="Topis.Configuration.Projects.Delete">
+		<value>Удалить информацию проекта</value>
+	</data>
+	<data name="Topis.Configuration.Projects.Update">
+		<value>Изменить информацию проекта</value>
+	</data>
+	<data name="Topis.Configuration.Projects.View">
+		<value>Осмотреть информацию проекта</value>
+	</data>
+	<data name="Topis.Configuration.Projects.ViewSingle">
+		<value>Осмотреть информацию отдельного проекта</value>
+	</data>
+	<data name="Topis.Configuration.Role.Add">
+		<value>Добавить информацию роли</value>
+	</data>
+	<data name="Topis.Configuration.Role.Delete">
+		<value>Удалить информацию роли</value>
+	</data>
+	<data name="Topis.Configuration.Role.Update">
+		<value>Изменить информацию роли</value>
+	</data>
+	<data name="Topis.Configuration.Role.View">
+		<value>Осмотреть информацию роли</value>
+	</data>
+	<data name="Topis.Configuration.Role.ViewSingle">
+		<value>Осмотреть информацию отдельной роли</value>
+	</data>
+</root>

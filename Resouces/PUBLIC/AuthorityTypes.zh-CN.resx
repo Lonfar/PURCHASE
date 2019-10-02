@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<!--
+select distinct
+'<data name="'+AuthorityType+'">
+	<value>'+AuthorityType+'</value>
+	<comment>'+AuthorityType+'</comment>
+</data>'
+from Authority
+	-->
+	<data name="Add">
+		<value>新增</value>
+		<comment>Add</comment>
+	</data>
+	<data name="AddCatalog">
+		<value>新增目录</value>
+		<comment>AddCatalog</comment>
+	</data>
+	<data name="Cancel">
+		<value>取消</value>
+		<comment>Cancel</comment>
+	</data>
+	<data name="ChangeCatalog">
+		<value>更换目录</value>
+		<comment>ChangeCatalog</comment>
+	</data>
+	<data name="Confirm">
+		<value>审核</value>
+		<comment>Confirm</comment>
+	</data>
+	<data name="ConfirmDue">
+		<value>预审核</value>
+		<comment>ConfirmDue</comment>
+	</data>
+	<data name="Delete">
+		<value>删除</value>
+		<comment>Delete</comment>
+	</data>
+	<data name="DeleteCatalog">
+		<value>删除目录</value>
+		<comment>DeleteCatalog</comment>
+	</data>
+	<data name="Expire">
+		<value>过期</value>
+		<comment>Expire</comment>
+	</data>
+	<data name="Print">
+		<value>打印</value>
+		<comment>Print</comment>
+	</data>
+	<data name="Set">
+		<value>设置</value>
+		<comment>Set</comment>
+	</data>
+	<data name="SetPasswd">
+		<value>修改密码</value>
+		<comment>SetPasswd</comment>
+	</data>
+	<data name="Update">
+		<value>修改</value>
+		<comment>Update</comment>
+	</data>
+	<data name="UpdateBin">
+		<value>修改库位</value>
+		<comment>UpdateBin</comment>
+	</data>
+	<data name="UpdateCatalog">
+		<value>修改目录</value>
+		<comment>UpdateCatalog</comment>
+	</data>
+	<data name="UpdateDue">
+		<value>预保存</value>
+		<comment>UpdateDue</comment>
+	</data>
+	<data name="View">
+		<value>入口</value>
+		<comment>Entrance</comment>
+	</data>
+	<data name="ViewSingle">
+		<value>浏览</value>
+		<comment>View</comment>
+	</data>
+	<data name="AdvancedSearch">
+		<value>高级搜索</value>
+		<comment>AdvancedSearch</comment>
+	</data>
+	<data name="AddFromMR">
+		<value>从MR添加物资</value>
+		<comment>AddFromMR</comment>
+	</data>
+	<data name="Create">
+		<value>创建</value>
+		<comment>Create</comment>
+	</data>
+	<data name="Super">
+		<value>超级查看</value>
+		<comment>Super</comment>
+	</data>
+	<data name="Void">
+		<value>取消</value>
+		<comment>取消</comment>
+	</data>
+	<data name="CatalogNew">
+		<value>创建模板类别</value>
+		<comment>CatalogNew</comment>
+	</data>
+	<data name="CatalogModify">
+		<value>编辑模板类别</value>
+		<comment>CatalogModify</comment>
+	</data>
+	<data name="CatalogDelete">
+		<value>删除模板类别</value>
+		<comment>CatalogDelete</comment>
+	</data>
+	<data name="AttDelete">
+		<value>删除模板</value>
+		<comment>AttDelete</comment>
+	</data>
+	<data name="AttNew">
+		<value>添加模板</value>
+		<comment>AttNew</comment>
+	</data>
+	<data name="Search">
+		<value>搜索</value>
+		<comment>Search</comment>
+	</data>
+	<data name="AllProject">
+		<value>操作所有</value>
+		<comment>操作所有项目</comment>
+	</data>
+	<data name="AllProjectView">
+		<value>查看所有</value>
+		<comment>查看所有项目</comment>
+	</data>
+	<data name="UploadITB">
+		<value>上传标书</value>
+		<comment>上传标书</comment>
+	</data>
+	<data name="UploadContract">
+		<value>上传合同</value>
+		<comment>上传合同</comment>
+	</data>
+	<data name="Record">
+		<value>登记</value>
+		<comment>登记</comment>
+	</data>
+	<data name="Recive">
+		<value>派发</value>
+		<comment>派发</comment>
+	</data>
+	<data name="Operator">
+		<value>承办</value>
+		<comment>承办</comment>
+	</data>
+</root>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="BasicInfomation">
+		<value>Основная информация</value>
+	</data>
+	<data name="ContactMode">
+		<value>Контактный вид</value>
+	</data>
+	<data name="Contact">
+		<value>Контактное лицо</value>
+	</data>
+	<data name="WorkingArea">
+		<value>Основные виды деятельности</value>
+	</data>
+	<data name="PrejudicationData">
+		<value>Данные для предварительной проверки</value>
+	</data>
+	<data name="VendorData">
+		<value>Документации дееспособности</value>
+	</data>
+	<data name="VendorAssociate">
+		<value>Отношение</value>
+	</data>
+	<data name="Ven_3WorkExperience">
+		<value>Опыт работы за последние 3 года</value>
+	</data>
+	<data name="Ven_MostlyEquipment">
+		<value>Основные оборудования(техники)</value>
+	</data>
+	<data name="Ven_3LawInformation">
+		<value>Информация об участии предприятия в судебных разбирательствах за последние 3 года 
+в судебных разбирательствах за последние 3 года 
+</value>
+	</data>
+	<data name="StandardDescription">
+		<value>Описание</value>
+	</data>
+	<data name="StandarValue">
+		<value>Балл стандарта</value>
+	</data>
+	<data name="GradeScore">
+		<value>Отметка</value>
+	</data>
+	<data name="GradeDescription">
+		<value>Описание степени</value>
+	</data>
+	<data name="Evaluate">
+		<value>Общая оценка</value>
+	</data>
+	<data name="litGrade">
+		<value>Оценка степени</value>
+	</data>
+	<data name="litScore">
+		<value>Оценка балла</value>
+	</data>
+	<data name="VendorEvaluate">
+		<value>Оценка поставщика</value>
+	</data>
+	<data name="NO">
+		<value>NO</value>
+	</data>
+	<data name="StandardName">
+		<value>Стандарт оценки</value>
+	</data>
+	<data name="VendorCountry">
+		<value>Связной вид</value>
+	</data>
+	<data name="productList">
+		<value>Список продукций</value>
+	</data>
+</root>

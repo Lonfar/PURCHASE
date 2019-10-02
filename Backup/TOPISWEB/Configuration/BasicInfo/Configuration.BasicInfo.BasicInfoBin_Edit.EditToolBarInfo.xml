@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="gb2312"?>
+<MSPlus>
+<!--
+Width = 宽度
+EnableViewState = 是否保存VIEWSTATE状态
+ImagePath = 图片路径
+
+-->
+	<MenuConfig Width="810px" EnableViewState="True"></MenuConfig>
+	<MD>
+<!--
+D = ID
+L = Label
+C = LeftIcon
+O = LeftIconOver
+V = Visible
+S = Disable
+U = Url Or JavaScript
+-->	
+	<I D="tbAdd" C="icon_addNewItem" O="icon_addNewItem" L="Add"></I>
+	<I D="tbSave" C="icon_save" L="Save"></I>	
+	<I D="tbDelete" C="icon_delete" O="icon_delete" L="Delete"></I>
+	<!--<I D="tbCancel" C="icon_cancel" L="Cancel"></I>	-->
+	<I D="tbHelp" C="icon_help" L="Help"></I>
+	</MD>
+</MSPlus>

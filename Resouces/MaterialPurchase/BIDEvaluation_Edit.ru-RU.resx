@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="BIDEvaluation">
+		<value>Ордер оценки ТД</value>
+	</data>
+	<data name="BIDSummary">
+		<value>Реферат по оценке ТД</value>
+	</data>
+	<data name="BIDEvaluationByVendor">
+		<value>Оценки ТД(По постав.)</value>
+	</data>
+	<data name="BIDEvaluationByMaterial">
+		<value>Оценки ТД(По материалу)</value>
+	</data>
+	<data name="Viewer">
+		<value>Персонал осмотра</value>
+	</data>
+	<data name="ApproveState">
+		<value>Состояние проверки</value>
+	</data>
+	<data name="Submit">
+		<value>Отправка</value>
+	</data>
+	<data name="Cancel">
+		<value>Отзыв</value>
+	</data>
+	<data name="Approve">
+		<value>Пропуск проверки</value>
+	</data>
+	<data name="lbUserName">
+		<value>Имя пользователя</value>
+	</data>
+	<data name="lbDepartmentName">
+		<value>Депрартамент</value>
+	</data>
+	<data name="lbGroupName">
+		<value>Группа ТД</value>
+	</data>
+	<data name="HeaderTextUserName">
+		<value>Имя пользователя</value>
+	</data>
+	<data name="HeaderTextPosition">
+		<value>Должность</value>
+	</data>
+	<data name="HeaderTextDelete">
+		<value>Удалить</value>
+	</data>
+	<data name="NoBIDSummary">
+		<value>Реферата оценки ТД не может быть пустой!</value>
+	</data>
+	<data name="NoISAwarded">
+		<value>Минимум один победитель.</value>
+	</data>
+	<data name="ToCnfirmApproved">
+		<value>Утвердить ли проверки?</value>
+	</data>
+	<data name="ErrDelete">
+		<value>Удалить нельзя,так как деловой узел оприрован!</value>
+	</data>
+</root>

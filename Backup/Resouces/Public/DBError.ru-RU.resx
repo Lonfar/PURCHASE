@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="2627">
+		<value>Символ главного ключа повторён!</value>
+	</data>
+	<data name="8152">
+		<value>Длина поля вышла за пределы!</value>
+	</data>
+	<data name="547">
+		<value>Существование внешнего вызова!</value>
+	</data>
+	<data name="ERRDAE01">
+		<value>При сохранении данных ошибки допущены в sq1 выражении!</value>
+	</data>
+	<data name="ERRDAE02">
+		<value>При удалении данных ошибки допущены в sq1 выражении!</value>
+	</data>
+	<data name="ERRDAE03">
+		<value>При сохранении данных удостоверение главного ключа неудачно!</value>
+	</data>
+	<data name="ERRBUS01">
+		<value>При удостоверении делового правила аномалия допущена!</value>
+	</data>
+	<data name="ERRBUS02">
+		<value>В логическом вычислении аномалия допущена!</value>
+	</data>
+	<data name="ERRBUS03">
+		<value>В удостоверении данных аномалия допущена!</value>
+	</data>
+	<data name="ERRBUS04">
+		<value>В процессе удостоверении для делового главного ключа ошибки допущены в структуре sq1!</value>
+	</data>
+	<data name="ERRBUS05">
+		<value>Деловой главный ключ уже имеется!</value>
+	</data>
+</root>

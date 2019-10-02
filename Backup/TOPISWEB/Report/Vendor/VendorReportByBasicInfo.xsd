@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="VendorReportByBasicInfo" targetNamespace="http://tempuri.org/VendorReportByBasicInfo.xsd"
+	elementFormDefault="qualified" xmlns="http://tempuri.org/VendorReportByBasicInfo.xsd" xmlns:mstns="http://tempuri.org/VendorReportByBasicInfo.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="Document" msdata:Locale="zh-CN">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="V_Report_Vendor_BasicInfo">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="VendorNo" type="xs:string" minOccurs="0" />
+							<xs:element name="VendorName" type="xs:string" />
+							<xs:element name="Ranking" type="xs:int" minOccurs="0" />
+							<xs:element name="CountryCN" type="xs:string" minOccurs="0" />
+							<xs:element name="TypeDescription" type="xs:string" />
+							<xs:element name="WorkingArea" type="xs:string" minOccurs="0" />
+							<xs:element name="ProAuditDate" type="xs:dateTime" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

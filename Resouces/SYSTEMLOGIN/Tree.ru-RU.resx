@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="Topis">
+		<value>Система интеграции по закупке</value>
+		<comment>Topis</comment>
+	</data>
+	<data name="Topis.Account">
+		<value>Аккаунт пользователя</value>
+		<comment>Accounts</comment>
+	</data>
+	<data name="Topis.Account.ChangePassword">
+		<value>Изменение пароля</value>
+		<comment>Change Password</comment>
+	</data>
+	<data name="Topis.Account.OnlineUser">
+		<value>Пользователь онлайна</value>
+		<comment>Online Users</comment>
+	</data>
+	<data name="Topis.Account.Profile">
+		<value>Данные пользователя</value>
+		<comment>Profile</comment>
+	</data>
+	<data name="Topis.Account.SystemLog">
+		<value>Личный дневник </value>
+		<comment>System Log</comment>
+	</data>
+	<data name="Topis.Configuration">
+		<value>Системный параметр</value>
+		<comment>Configuration</comment>
+	</data>
+	<data name="Topis.Configuration.BasicInfo.AFE">
+		<value>Денежный бюджет</value>
+		<comment>AFE</comment>
+	</data>
+	<data name="Topis.Configuration.AuthorityManagement.Authority">
+		<value>Право</value>
+		<comment>Authority</comment>
+	</data>
+	<data name="Topis.Configuration.BasicInfo.BaseTypes">
+		<value>Основные типы</value>
+		<comment>Base Types</comment>
+	</data>
+	<data name="Topis.Configuration.BasicInfo.Bin">
+		<value>Стеллаж</value>
+		<comment>Bin</comment>
+	</data>
+	<data name="Topis.Configuration.BasicInfo.Currency">
+		<value>Валюта</value>
+		<comment>Currency</comment>
+	</data>
+	<data name="Topis.Configuration.BasicInfo.CurrencyExchangeRate">
+		<value>Валютный курс</value>
+		<comment>CurrencyExchangeRate</comment>
+	</data>
+	<data name="Topis.Configuration.BasicInfo.CurrencyExRateHistory">
+		<value>Исторический валютный курс</value>
+		<comment>History Exchange Rate</comment>
+	</data>
+	<data name="Topis.Configuration.Department">
+		<value>Департамент</value>
+		<comment>Department</comment>
+	</data>
+	<data name="Topis.Configuration.Employee">
+		<value>Сотрудник</value>
+		<comment>Employee</comment>
+	</data>
+	<data name="Topis.Configuration.AuthorityManagement.ModuleAuthority">
+		<value>Право в модуле</value>
+		<comment>Authorities of Module</comment>
+	</data>
+	<data name="Topis.Configuration.BasicInfo.Project">
+		<value>Проект</value>
+		<comment>Project</comment>
+	</data>
+	<data name="Topis.Configuration.AuthorityManagement.Role">
+		<value>Роль</value>
+		<comment>Role</comment>
+	</data>
+	<data name="Topis.Configuration.BasicInfo.SubProject">
+		<value>Подпроект</value>
+		<comment>SubProject</comment>
+	</data>
+	<data name="Topis.Configuration.BasicInfo.SystemLog">
+		<value>Журнал системы</value>
+		<comment>SystemLog</comment>
+	</data>
+	<data name="Topis.Configuration.BasicInfo.UOM">
+		<value>Единица</value>
+		<comment>UOM</comment>
+	</data>
+	<data name="Topis.Configuration.UserManagement.UpdateUserPasswd">
+		<value>Изменение пароля пользователя</value>
+		<comment>UpdateUserPasswd</comment>
+	</data>
+	<data name="Topis.Configuration.UserManagement.User">
+		<value>Роль пользователя</value>
+		<comment>User</comment>
+	</data>
+	<data name="Topis.Configuration.BasicInfo.Warehouse">
+		<value>Склад</value>
+		<comment>Warehouse</comment>
+	</data>
+	<data name="Topis.Default">
+		<value>Главная страница</value>
+		<comment>Default</comment>
+	</data>
+	<data name="Topis.Desktop">
+		<value>Рабчий стол</value>
+		<comment>Desktop</comment>
+	</data>
+	<data name="Topis.Head">
+		<value>Верхний колонтитул</value>
+		<comment>Head</comment>
+	</data>
+	<data name="Topis.Configuration.Initialization">
+		<value>Процесс инициализации системы</value>
+		<comment>System Init</comment>
+	</data>
+	<data name="topis.configuration.initialization.SystemInit">
+		<value>Процесс инициализации системы</value>
+		<comment>System init</comment>
+	</data>
+	<data name="topis.configuration.initialization.ViewInitStatus">
+		<value>Осмотр процесса инициализации</value>
+		<comment>View Init Status</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Inventory">
+		<value>Склад</value>
+		<comment>Inventory</comment>
+	</data>
+	<!--Liu Dian-Xin Add -->
+	<data name="Topis.ProcurementOperation.Purchase.Inventory.InStoreMaterialMaxMin">
+		<value>Управление ёмкостямискладирования</value>
+		<comment>InStoreMaterialMaxMin</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Inventory.InStoreMaterial">
+		<value>Управление материалами складирования</value>
+		<comment>InStoreMaterial</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Inventory.HistoryInStoreMaterial">
+		<value>Управление историческом складированием</value>
+		<comment>HistoryInStoreMaterial</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Inventory.ThroughToDepartment">
+		<value>Прямая доставка</value>
+		<comment>ThroughToDepartment</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Inventory.Adjust.InStoreMaterialAdjust">
+		<value>Инвентаризация складирования</value>
+		<comment>InStoreMaterialAdjust</comment>
+	</data>
+	<data name="Topis.Report.ProcurementOperation.Purchase.Inventory.ThroughToDepartmentMaterial">
+		<value>Материал прямой доставки</value>
+		<comment>ThroughToDepartmentMaterial</comment>
+	</data>
+	<!-- End -->
+	<data name="Topis.ProcurementOperation.Purchase.Inventory.Receive">
+		<value>Получение</value>
+		<comment>Receive</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Inventory.WHPurchaseOrder">
+		<value>Приписать ордер на закупку</value>
+		<comment>WHPurchaseOrder</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Inventory.Reserve">
+		<value>Бронированные</value>
+		<comment>Reserve</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Inventory.Issue">
+		<value>Отгрузка</value>
+		<comment>Issue</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Inventory.Transfer.TransferBin2Bin">
+		<value>Перегрузка (На складе)</value>
+		<comment>TransferBin2Bin</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Inventory.Transfer.TransferWH2WH">
+		<value>Перегрузка (Между скаладами)</value>
+		<comment>TransferBin2Bin</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Inventory.Transfer.TransferDep2Dep">
+		<value>Перегрузка (Между департаментами)</value>
+		<comment>TransferDep2Dep</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Inventory.Return">
+		<value>Возвращение</value>
+		<comment>Return</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Inventory.Adjust.AdjustIn">
+		<value>Сальдо инвентаризации</value>
+		<comment>AdjustIn</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Inventory.Adjust.AdjustOut">
+		<value>Убыток инвентаризации</value>
+		<comment>AdjustOut</comment>
+	</data>
+	<data name="Topis.Logout">
+		<value>Выход</value>
+		<comment>Logout</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Material">
+		<value>Материалы</value>
+		<comment>Material</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Material.Material">
+		<value>Управление материалами</value>
+		<comment>Material</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Material.MaterialVendor">
+		<value>Поставщик материалов</value>
+		<comment>MaterialVendor</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Material.PurchaseHistory">
+		<value>История закупки</value>
+		<comment>PurchaseHistory</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Material.InventoryHistory">
+		<value>История склада</value>
+		<comment>InventoryHistory</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.PurchaseWork">
+		<value>Процесс закупки</value>
+		<comment>Purchase</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.PurchaseWork.MaterialRequest">
+		<value>Заявка на материалы</value>
+		<comment>MaterialRequest</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.PurchaseWork.Enquiry">
+		<value>Запрос</value>
+		<comment>Enquiry</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.PurchaseWork.Quotation">
+		<value>Предложение</value>
+		<comment>Quotation</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.PurchaseWork.BidEvaluation">
+		<value>Оценка тендера</value>
+		<comment>BidEvaluation</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.PurchaseWork.PurchaseOrder">
+		<value>Наряд-заказ закупки</value>
+		<comment>PurchaseOrder</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Logistics.SDT">
+		<value>SDT</value>
+		<comment>SDT</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Logistics.WorkOrder">
+		<value>Наряд-заказ работы</value>
+		<comment>WorkOrder</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Logistics.InlandShipping">
+		<value>Внутриконтинентавльный транспорт</value>
+		<comment>Inland Shipping</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.PaymentRequirement">
+		<value>Заявка на платёж</value>
+		<comment>Payment Requirement</comment>
+	</data>
+	<data name="Topis.SystemLogin">
+		<value>Войти в систему</value>
+		<comment>SystemLogin</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.Vendor">
+		<value>Поставщик</value>
+		<comment>Vendor</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.Vendor.Vendor">
+		<value>Управление поставщиками</value>
+		<comment>Vendor</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.Vendor.BusinessHistory">
+		<value>Деловая история</value>
+		<comment>BusinessHistory</comment>
+	</data>
+	<!--2005.7.22-->
+	<data name="Topis.ProcurementOperation.Contract">
+		<value>Дела контрактов</value>
+		<comment>Contract</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Contract.SR">
+		<value>Заявка на метериалы / услуги</value>
+		<comment>SR/MR</comment>
+	</data>
+	<data name="Topis.Help">
+		<value>Справка</value>
+		<comment>Help</comment>
+	</data>
+	<!--2005.8.17-->
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report">
+		<value>Отчётность о делах закупк CNPC-AMG</value>
+		<comment>Report</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Purchase">
+		<value>Отчётность о закупке</value>
+		<comment>Purchase</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Purchase.PaymentRequirementByVendor">
+		<value>Заявка на платёж （по поставщикам）</value>
+		<comment></comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Purchase.PurchaseOrderByVendor">
+		<value>Наряд-заказ (по поставщикам)</value>
+		<comment></comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Purchase.PurchaseOrderByMaterial">
+		<value>Наряд-заказ (по материалам)</value>
+		<comment></comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Purchase.PurchaseOrderByBuyer">
+		<value>Наряд-заказ (по заготовщикам)</value>
+		<comment></comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Inventory">
+		<value>Отчётность о складах</value>
+		<comment>Inventory</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Inventory.InStockSummary">
+		<value>Общая обстановка складирования</value>
+		<comment>InStock Summary</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Inventory.InStockDetails">
+		<value>Ведомость складирования</value>
+		<comment>InStock Details</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Inventory.ReturnMaterial">
+		<value>Возвращение материалов складу</value>
+		<comment></comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Contract">
+		<value>Отчётность контрактов</value>
+		<comment>Contract</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Crossed">
+		<value>Перекрёстная отчётность</value>
+		<comment>Crossed</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Others">
+		<value>Прочие отчётности</value>
+		<comment>Others</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Others.SystemLog">
+		<value>Журнал системы</value>
+		<comment>SystemLog</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Purchase.MRByBuyer">
+		<value>Отчётность заявки на материалы (по заготовщикам)</value>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Purchase.EnquiryByEnquiryEmployee">
+		<value>Отчёеность запроса （по персаналма запросов）</value>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Purchase.QuotationByVendor">
+		<value>Отчётность предложения (по поставщикам)</value>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Purchase.QuotationByMaterial">
+		<value>Отчётность предложения (по материалам)</value>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Inventory.ReceiveMaterial">
+		<value>Получение материалов</value>
+		<comment>ReceiveMaterial</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Inventory.IssueMaterial">
+		<value>Отгрузка материалов</value>
+		<comment>IssueMaterial</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Inventory.TransferBin2BinMaterial">
+		<value>Перегрузка материалов (на складе)</value>
+		<comment>TransferBin2BinMaterial</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Inventory.TransferWH2WHMaterial">
+		<value>Перегрузка материалов (между складами)</value>
+		<comment>TransferWH2WHMaterial</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Inventory.TransferDep2DepMaterial">
+		<value>Перегрузка материалов (между департаментами)</value>
+		<comment>TransferDep2DepMaterial</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Inventory.ReserveMaterial">
+		<value>Бронированные материалы</value>
+		<comment>ReserveMaterial</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Inventory.AdjustInMaterial">
+		<value>Материалы сальдо инвентаризации</value>
+		<comment>AdjustInMaterial</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Inventory.AdjustOutMaterial">
+		<value>Материалы убытка инвентаризации</value>
+		<comment>AdjustOutMaterial</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Inventory.WHPurchaseOrderMaterial">
+		<value>Наряд-заказ закупки</value>
+		<comment>WHPurchaseOrderMaterial</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Inventory.InventoryMaterial">
+		<value>Инвентаризация остатка материалов</value>
+		<comment>InventoryMaterial</comment>
+	</data>
+	<!--Liu Dian-xin Add-->
+	<data name="Topis.Configuration.GenerateIDRule">
+		<value>Правило нумерации</value>
+		<comment>GenerateIDRule</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Inventory.Transfer">
+		<value>Перегрузка</value>
+		<comment>Transfer</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Inventory.Adjust">
+		<value>Инвентаризация складирования </value>
+		<comment>Adjust</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Purchase.MRTracking">
+		<value>Прослеживание заявки на материалы</value>
+		<comment>MRTracking</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Purchase.MRWarning">
+		<value>Предупреждение заявки на материалы</value>
+		<comment>MRWarning</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Purchase.POTracking">
+		<value>Прослеживание наряд-заказа закупки</value>
+		<comment>POTracking</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Purchase.POWarning">
+		<value>Предупреждение наряд-заказа закупки</value>
+		<comment>POWarning</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement">
+		<value>Управление закупками </value>
+		<comment>Procurement Management</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.Policy">
+		<value>Политики закупк</value>
+		<comment>Procurement Policy</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.Policy.Sort">
+		<value>Тип политики закупк</value>
+		<comment>Procurement Policy Sort</comment>
+	</data>
+	<data name="Topis.ProcurementOperation">
+		<value>Дела закупк</value>
+		<comment>ProcurementOperation</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase">
+		<value>Дела закупк</value>
+	</data>
+	<data name="Topis.ProcurementMenagement.ContractTemplate">
+		<value>База шаблонов контрактов и тендерных документаций</value>
+		<comment>Contract Template</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard">
+		<value>Данные закупк</value>
+		<comment>Data From Aboard</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.InviteAndBidMenagment">
+		<value>Управление тендерами</value>
+		<comment>Invite And Bid Menagment</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.ContractTemplate.ContractCatolog">
+		<value>Тип  контрактов и тендерных документаций</value>
+		<comment>Contract/BID Catolog</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.ContractTemplate.Search">
+		<value>Комплексный поиск</value>
+		<comment>Search</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.ContractTemplate.OriginalContract">
+		<value>Управление первичными контрактами и тендерными документациями</value>
+		<comment>Original Contract/Tender</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.ContractTemplate.StandardContract">
+		<value>Управление стандартными контрактами и тендерными документациями</value>
+		<comment>StandardContract</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.ContractTemplate.PriceContract">
+		<value>Управление ценами на контракты</value>
+		<comment>Price Contract/Tender</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.ContractTemplate.ReferenceContract">
+		<value>Управление справочными контрактами и тендерными документациями</value>
+		<comment>refernce Contract</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Data">
+		<value>Зарубежные данные и отчётности</value>
+		<comment>Data And Report</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Data.OperationData">
+		<value>Данные дел</value>
+		<comment>Operation Data</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Data.Report">
+		<value>Отчётность</value>
+		<comment>Report</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.Policy.Manegment">
+		<value>Управление политиками закупками</value>
+		<comment>Procurement Policy Management</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Contract.ContractStrategy">
+		<value>Тактики контрактов</value>
+		<comment>Contract Strategy</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.TCMeeting.TCMeeetting">
+		<value>График заседания ТК</value>
+		<comment>TC Meetting</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Contract.ITB">
+		<value>Написание тендерной документации</value>
+		<comment>ITB</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Contract.BIDOpenAndEval">
+		<value>Открытие и оценка тендера</value>
+		<comment>BID Open And Evaluation</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Contract.BIDOpenAndEval.BIDOpen">
+		<value>Открытие тендера</value>
+		<comment>BID Open</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Contract.BIDOpenAndEval.TechReport">
+		<value>Техническая оценка тендера </value>
+		<comment>Technical Report</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Contract.BIDOpenAndEval.CommReport">
+		<value>Коммерческая оценка тендера</value>
+		<comment>Commercial Report</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Contract.BIDOpenAndEval.IntegReport">
+		<value>Комплексная оценка тендера</value>
+		<comment>Integrate Report</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Contract.Contract">
+		<value>Контракт</value>
+		<comment>Contract</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.ContractConfiguration.Letter">
+		<value>Регистрация писем</value>
+		<comment>Letter</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Logistics">
+		<value>Служба тыла</value>
+	</data>
+	<data name="Topis.Configuration.ContractConfiguration">
+		<value>Параметр дела о тендере</value>
+		<comment>Tender Configuration</comment>
+	</data>
+	<data name="Topis.Configuration.ContractConfiguration.CommGroup">
+		<value>Параметр коммерческой группы для оценки тендера</value>
+		<comment>商务评标小组配置</comment>
+	</data>
+	<data name="Topis.Configuration.ContractConfiguration.TechGroup">
+		<value>Параметр технической группы для оценки тендера</value>
+		<comment>Technique Evaluation Group</comment>
+	</data>
+	<data name="Topis.Configuration.ContractConfiguration.ConfirmerGroup">
+		<value>Параметр процесса проверки</value>
+		<comment>Approve Group</comment>
+	</data>
+	<data name="Topis.Configuration.ContractConfiguration.SealConfig">
+		<value>Стандартный параметр закрытого тендера</value>
+		<comment>Seal Configuration</comment>
+	</data>
+	<data name="Topis.Configuration.ContractConfiguration.TCGroup">
+		<value>Параметр группы ТК</value>
+		<comment>TC Group</comment>
+	</data>
+	<data name="Topis.Configuration.ContractConfiguration.ViewerGroup">
+		<value>Параметр дополнительного персонала осмотра по умолчанию</value>
+		<comment>Viewer Group</comment>
+	</data>
+	<data name="Topis.Configuration.ContractConfiguration.SRRemark">
+		<value>Параметр описания SR</value>
+		<comment>SR Description</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.TCMeeting.TCMeettingMinutes">
+		<value>Протокол заседания ТК</value>
+		<comment>TC Minutes</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Contract">
+		<value>Взаимосвязанная отчётность с контратами</value>
+		<comment>Contract_Report</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Contract.ReportCancaledContract">
+		<value>Отчётность о исключениях контрактов</value>
+		<comment>Report Cancaled Contract</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Contract.ReportContract3">
+		<value>Отчётность о контрактах за 3 месяцы</value>
+		<comment>ReportContract3</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Contract.ReportContract6">
+		<value>Отчётность о контрактах за полгода</value>
+		<comment>Report Contract 6 Months</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Contract.ReportCurrentContract">
+		<value>Отчётность о текущих контрактах</value>
+		<comment>ReportCurrentContract</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Contract.ReportFinishContract">
+		<value>Отчётность о отработанных контрактах</value>
+		<comment>Finish Contract</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Contract.ReportPandingContract">
+		<value>Отчётность о висячих контрактах</value>
+		<comment>Panding Contract</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Delay_Report.ReportCommBID">
+		<value>Отчётность о коммерческих оценках тендеров </value>
+		<comment>Comm BID</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Delay_Report">
+		<value>Отчётность о дакументациях задержаний</value>
+		<comment>Comm BID</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Delay_Report.ReportCommConfirm">
+		<value>Отчётность о проверках коммерческих докладов</value>
+		<comment>Comm Confirm</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Delay_Report.ReportCommOpen">
+		<value>Отчётность о коммерческих открытиях тендеров</value>
+		<comment>Commercial Open</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Delay_Report.ReportContractAward">
+		<value>Отчётность о заключениях контрактов</value>
+		<comment>ContractAward</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Delay_Report.ReportContractModify">
+		<value>Отчётность о изменениях контрактов</value>
+		<comment>ContractModify</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Delay_Report.ReportContractValid">
+		<value>Отчётность о актуальностях контрактов</value>
+		<comment>ContractValid</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Delay_Report.ReportITBConfirm">
+		<value>Отчётность о проверках ITB</value>
+		<comment>ITB Confirm</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Delay_Report.ReportITBEdit">
+		<value>Отчётность о составлениях ITB</value>
+		<comment>ITB Edit</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Delay_Report.ReportITBFinish">
+		<value>Отчётность о окончаниях тендеров</value>
+		<comment>ITB Finish</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Delay_Report.ReportTC">
+		<value>Отчётность о заседаниях ТК</value>
+		<comment>TC Meetting</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Delay_Report.ReportTechBID">
+		<value>Отчётность о технических оценках тендеров</value>
+		<comment>Technique BID Report</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Delay_Report.ReportTechConfirm">
+		<value>Отчётность о технических докладах утверждений TC</value>
+		<comment>Technique Confirm Report</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Delay_Report.ReportTechOpen">
+		<value>Отчётность о технических открытиях тендеров</value>
+		<comment>Technique Open Report</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Delay_Report.ReportTenderDocValid">
+		<value>Отчётность о актуальностях тендерных документаций</value>
+		<comment>Tender Doc Valid Report</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.SR_Report">
+		<value>Отчётность о прослеживаниях статусов SR</value>
+		<comment>SR Report</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.SR_Report.ReportCommercialBID">
+		<value>Отчётность о SR коммерческих оценк тендеров</value>
+		<comment>Commercial BID Report</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.SR_Report.ReportCommercialTC">
+		<value>Отчётность о SR коммерческих докладов для ожидания обработки заседания ТК</value>
+		<comment>CommercialTC</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.SR_Report.ReportContractStrategy">
+		<value>Отчётность о SR этапов тактических докладов</value>
+		<comment>Contract Strategy Report</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.SR_Report.ReportContractStrategyTC">
+		<value>Отчётность о SR тактических докладов для ожидания обработки заседания TC</value>
+		<comment>Contract Strategy TC Report</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.SR_Report.ReportForITB">
+		<value>Отчётность о SR ожиданий ITB</value>
+		<comment>For BID Report</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.SR_Report.ReportITB">
+		<value>Отчётность о SR положений ITB</value>
+		<comment>ITB Report</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.SR_Report.ReportITBFinished">
+		<value>Отчётность о SR окончаний тендеров</value>
+		<comment>ITB Finished Report</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.SR_Report.ReportNew">
+		<value>Новая отчётность о SR</value>
+		<comment>New SR Report</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.SR_Report.ReportServiceRequest">
+		<value>Отчётность о SR</value>
+		<comment></comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.SR_Report.ReportSRConfirmBack">
+		<value>Отчётность о SR отозванных проверк</value>
+		<comment>Confirm Back SR Report</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.SR_Report.ReportSRProcessing">
+		<value>Отчётность о SR ожидающих проверк</value>
+		<comment>Processing SR Report</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.SR_Report.ReportTechBID">
+		<value>Отчётность о SR технических оценк тендеров</value>
+		<comment>Technique BID Report</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.SR_Report.ReportTechTC">
+		<value>Отчётность о SR технических докладов для ожидания обработки заседания TC</value>
+		<comment>Technique TC</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.ContractConfiguration.AttachmentManagment">
+		<value>Управление приложениями</value>
+	</data>
+	<data name="Topis.ProcurementMenagement.ContractConfiguration.Award">
+		<value>Предоставить право</value>
+	</data>
+	<data name="Topis.ProcurementOperation.Contract.Unlock">
+		<value>Отмыкание уплотняющего тендера</value>
+		<comment>Unlock</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.ContractConfiguration.ModelDoc">
+		<value>TCPAPER шаблон</value>
+		<comment>ModelDoc</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.SRTracking">
+		<value>Прослеживание SR</value>
+		<comment>SRTracking</comment>
+	</data>
+	<data name="Topis.Configuration.AuthorityManagement">
+		<value>Управление правами</value>
+		<comment>Authority Management</comment>
+	</data>
+	<data name="Topis.Configuration.BasicInfo">
+		<value>Основная информация</value>
+		<comment>Basic Info</comment>
+	</data>
+	<data name="Topis.Configuration.UserManagement">
+		<value>Управление пользователя</value>
+		<comment>User Management</comment>
+	</data>
+	<data name="Topis.Configuration.BasicInfo.AllProject">
+		<value>Все проекты</value>
+		<comment>All Project</comment>
+	</data>
+	<data name="Topis.Configuration.BasicInfo.ContractMode">
+		<value>Образцы контрактов</value>
+		<comment>Contract Mode</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.TCMeeting">
+		<value>Заседание ТК</value>
+		<comment>TC Meeting</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.ContractConfiguration">
+		<value>Взаимосвязанные с тендерами</value>
+		<comment>Tender Relatively</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.ContractConfiguration.SRTracking">
+		<value>Прослеживание SR</value>
+		<comment>SR Tracking</comment>
+	</data>
+	<!--Add LiuFang 20060513 BEGIN-->
+	<data name="Topis.Configuration.ContractConfiguration.ProcurementManager">
+		<value>Параметр департаментского директора по закупке</value>
+		<comment>Procurement Manager Configuration</comment>
+	</data>
+	<!--Add LiuFang 20060513 END-->
+	<!--Add LiuFang 20060517 BEGIN-->
+	<data name="Topis.ProcurementOperation.Contract.BIDOpenAndEval.ITBStart">
+		<value>Начало тендера</value>
+		<comment>ITB Start</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Contract.BIDOpenAndEval.ITBFinish">
+		<value>Окончание тендера</value>
+		<comment>ITB Finish</comment>
+	</data>
+	<!--Add LiuFang 20060517 END-->
+</root>

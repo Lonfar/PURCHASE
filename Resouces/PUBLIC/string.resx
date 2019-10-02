@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="sModule">
+		<value>Module :</value>
+	</data>
+	<data name="sSecurityAlt">
+		<value>Security</value>
+	</data>
+	<data name="sSecurityTitle">
+		<value>View authorities and users for this module.</value>
+	</data>
+	<data name="sHelpAlt">
+		<value>Help</value>
+	</data>
+	<data name="sHelpTitle">
+		<value>Help</value>
+	</data>
+	<data name="sHelpInvalidTitle">
+		<value>Help(Invalid)</value>
+	</data>
+	<data name="sBackAlt">
+		<value>Back</value>
+	</data>
+	<data name="sBackTitle">
+		<value>Back</value>
+	</data>
+	<data name="sForwardAlt">
+		<value>Forward</value>
+	</data>
+	<data name="sForwardTitle">
+		<value>Forward</value>
+	</data>
+	<data name="sTotalRecords">
+		<value>Records:</value>
+	</data>
+	<data name="sTotalPages">
+		<value>Pages:</value>
+	</data>
+	<data name="sCurrentPage">
+		<value>Current:</value>
+	</data>
+	<data name="litZoom">
+		<value>Zoom</value>
+	</data>
+	<data name="btnExport">
+		<value>Export</value>
+	</data>
+	<data name="btnPrint">
+		<value>Print</value>
+	</data>
+	<data name="sCannotPreview">
+		<value>For safty's reason of explorer, this function is invalid! Please use the [File | Print Preview] menu in the explorer!</value>
+	</data>
+	<data name="sCannotPageSetup">
+		<value>For safty's reason of explorer, this function is invalid! Please use the [File | Page Setup] menu in the explorer!</value>
+	</data>
+	<data name="Status">
+		<value>Status:</value>
+	</data>
+	<data name="Blank">
+		<value></value>
+	</data>
+	<data name="btnPrint">
+		<value>Print</value>
+	</data>
+	<data name="litZoom">
+		<value>Zoom</value>
+	</data>
+	<data name="btnNext">
+		<value>Next page</value>
+	</data>
+	<data name="btnLast">
+		<value>Last page</value>
+	</data>
+	<data name="btnTurnTo">
+		<value>Go to</value>
+	</data>
+	<data name="Num">
+		<value>Order</value>
+	</data>
+	<data name="btnSubmit">
+		<value>Go to</value>
+	</data>
+	<data name="Refresh">
+		<value>Refresh</value>
+	</data>
+	<data name="ApproveInfo">
+		<value>Approved state  </value>
+	</data>
+	<data name="Attachment">
+		<value>Attachment</value>
+	</data>
+	<data name="Print">
+		<value>Print</value>
+	</data>
+	<data name="Submit">
+		<value>Submit</value>
+	</data>
+	<data name="Cancel">
+		<value>Cancel</value>
+	</data>
+	<data name="Approved">
+		<value>Approved</value>
+	</data>
+	<data name="Yes">
+		<value>Yes</value>
+	</data>
+	<data name="No">
+		<value>No</value>
+	</data>
+	<data name="btnClose">
+		<value>Close</value>
+	</data>
+	<data name="TrueTo">
+		<value>Turn To Page</value>
+	</data>
+	<data name="SRDateFrom">
+		<value>Date From:</value>
+	</data>
+	<data name="SRDateTo">
+		<value>To:</value>
+	</data>
+	<data name="NoChildInfoSelected">
+		<value>Input integrated informations please.</value>
+	</data>
+</root>

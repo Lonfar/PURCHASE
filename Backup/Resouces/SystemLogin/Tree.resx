@@ -1,0 +1,825 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="Topis">
+		<value>CNODC</value>
+		<comment>Topis</comment>
+	</data>
+	<data name="Topis.Account">
+		<value>Accounts</value>
+		<comment>Accounts</comment>
+	</data>
+	<data name="Topis.Account.ChangePassword">
+		<value>Change Password</value>
+		<comment>Change Password</comment>
+	</data>
+	<data name="Topis.Account.OnlineUser">
+		<value>Online Users</value>
+		<comment>Online Users</comment>
+	</data>
+	<data name="Topis.Account.Profile">
+		<value>Profile</value>
+		<comment>Profile</comment>
+	</data>
+	<data name="Topis.Account.SystemLog">
+		<value>UserLog</value>
+		<comment>UserLog</comment>
+	</data>
+	<data name="Topis.Configuration.BasicInfo.SystemLog">
+		<value>System Log</value>
+		<comment>System Log</comment>
+	</data>
+	<data name="Topis.Configuration">
+		<value>Configuration</value>
+		<comment>Configuration</comment>
+	</data>
+	<data name="Topis.Configuration.BasicInfo.AFE">
+		<value>AFE</value>
+		<comment>AFE</comment>
+	</data>
+	<data name="Topis.Configuration.AuthorityManagement.Authority">
+		<value>Authority</value>
+		<comment>Authority</comment>
+	</data>
+	<data name="Topis.Configuration.BasicInfo.BaseTypes">
+		<value>Base Types</value>
+		<comment>Base Types</comment>
+	</data>
+	<data name="Topis.Configuration.BasicInfo.Bin">
+		<value>Bin</value>
+		<comment>Bin</comment>
+	</data>
+	<data name="Topis.Configuration.BasicInfo.Currency">
+		<value>Currency</value>
+		<comment>Currency</comment>
+	</data>
+	<data name="Topis.Configuration.BasicInfo.CurrencyExchangeRate">
+		<value>Currency ExchangeRate</value>
+		<comment>CurrencyExchangeRate</comment>
+	</data>
+	<data name="Topis.Configuration.BasicInfo.CurrencyExRateHistory">
+		<value>History ExchangeRate</value>
+		<comment>History Exchange Rate</comment>
+	</data>
+	<data name="Topis.Configuration.Department">
+		<value>Department</value>
+		<comment>Department</comment>
+	</data>
+	<data name="Topis.Configuration.Employee">
+		<value>Employee</value>
+		<comment>Employee</comment>
+	</data>
+	<data name="Topis.Configuration.AuthorityManagement.ModuleAuthority">
+		<value>Authorities of Module</value>
+		<comment>Authorities of Module</comment>
+	</data>
+	<data name="Topis.Configuration.BasicInfo.Project">
+		<value>Project</value>
+		<comment>Project</comment>
+	</data>
+	<data name="Topis.Configuration.AuthorityManagement.Role">
+		<value>Role</value>
+		<comment>Role</comment>
+	</data>
+	<data name="Topis.Configuration.BasicInfo.SubProject">
+		<value>SubProject</value>
+		<comment>SubProject</comment>
+	</data>
+	<data name="Topis.Configuration.BasicInfo.SystemLog">
+		<value>SystemLog</value>
+		<comment>SystemLog</comment>
+	</data>
+	<data name="Topis.Configuration.BasicInfo.UOM">
+		<value>UOM</value>
+		<comment>UOM</comment>
+	</data>
+	<data name="Topis.Configuration.UserManagement.UpdateUserPasswd">
+		<value>Update User Password</value>
+		<comment>UpdateUserPasswd</comment>
+	</data>
+	<data name="Topis.Configuration.UserManagement.UserRole">
+		<value>User Role</value>
+		<comment>UserRole</comment>
+	</data>
+	<data name="Topis.Configuration.BasicInfo.Warehouse">
+		<value>Warehouse</value>
+		<comment>Warehouse</comment>
+	</data>
+	<data name="Topis.Default">
+		<value>Default</value>
+		<comment>Default</comment>
+	</data>
+	<data name="Topis.Desktop">
+		<value>Desktop</value>
+		<comment>Desktop</comment>
+	</data>
+	<data name="Topis.Head">
+		<value>Head</value>
+		<comment>Head</comment>
+	</data>
+	<data name="Topis.Configuration.Initialization">
+		<value>System Init</value>
+		<comment>System Init</comment>
+	</data>
+	<data name="topis.configuration.initialization.SystemInit">
+		<value>System init</value>
+		<comment>System init</comment>
+	</data>
+	<data name="topis.configuration.initialization.ViewInitStatus">
+		<value>View Init Status</value>
+		<comment>View Init Status</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Inventory">
+		<value>Inventory</value>
+		<comment>Inventory</comment>
+	</data>
+	<!--Liu Dian-Xin Add -->
+	<data name="Topis.ProcurementOperation.Purchase.Inventory.InStoreMaterialMaxMin">
+		<value>In Store Material Max/Min Quantity</value>
+		<comment>InStoreMaterialMaxMin</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Inventory.InStoreMaterial">
+		<value>In Store Material</value>
+		<comment>InStoreMaterial</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Inventory.HistoryInStoreMaterial">
+		<value>History in Store Material</value>
+		<comment>HistoryInStoreMaterial</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Inventory.ThroughToDepartment">
+		<value>Through to Department</value>
+		<comment>ThroughToDepartment</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Inventory.Adjust.InStoreMaterialAdjust">
+		<value>In Store Material Adjust</value>
+		<comment>InStoreMaterialAdjust</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Inventory.ThroughToDepartmentMaterial">
+		<value>Material Through To Department</value>
+		<comment>ThroughToDepartmentMaterial</comment>
+	</data>
+	<!-- End -->
+	<data name="Topis.ProcurementOperation.Purchase.Inventory.Receive">
+		<value>Receive</value>
+		<comment>Receive</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Inventory.WHPurchaseOrder">
+		<value>WH Purchase Order</value>
+		<comment>WHPurchaseOrder</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Inventory.Reserve">
+		<value>Reserve</value>
+		<comment>Reserve</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Inventory.Issue">
+		<value>Issue</value>
+		<comment>Issue</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Inventory.Transfer.TransferBin2Bin">
+		<value>Transfer (Bin to Bin)</value>
+		<comment>TransferBin2Bin</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Inventory.Transfer.TransferWH2WH">
+		<value>Transfer (Warehouse to  Warehouse)</value>
+		<comment>TransferBin2Bin</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Inventory.Transfer.TransferDep2Dep">
+		<value>Transfer (Dep to Dep)</value>
+		<comment>TransferDep2Dep</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Inventory.Return">
+		<value>Return</value>
+		<comment>Return</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Inventory.Adjust.AdjustIn">
+		<value>AdjustIn</value>
+		<comment>AdjustIn</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Inventory.Adjust.AdjustOut">
+		<value>AdjustOut</value>
+		<comment>AdjustOut</comment>
+	</data>
+	<data name="Topis.Logout">
+		<value>Logout</value>
+		<comment>Logout</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Material">
+		<value>Material</value>
+		<comment>Material</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Material.Material">
+		<value>Material</value>
+		<comment>Material</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Material.MaterialVendor">
+		<value>Material Vendor</value>
+		<comment>MaterialVendor</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Material.PurchaseHistory">
+		<value>Purchase History</value>
+		<comment>PurchaseHistory</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Material.InventoryHistory">
+		<value>Inventory History</value>
+		<comment>InventoryHistory</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.PurchaseWork">
+		<value>Purchase</value>
+		<comment>Purchase</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.PurchaseWork.MaterialRequest">
+		<value>Material Request</value>
+		<comment>MaterialRequest</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.PurchaseWork.Enquiry">
+		<value>Enquiry</value>
+		<comment>Enquiry</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.PurchaseWork.Quotation">
+		<value>Quotation</value>
+		<comment>Quotation</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.PurchaseWork.BidEvaluation">
+		<value>Bid Evaluation</value>
+		<comment>BidEvaluation</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.PurchaseWork.PurchaseOrder">
+		<value>Purchase Order</value>
+		<comment>PurchaseOrder</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Logistics.SDT">
+		<value>SDT</value>
+		<comment>SDT</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Logistics.WorkOrder">
+		<value>Work Order</value>
+		<comment>WorkOrder</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Logistics.InlandShipping">
+		<value>Inland Shipping</value>
+		<comment>Inland Shipping</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.PaymentRequirement">
+		<value>Payment Requirement</value>
+		<comment>Payment Requirement</comment>
+	</data>
+	<data name="Topis.SystemLogin">
+		<value>System Login</value>
+		<comment>SystemLogin</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.Vendor">
+		<value>Vendor</value>
+		<comment>Vendor</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.Vendor.Vendor">
+		<value>Vendor</value>
+		<comment>Vendor</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.Vendor.BusinessHistory">
+		<value>Business History</value>
+		<comment>BusinessHistory</comment>
+	</data>
+	<!--2005.7.22-->
+	<data name="Topis.ProcurementOperation.Contract">
+		<value>Contract Operation</value>
+		<comment>Contract</comment>
+	</data>
+	<data name="Topis.Help">
+		<value>Help</value>
+		<comment>Help</comment>
+	</data>
+	<!--2005.8.17-->
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report">
+		<value>Report</value>
+		<comment>Report</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Purchase">
+		<value>Purchase Report</value>
+		<comment>Purchase</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Purchase.PurchaseOrderByVendor">
+		<value>Purchase Order(by Vendor)</value>
+		<comment></comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Purchase.PurchaseOrderByMaterial">
+		<value>Purchase Order (by Material)</value>
+		<comment></comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Purchase.PurchaseOrderByBuyer">
+		<value>Purchase Order (by Buyer)</value>
+		<comment></comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Inventory">
+		<value>Inventory Report</value>
+		<comment>Inventory</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Inventory.InStockSummary">
+		<value>In-Stock Summary</value>
+		<comment>InStock Summary</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Inventory.InStockDetails">
+		<value>In-Stock Details</value>
+		<comment>InStock Details</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Inventory.ReturnMaterial">
+		<value>Material Return</value>
+		<comment></comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Contract">
+		<value>Contract Report</value>
+		<comment>Contract</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Crossed">
+		<value>Crossed Report</value>
+		<comment>Crossed</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Others">
+		<value>Other Report</value>
+		<comment>Others</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Others.SystemLog">
+		<value>System Log</value>
+		<comment>SystemLog</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Purchase.MRByBuyer">
+		<value>Material Request Report By Buyer</value>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Purchase.EnquiryByEnquiryEmployee">
+		<value>Enquiry By Enquiry Employee</value>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Purchase.QuotationByVendor">
+		<value>Quotation By Vendor</value>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Purchase.QuotationByMaterial">
+		<value>Quotation By Material</value>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Inventory.ReceiveMaterial">
+		<value>Material Receive</value>
+		<comment>ReceiveMaterial</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Inventory.IssueMaterial">
+		<value>Material Issue</value>
+		<comment>IssueMaterial</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Inventory.TransferBin2BinMaterial">
+		<value>Material Transfer Bin2Bin</value>
+		<comment>TransferBin2BinMaterial</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Inventory.TransferWH2WHMaterial">
+		<value>Material Transfer WH2WH</value>
+		<comment>TransferWH2WHMaterial</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Inventory.TransferDep2DepMaterial">
+		<value>Material TransferDep2Dep</value>
+		<comment>TransferDep2DepMaterial</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Inventory.ReserveMaterial">
+		<value>Material Reserve</value>
+		<comment>ReserveMaterial</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Inventory.AdjustInMaterial">
+		<value>Material AdjustIn</value>
+		<comment>AdjustInMaterial</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Inventory.AdjustOutMaterial">
+		<value>Material AdjustOut</value>
+		<comment>AdjustOutMaterial</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Inventory.WHPurchaseOrderMaterial">
+		<value>Material WHPurchaseOrder</value>
+		<comment>WHPurchaseOrderMaterial</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Inventory.InventoryMaterial">
+		<value>Material Inventory</value>
+		<comment>InventoryMaterial</comment>
+	</data>
+	<data name="Topis.Configuration.GenerateIDRule">
+		<value>Generate ID Rule</value>
+		<comment>GenerateIDRule</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement">
+		<value>Procurement Managment</value>
+		<comment>ProcurementManegment</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.Policy">
+		<value>Procurement Policy</value>
+		<comment>Policy</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.Policy.Sort">
+		<value>Procurement Policy Sort</value>
+		<comment>Sort</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Contract.SR">
+		<value>Service/Material Request</value>
+		<comment>SR/MR</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Inventory.Transfer">
+		<value>Transfer</value>
+		<comment>Transfer</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Inventory.Adjust">
+		<value>Adjust</value>
+		<comment>Adjust</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Purchase.MRTracking">
+		<value>MRTracking</value>
+		<comment>MRTracking</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Purchase.MRWarning">
+		<value>MRWarning</value>
+		<comment>MRWarning</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Purchase.POTracking">
+		<value>POTracking</value>
+		<comment>POTracking</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Purchase.POWarning">
+		<value>POWarning</value>
+		<comment>POWarning</comment>
+	</data>
+	<data name="Topis.ProcurementOperation">
+		<value>Procurement Operation</value>
+		<comment>ProcurementOperation</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.ContractTemplate">
+		<value>Contract Template</value>
+		<comment>Contract Template</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard">
+		<value>Data From Aboard</value>
+		<comment>Data From Aboard</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.InviteAndBidMenagment">
+		<value>Invite And Bid Menagment</value>
+		<comment>Invite And Bid Menagment</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.ContractTemplate.ContractCatolog">
+		<value>Contract/Tender Catolog</value>
+		<comment>Contract/BID Catolog</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.ContractTemplate.Search">
+		<value>Search</value>
+		<comment>Search</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.ContractTemplate.OriginalContract">
+		<value>Original Contract/Tender Manegment</value>
+		<comment>Original Contract/Tender</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.ContractTemplate.StandardContract">
+		<value>Standard Contract/Tender Manegment</value>
+		<comment>StandardContract</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.ContractTemplate.PriceContract">
+		<value>Price Contract Manegment</value>
+		<comment>Price Contract/Tender</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.ContractTemplate.ReferenceContract">
+		<value>Reference Contract/Tender Manegment</value>
+		<comment>refernce Contract</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.Policy.Manegment">
+		<value>Procurement Policy Managment</value>
+		<comment>Procurement Policy Managment</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Data">
+		<value>Data And Report</value>
+		<comment>Data And Report</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Data.OperationData">
+		<value>Operation Data</value>
+		<comment>Operation Data</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Data.Report">
+		<value>Report</value>
+		<comment>Report</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Contract.ContractStrategy">
+		<value>Contract Strategy</value>
+		<comment>Contract Strategy</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.TCMeeting.TCMeeetting">
+		<value>TC Agenda</value>
+		<comment>TC Meetting</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Contract.ITB">
+		<value>ITB Documents</value>
+		<comment>ITB</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Contract.BIDOpenAndEval">
+		<value>Tender Processing</value>
+		<comment>BID Open And Evaluation</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Contract.BIDOpenAndEval.BIDOpen">
+		<value>BID Open</value>
+		<comment>BID Open</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Contract.BIDOpenAndEval.TechReport">
+		<value>Technical Evaluation</value>
+		<comment>Technical Report</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Contract.BIDOpenAndEval.CommReport">
+		<value>Commercial Evaluation</value>
+		<comment>Commercial Report</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Contract.BIDOpenAndEval.IntegReport">
+		<value>Integrate Evaluation</value>
+		<comment>Integrate Report</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Contract.Contract">
+		<value>Contract</value>
+		<comment>Contract</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.ContractConfiguration.Letter">
+		<value>Letter</value>
+		<comment>Letter</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Purchase.Logistics">
+		<value>Logistics</value>
+	</data>
+	<data name="Topis.Configuration.ContractConfiguration">
+		<value>Tender Configuration</value>
+		<comment>Tender Configuration</comment>
+	</data>
+	<data name="Topis.Configuration.ContractConfiguration.CommGroup">
+		<value>Commerce Evaluation Group</value>
+		<comment>Commerce Evaluation Group</comment>
+	</data>
+	<data name="Topis.Configuration.ContractConfiguration.TechGroup">
+		<value>Technique Evaluation Group</value>
+		<comment>Technique Evaluation Group</comment>
+	</data>
+	<data name="Topis.Configuration.ContractConfiguration.ConfirmerGroup">
+		<value>Approve Group</value>
+		<comment>Approve Group</comment>
+	</data>
+	<data name="Topis.Configuration.ContractConfiguration.SealConfig">
+		<value>Seal Configuration</value>
+		<comment>Seal Configuration</comment>
+	</data>
+	<data name="Topis.Configuration.ContractConfiguration.TCGroup">
+		<value>TC Group</value>
+		<comment>TC Group</comment>
+	</data>
+	<data name="Topis.Configuration.ContractConfiguration.ViewerGroup">
+		<value>Viewer Group</value>
+		<comment>Viewer Group</comment>
+	</data>
+	<data name="Topis.Configuration.ContractConfiguration.SRRemark">
+		<value>SR Description</value>
+		<comment>SR Description</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.TCMeeting.TCMeettingMinutes">
+		<value>TC Minutes</value>
+		<comment>TC Minutes</comment>
+	</data>
+	<data name="Topis.Report.Contract">
+		<value>Contract Report</value>
+		<comment>Contract_Report</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Contract.ReportCancaledContract">
+		<value>Cancaled Contract Report</value>
+		<comment>Report Cancaled Contract</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Contract.ReportContract3">
+		<value>Contract 3 Months Report</value>
+		<comment>ReportContract3</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Contract.ReportContract6">
+		<value>Contract 6 Months Report</value>
+		<comment>Report Contract 6 Months</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Contract.ReportCurrentContract">
+		<value>Current Contract Report</value>
+		<comment>ReportCurrentContract</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Contract.ReportFinishContract">
+		<value>Finish Contract Report</value>
+		<comment>Finish Contract</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Contract.ReportPandingContract">
+		<value>Panding Contract Report</value>
+		<comment>Panding Contract</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Delay_Report">
+		<value>Delay Report</value>
+		<comment>Comm BID</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.Delay_Report.ReportCommBID">
+		<value>Commercial BID Report</value>
+		<comment>Comm BID</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Delay_Report.ReportCommConfirm">
+		<value>Commercial Confirm Report</value>
+		<comment>Comm Confirm</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Delay_Report.ReportCommOpen">
+		<value>Commercial Open Report</value>
+		<comment>Commercial Open</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Delay_Report.ReportContractAward">
+		<value>Contract Award Report</value>
+		<comment>ContractAward</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Delay_Report.ReportContractModify">
+		<value>Contract Modify Report</value>
+		<comment>ContractModify</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Delay_Report.ReportContractValid">
+		<value>Contract Valid Report</value>
+		<comment>ContractValid</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Delay_Report.ReportITBConfirm">
+		<value>ITB Confirm Report</value>
+		<comment>ITB Confirm</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Delay_Report.ReportITBEdit">
+		<value>ITB Edit Report</value>
+		<comment>ITB Edit</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Delay_Report.ReportITBFinish">
+		<value>ITB Finish Report</value>
+		<comment>ITB Finish</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Delay_Report.ReportTC">
+		<value>TC Meetting Report</value>
+		<comment>TC Meetting</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Delay_Report.ReportTechBID">
+		<value>Technique BID Report</value>
+		<comment>Technique BID Report</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Delay_Report.ReportTechConfirm">
+		<value>Technique Confirm Report</value>
+		<comment>Technique Confirm Report</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Delay_Report.ReportTechOpen">
+		<value>Technique Open Report</value>
+		<comment>Technique Open Report</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.Delay_Report.ReportTenderDocValid">
+		<value>Tender Doc Valid Report</value>
+		<comment>Tender Doc Valid Report</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.SR_Report">
+		<value>SR Report</value>
+		<comment>SR Report</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.SR_Report.ReportCommercialBID">
+		<value>Commercial BID Report</value>
+		<comment>Commercial BID Report</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.SR_Report.ReportCommercialTC">
+		<value>Commercial TC Report</value>
+		<comment>CommercialTC</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.SR_Report.ReportContractStrategy">
+		<value>Contract Strategy Report</value>
+		<comment>Contract Strategy Report</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.SR_Report.ReportContractStrategyTC">
+		<value>Contract Strategy TC Report</value>
+		<comment>Contract Strategy TC Report</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.SR_Report.ReportForITB">
+		<value>For ITB Report</value>
+		<comment>For BID Report</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.SR_Report.ReportITB">
+		<value>ITB Report</value>
+		<comment>ITB Report</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.SR_Report.ReportITBFinished">
+		<value>ITB Finished Report</value>
+		<comment>ITB Finished Report</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.SR_Report.ReportNew">
+		<value>New SR Report</value>
+		<comment>New SR Report</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.SR_Report.ReportServiceRequest">
+		<value>SR Report</value>
+		<comment>SR Report</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.SR_Report.ReportSRConfirmBack">
+		<value>Confirm Back SR Report</value>
+		<comment>Confirm Back SR Report</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.SR_Report.ReportSRProcessing">
+		<value>Processing SR Report</value>
+		<comment>Processing SR Report</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.SR_Report.ReportTechBID">
+		<value>Technique BID Report</value>
+		<comment>Technique BID Report</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.DataFromAboard.Report.SR_Report.ReportTechTC">
+		<value>Technique TC</value>
+		<comment>Technique TC</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.ContractConfiguration.AttachmentManagment">
+		<value>Attachment Management</value>
+		<comment>Attachment Management</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.ContractConfiguration.Award">
+		<value>Award</value>
+		<comment>Award</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Contract.Unlock">
+		<value>Unlock</value>
+		<comment>Unlock</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.ContractConfiguration.ModelDoc">
+		<value>TCPAPER Template</value>
+		<comment>ModelDoc</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.SRTracking">
+		<value>SR Tracking</value>
+		<comment>SR Tracking</comment>
+	</data>
+	<data name="Topis.Configuration.AuthorityManagement">
+		<value>AuthorityManagement</value>
+		<comment>AuthorityManagement</comment>
+	</data>
+	<data name="Topis.Configuration.BasicInfo">
+		<value>Basic Info</value>
+		<comment>Basic Info</comment>
+	</data>
+	<data name="Topis.Configuration.UserManagement">
+		<value>UserManagement</value>
+		<comment>UserManagement</comment>
+	</data>
+	<data name="Topis.Configuration.BasicInfo.AllProject">
+		<value>All project</value>
+		<comment>All project</comment>
+	</data>
+	<data name="Topis.Configuration.BasicInfo.ContractMode">
+		<value>Contract Mode</value>
+		<comment>Contract Mode</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.TCMeeting">
+		<value>TCMeeting</value>
+		<comment>TC Meeting</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.ContractConfiguration">
+		<value>Tender Relatively</value>
+		<comment>Tender Relatively</comment>
+	</data>
+	<data name="Topis.ProcurementMenagement.ContractConfiguration.SRTracking">
+		<value>SR Tracking</value>
+		<comment>SR Tracking</comment>
+	</data>
+	<!--Add LiuFang 20060513 BEGIN-->
+	<data name="Topis.Configuration.ContractConfiguration.ProcurementManager">
+		<value>Procurement Manager Configuration</value>
+		<comment>Procurement Manager Configuration</comment>
+	</data>
+	<!--Add LiuFang 20060513 END-->
+	<!--Add LiuFang 20060517 BEGIN-->
+	<data name="Topis.ProcurementOperation.Contract.BIDOpenAndEval.ITBStart">
+		<value>ITB Start</value>
+		<comment>ITB Start</comment>
+	</data>
+	<data name="Topis.ProcurementOperation.Contract.BIDOpenAndEval.ITBFinish">
+		<value>ITB Finish</value>
+		<comment>ITB Finish</comment>
+	</data>
+	<!--Add LiuFang 20060517 END-->
+</root>

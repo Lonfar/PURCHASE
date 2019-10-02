@@ -1,0 +1,180 @@
+BODY
+{
+	FONT-SIZE: 12px;
+	FONT-FAMILY: Verdana; 
+	padding:0px;
+	margin-left:2px;
+	margin-right:2px;
+	margin-top:1px;
+	margin-bottom:0px;
+	scrollbar-face-color: #DEE3E7;
+	scrollbar-highlight-color: #FFFFFF;
+	scrollbar-shadow-color: #DEE3E7;
+	scrollbar-3dlight-color: #D1D7DC;
+	scrollbar-arrow-color:  #006699;
+	scrollbar-track-color: #EFEFEF;
+	scrollbar-darkshadow-color: #98AAB1;
+	overflow:auto;	
+	background-color:#FFFFFF;
+}
+form
+{
+	 padding-top:0px;
+	 margin:0px;	 
+}
+FONT
+{
+	font-size: 12px;
+	font-family: Verdana;	
+}
+FONT.Blue
+{
+	font-size: 12px;
+	font-family: Verdana;
+	color:Blue ;
+}
+A:link {
+	font-family: Verdana;FONT-SIZE: 12px;COLOR: black; TEXT-DECORATION: underline;
+}
+A:visited {
+	font-family: Verdana;FONT-SIZE: 12px;COLOR: black; TEXT-DECORATION: underline;	
+}
+A:hover {
+	font-family: Verdana;FONT-SIZE: 12px;COLOR: blue; TEXT-DECORATION: underline;
+}
+P
+{
+	font-size: 12px;
+	font-family: Verdana;
+}
+DIV
+{
+	font-size: 12px;
+	font-family: Verdana;
+}
+
+
+table.TableWithBorder
+{
+	 border:solid 1px black;
+	 border-collapse:collapse ;
+	 background-color:aliceblue;
+	
+}
+
+td
+{
+	font-size: 12px;	
+	word-break:break-word;	 
+
+}
+option
+{
+	font-size: 12px;	
+	font-family: Verdana;
+} 
+select
+{
+	font-size: 12px;	
+	font-family: Verdana;
+}
+
+/*INPUT*/
+INPUT
+{ 
+	font-size: 12px;
+	border-width:1px;
+	font-family: Verdana;
+	color:Black ;
+	border-color:black;
+}
+input.NormalButton
+{
+	font-size: 12px;
+	border-width:1px;
+	font-family: Verdana;
+	border-color:black;
+	border-style:solid;
+}
+
+/*TextAREA*/
+TEXTAREA
+{
+	border-width: 1px;
+	border-style:solid ;
+	font-size: 12px;
+	font-family: Verdana;
+	border-color:black;
+	overflow-y:auto;
+}
+/*TextAREA*/
+TEXTAREA.NoBorderAndVisible
+{
+	border-width: 0px;
+	border-style:solid ;
+	font-size: 12px;
+	font-family: Verdana;	
+	overflow-y:visible;
+}
+
+.dgrdGlobal
+{
+	FONT-SIZE: 12px;
+	border-width:1px;
+	border-color:black;
+	border-style:solid  ;
+	background-color:"white";
+	padding:2 2 2 2;
+}
+.dgrdItem
+{
+	background-color: #ffffff;/*#e8f4ff*/
+	text-align:center ;
+	FONT-SIZE: 12px;
+	font-family:Arial;
+}
+
+.dgrdAlterItem
+{
+	background-color:#ffffff;/*#DBE8F2;*/
+	text-align:center;
+	FONT-SIZE: 12px;
+	font-family:Arial;
+}
+.dgrdHeader
+{
+	color:black;
+	font-weight:bold;
+	background-color:#cccccc;
+	text-align:center ;
+	FONT-SIZE: 12px;
+}
+.noborder
+{
+	border-bottom:none 0px;
+	border-left:none 0px ;
+	border-right:none 0px;
+	border-top :none 0px;
+}
+.ReportTitle
+{
+	font-weight:bold;
+	color:black;
+	FONT-SIZE: 18px;
+	font-family:'Times New Roman';
+}
+@media Print
+{
+	.NoPrint
+	{
+	display: none;
+	}
+	input
+	{
+	display:none ;
+	}
+	body
+	{
+		background-color:White ;
+	}
+}

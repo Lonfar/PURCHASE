@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="gcLogTime">
+		<value>时间</value>
+	</data>
+	<data name="gcUser">
+		<value>用户</value>
+	</data>
+	<data name="gcModuleID">
+		<value>模块</value>
+	</data>
+	<data name="gcLogType">
+		<value>类型</value>
+	</data>
+	<data name="gcLogDescription">
+		<value>描述</value>
+	</data>
+	<data name="gcLogIP">
+		<value>IP</value>
+	</data>
+	<data name="gcPlatform">
+		<value>平台</value>
+	</data>
+	<data name="gcBrowser">
+		<value>浏览器</value>
+	</data>
+	<data name="gcLanguage">
+		<value>语言</value>
+	</data>
+	<data name="uSelectType">
+		<value>&lt;&lt;选择日志类型&gt;&gt;</value>
+	</data>
+	<data name="uSelectPlatform">
+		<value>&lt;&lt;选择平台&gt;&gt;</value>
+	</data>
+	<data name="uSelectBrowser">
+		<value>&lt;&lt;选择浏览器&gt;&gt;</value>
+	</data>
+	<data name="uSelectLanguage">
+		<value>&lt;&lt;选择语言&gt;&gt;</value>
+	</data>
+	<data name="litDateFrom">
+		<value>日期自</value>
+	</data>
+	<data name="litDateTo">
+		<value>至</value>
+	</data>
+	<data name="ErrorWhenQuery">
+		<value>查询数据时出错，请检查您的录入！</value>
+	</data>
+	<data name="btnSearch">
+		<value>[开始搜索]</value>
+	</data>
+	<data name="UserSystemLog">
+		<value>个人日志</value>
+	</data>
+</root>

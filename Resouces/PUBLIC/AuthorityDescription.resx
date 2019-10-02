@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	
+	<data name="Topis.BasicConfig.Bin.Add">
+		<value>Add Bin information</value>
+	</data>
+	<data name="Topis.BasicConfig.Bin.Delete">
+		<value>Delete Bin information</value>
+	</data>
+	<data name="Topis.BasicConfig.Bin.Update">
+		<value>Update Bin information</value>
+	</data>
+	<data name="Topis.BasicConfig.Bin.View">
+		<value>View Bin information</value>
+	</data>
+	
+	<data name="Topis.BasicConfig.CurrencyExchangeRate.Add">
+		<value>Add CurrencyExchangeRate information</value>
+	</data>
+	<data name="Topis.BasicConfig.CurrencyExchangeRate.Delete">
+		<value>Delete CurrencyExchangeRate information</value>
+	</data>
+	<data name="Topis.BasicConfig.CurrencyExchangeRate.Update">
+		<value>Update CurrencyExchangeRate information</value>
+	</data>
+	<data name="Topis.BasicConfig.CurrencyExchangeRate.View">
+		<value>View CurrencyExchangeRate information</value>
+	</data>
+	
+	<data name="Topis.BasicConfig.ExchangeRateHistory.Add">
+		<value>Add ExchangeRateHistory information</value>
+	</data>
+	<data name="Topis.BasicConfig.ExchangeRateHistory.Delete">
+		<value>Delete ExchangeRateHistory information</value>
+	</data>
+	<data name="Topis.BasicConfig.ExchangeRateHistory.Update">
+		<value>Update ExchangeRateHistory information</value>
+	</data>
+	<data name="Topis.BasicConfig.ExchangeRateHistory.View">
+		<value>View ExchangeRateHistory information</value>
+	</data>
+	
+	<data name="Topis.BasicConfig.UOM.Add">
+		<value>Add UOM information</value>
+	</data>
+	<data name="Topis.BasicConfig.UOM.Delete">
+		<value>Delete UOM information</value>
+	</data>
+	<data name="Topis.BasicConfig.UOM.Update">
+		<value>Update UOM information</value>
+	</data>
+	<data name="Topis.BasicConfig.UOM.View">
+		<value>View UOM information</value>
+	</data>
+	
+	<data name="Topis.BasicConfig.WareHouse.Add">
+		<value>Add WareHouse information</value>
+	</data>
+	<data name="Topis.BasicConfig.WareHouse.Delete">
+		<value>Delete WareHouse information</value>
+	</data>
+	<data name="Topis.BasicConfig.WareHouse.Update">
+		<value>Update WareHouse information</value>
+	</data>
+	<data name="Topis.BasicConfig.WareHouse.View">
+		<value>View WareHouse information</value>
+	</data>
+	
+	<data name="Topis.Configuration.Authority.Add">
+		<value>Add Authority and assign authorities</value>
+	</data>
+	<data name="Topis.Configuration.Authority.Delete">
+		<value>Delete Authority</value>
+	</data>
+	<data name="Topis.Configuration.Authority.Update">
+		<value>Update Authority</value>
+	</data>
+	<data name="Topis.Configuration.Authority.View">
+		<value>Query and view Authority</value>
+	</data>
+	<data name="Topis.Configuration.Authority.ViewSingle">
+		<value>View single Authorityin public page</value>
+	</data>
+	
+	<data name="Topis.Configuration.CalCurrency.Add">
+		<value>Add CalCurrencyand assign authorities</value>
+	</data>
+	<data name="Topis.Configuration.CalCurrency.Delete">
+		<value>Delete CalCurrency</value>
+	</data>
+	<data name="Topis.Configuration.CalCurrency.Update">
+		<value>Update CalCurrency</value>
+	</data>
+	<data name="Topis.Configuration.CalCurrency.View">
+		<value>Query and view CalCurrency</value>
+	</data>
+	<data name="Topis.Configuration.CalCurrency.ViewSingle">
+		<value>View single CalCurrency in public page</value>
+	</data>
+	
+	<data name="Topis.Configuration.Currency.Add">
+		<value>Add Currency Info and assign authorities</value>
+	</data>
+	<data name="Topis.Configuration.Currency.Delete">
+		<value>Delete Currency Info</value>
+	</data>
+	<data name="Topis.Configuration.Currency.Update">
+		<value>Update Currency</value>
+	</data>
+	<data name="Topis.Configuration.Currency.View">
+		<value>Query and view Currency Info</value>
+	</data>
+	<data name="Topis.Configuration.Currency.ViewSingle">
+		<value>View single Currency Info in public page</value>
+	</data>
+	
+	
+	<data name="Topis.Configuration.Department.Add">
+		<value>Add Department information</value>
+	</data>
+	<data name="Topis.Configuration.Department.Delete">
+		<value>Delete Department information</value>
+	</data>
+	<data name="Topis.Configuration.Department.Update">
+		<value>Update Department information</value>
+	</data>
+	<data name="Topis.Configuration.Department.View">
+		<value>Query and view Department Info</value>
+	</data>
+	<data name="Topis.Configuration.Department.ViewSingle">
+		<value>View single Department Info in public page</value>
+	</data>
+	
+	<data name="Topis.Configuration.DepartmentEmployee.Add">
+		<value>Add DepartmentEmployee information</value>
+	</data>
+	<data name="Topis.Configuration.DepartmentEmployee.Delete">
+		<value>Delete DepartmentEmployee information</value>
+	</data>
+	<data name="Topis.Configuration.DepartmentEmployee.Update">
+		<value>Update DepartmentEmployee information</value>
+	</data>
+	<data name="Topis.Configuration.DepartmentEmployee.View">
+		<value>Query and view DepartmentEmployeeInfo</value>
+	</data>
+	<data name="Topis.Configuration.DepartmentEmployee.ViewSingle">
+		<value>View single DepartmentEmployeeInfo in public page</value>
+	</data>
+	
+	<data name="Topis.Configuration.Employee.Add">
+		<value>Add Employee information</value>
+	</data>
+	<data name="Topis.Configuration.Employee.Delete">
+		<value>Delete Employee information</value>
+	</data>
+	<data name="Topis.Configuration.Employee.Update">
+		<value>Update Employee information</value>
+	</data>
+	<data name="Topis.Configuration.Employee.View">
+		<value>Query and View Employee information</value>
+	</data>
+	<data name="Topis.Configuration.Employee.ViewSingle">
+		<value>View single Employee Info in public page</value>
+	</data>
+	
+	<data name="Topis.Configuration.GenerateIDRule.Add">
+		<value>Add GenerateIDRule information</value>
+	</data>
+	<data name="Topis.Configuration.GenerateIDRule.Delete">
+		<value>Delete GenerateIDRule information</value>
+	</data>
+	<data name="Topis.Configuration.GenerateIDRule.Update">
+		<value>Update GenerateIDRule information</value>
+	</data>
+	<data name="Topis.Configuration.GenerateIDRule.View">
+		<value>Query and view GenerateIDRule</value>
+	</data>
+	<data name="Topis.Configuration.GenerateIDRule.ViewSingle">
+		<value>View single GenerateIDRule in public page</value>
+	</data>
+	
+	<data name="Topis.Configuration.MaterialCode.Add">
+		<value>Add MaterialCode information</value>
+	</data>
+	<data name="Topis.Configuration.MaterialCode.Delete">
+		<value>Delete MaterialCode information</value>
+	</data>
+	<data name="Topis.Configuration.MaterialCode.Update">
+		<value>Update MaterialCode information</value>
+	</data>
+	<data name="Topis.Configuration.MaterialCode.View">
+		<value>Query and View MaterialCode information</value>
+	</data>
+	<data name="Topis.Configuration.MaterialCode.ViewSingle">
+		<value>View single MaterialCode in public page</value>
+	</data>
+	
+	<data name="Topis.Configuration.ModifyPassword.Add">
+		<value>Add ModifyPassword information</value>
+	</data>
+	<data name="Topis.Configuration.ModifyPassword.Delete">
+		<value>Delete ModifyPassword information</value>
+	</data>
+	<data name="Topis.Configuration.ModifyPassword.Update">
+		<value>Update ModifyPassword information</value>
+	</data>
+	<data name="Topis.Configuration.ModifyPassword.View">
+		<value>Query and view ModifyPassword</value>
+	</data>
+	<data name="Topis.Configuration.ModifyPassword.ViewSingle">
+		<value>View single ModifyPassword in public page</value>
+	</data>
+	
+	<data name="Topis.Configuration.PositionType.Add">
+		<value>Add PositionType information</value>
+	</data>
+	<data name="Topis.Configuration.PositionType.Delete">
+		<value>Delete PositionType information</value>
+	</data>
+	<data name="Topis.Configuration.PositionType.Update">
+		<value>Update PositionType information</value>
+	</data>
+	<data name="Topis.Configuration.PositionType.View">
+		<value>Query and view PositionType Info</value>
+	</data>
+	<data name="Topis.Configuration.PositionType.ViewSingle">
+		<value>View single PositionType in public page</value>
+	</data>
+	
+	<data name="Topis.Configuration.Projects.Add">
+		<value>Add Projects information</value>
+	</data>
+	<data name="Topis.Configuration.Projects.Delete">
+		<value>Delete Projects information</value>
+	</data>
+	<data name="Topis.Configuration.Projects.Update">
+		<value>Update Projects information</value>
+	</data>
+	<data name="Topis.Configuration.Projects.View">
+		<value>Query and view Projects</value>
+	</data>
+	<data name="Topis.Configuration.Projects.ViewSingle">
+		<value>View single Projects in public page</value>
+	</data>
+	
+	<data name="Topis.Configuration.Role.Add">
+		<value>Add Role information</value>
+	</data>
+	<data name="Topis.Configuration.Role.Delete">
+		<value>Delete Role information</value>
+	</data>
+	<data name="Topis.Configuration.Role.Update">
+		<value>Update Role information</value>
+	</data>
+	<data name="Topis.Configuration.Role.View">
+		<value>Query and view Role</value>
+	</data>
+	<data name="Topis.Configuration.Role.ViewSingle">
+		<value>View single Role in public page</value>
+	</data>
+</root>

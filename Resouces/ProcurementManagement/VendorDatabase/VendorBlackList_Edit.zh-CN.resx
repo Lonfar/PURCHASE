@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="BasicInfomation">
+		<value>基本信息</value>
+	</data>
+	<data name="ContactMode">
+		<value>联系方式</value>
+	</data>
+	<data name="Contact">
+		<value>联系人</value>
+	</data>
+	<data name="WorkingArea">
+		<value>业务范围</value>
+	</data>
+	<data name="PrejudicationData">
+		<value>预审资料</value>
+	</data>
+	<data name="VendorData">
+		<value>资质文件</value>
+	</data>
+	<data name="VendorAssociate">
+		<value>关联供应商</value>
+	</data>
+	<data name="Ven_3WorkExperience">
+		<value>近三年的工作经验</value>
+	</data>
+	<data name="Ven_MostlyEquipment">
+		<value>主要技术设备</value>
+	</data>
+	<data name="Ven_3LawInformation">
+		<value>近三年的司法诉讼信息</value>
+	</data>
+	<data name="StandardName">
+		<value>评价标准</value>
+	</data>
+	<data name="StandardDescription">
+		<value>描述</value>
+	</data>
+	<data name="StandarValue">
+		<value>标准分</value>
+	</data>
+	<data name="GradeScore">
+		<value>得分</value>
+	</data>
+	<data name="GradeDescription">
+		<value>等级描述</value>
+	</data>
+	<data name="Evaluate">
+		<value>综合评价</value>
+	</data>
+	<data name="litGrade">
+		<value>等级评价</value>
+	</data>
+	<data name="litScore">
+		<value>打分评价</value>
+	</data>
+	<data name="VendorEvaluate">
+		<value>供应商评价</value>
+	</data>
+	<data name="NO">
+		<value>NO</value>
+	</data>
+	<data name="VendorCountry">
+		<value>联系方式</value>
+	</data>
+	<data name="productList">
+		<value>产品列表</value>
+	</data>
+</root>

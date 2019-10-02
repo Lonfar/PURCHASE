@@ -1,0 +1,34 @@
+<PUBLIC:COMPONENT>
+<PUBLIC:ATTACH EVENT="oncontentready" ONEVENT="element.SetHeight()" />
+<PUBLIC:ATTACH EVENT="ondetach" ONEVENT="On_Deatch()" />
+
+
+<PUBLIC:METHOD NAME="SetHeight" />
+<SCRIPT>
+var TimerID=0;
+function On_Deatch()
+{
+	if(TimerID)
+	{
+		clearTimeout(TimerID);
+		TimerID=0;
+	}
+}
+function SetHeight()
+{
+	if(window.IEVersion>5.0)
+	{
+		element.runtimeStyle.overflow="visible";
+		return;
+	}
+	TimerID=0;
+	var height=element.scrollHeight;
+	if(height<10)
+	{
+		TimerID=setTimeout(element.uniqueID+".SetHeight()",1000);
+		return;
+	}
+	element.runtimeStyle.height=height+"px";
+}
+</SCRIPT>
+</PUBLIC:COMPONENT>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="ContractReportByBasicInfo" targetNamespace="http://tempuri.org/ContractReportByBasicInfo.xsd"
+	elementFormDefault="qualified" xmlns="http://tempuri.org/ContractReportByBasicInfo.xsd"
+	xmlns:mstns="http://tempuri.org/ContractReportByBasicInfo.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="Document" msdata:Locale="zh-CN">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="V_Report_Contract_BasicInfo">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="RUName" type="xs:string" minOccurs="0" />
+							<xs:element name="ContractID" type="xs:string" minOccurs="0" />
+							<xs:element name="Objective" type="xs:string" minOccurs="0" />
+							<xs:element name="DepartmentName" type="xs:string" minOccurs="0" />
+							<xs:element name="FullName" type="xs:string" minOccurs="0" />
+							<xs:element name="ContractAmount" type="xs:decimal" minOccurs="0" />
+							<xs:element name="UsefulLife" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

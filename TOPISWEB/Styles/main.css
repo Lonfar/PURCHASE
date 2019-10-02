@@ -1,0 +1,962 @@
+/*
+this file is created by zhao haibo by 20060830
+*/
+/* System */
+BODY
+{
+	FONT-SIZE: 11px;
+	FONT-FAMILY: Arial; 
+	padding:0px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+	Scrollbar-face-color:#C9DEF9; 
+	Scrollbar-shadow-color:#80ABE2;
+	Scrollbar-highlight-color:#D7E6FA;
+	Scrollbar-track-color:#E5F0FC;
+	Scrollbar-3dlight-color:white;
+	Scrollbar-darkshadow-color:234B7F;
+	Scrollbar-arrow-color:#2D568C;
+	overflow:auto;	
+	color:Black;
+}
+
+FONT
+{
+	font-size: 11px;
+	font-family: Arial;	
+}
+
+P
+{
+	font-size: 11px;
+	font-family: Arial;
+}
+
+DIV
+{
+	font-size: 11px;
+	font-family: Arial;
+}
+
+CENTER
+{
+	font-size: 11px;
+	font-family: Arial;
+}
+
+table
+{
+	font-size: 11px;
+	font-family: Arial;
+	word-break:break-word;	 
+}
+
+tr
+{
+	font-size: 11px;
+	font-family: Arial;
+	word-break:break-word;	 
+}
+
+td
+{
+	font-size: 11px;
+	font-family: Arial;
+	word-break:break-word;
+	color:none;
+}
+
+select
+ {
+	font-size: 11px;	
+	font-family: Arial;
+
+ }
+ 
+option
+{
+	font-size: 11px;	
+	font-family: Arial;
+} 
+
+FORM
+{
+	 padding-top:0px;
+	 margin:0px;	 
+}
+
+INPUT
+{ 
+	font-size: 11px;
+	border-width:1px;
+	font-family: Arial;
+	color:Black ;
+	border-color:black;
+}
+
+A.ListHeadText:link {
+	font-family: Arial;FONT-SIZE: 11px;COLOR: Black; TEXT-DECORATION: none;
+}
+A.ListHeadText:visited {
+	font-family: Arial;FONT-SIZE: 11px;COLOR: Black; TEXT-DECORATION: none;	
+}
+A.ListHeadText:hover {
+	font-family: Arial;FONT-SIZE: 11px;COLOR: Black; TEXT-DECORATION: underline;
+}
+
+A.BlackLink:link {
+	font-family: Arial;FONT-SIZE: 11px; COLOR: Black; TEXT-DECORATION: underline
+}
+A.BlackLink:visited {
+	font-family: Arial;FONT-SIZE: 11px; COLOR: Black; TEXT-DECORATION: underline
+}
+A.BlackLink:hover {
+	font-family: Arial;FONT-SIZE: 11px; COLOR: Black; TEXT-DECORATION: underline
+}
+A.white:link {
+	font-family: Arial;FONT-SIZE: 11px; COLOR: white; TEXT-DECORATION: none
+}
+A.white:visited {
+	font-family: Arial;FONT-SIZE: 11px; COLOR: white; TEXT-DECORATION: none
+}
+A.white:hover {
+	font-family: Arial;FONT-SIZE: 11px; COLOR: white; TEXT-DECORATION: underline
+}
+
+A.blue:link {
+	font-family: Arial;FONT-SIZE: 11px; COLOR: blue; TEXT-DECORATION: none
+}
+A.blue:visited {
+	font-family: Arial;FONT-SIZE: 11px; COLOR: blue; TEXT-DECORATION: none
+}
+A.blue:hover {
+	font-family: Arial;FONT-SIZE: 11px; COLOR: blue; TEXT-DECORATION: underline
+}
+A.blueunderline:link {
+	font-family: Arial;FONT-SIZE: 11px; COLOR: blue; TEXT-DECORATION: underline
+}
+A.blueunderline:visited {
+	font-family: Arial;FONT-SIZE: 11px; COLOR: blue; TEXT-DECORATION: underline
+}
+A.blueunderline:hover {
+	font-family: Arial;FONT-SIZE: 11px; COLOR: blue; TEXT-DECORATION: underline
+}
+A.graybutton2:link 
+{
+	BORDER-RIGHT: #002200 1px solid; BORDER-TOP: #a6c1df 1px solid; BORDER-LEFT: #a6c1df 1px solid; BORDER-BOTTOM: #002200 1px solid; COLOR: #000000; BACKGROUND-COLOR: #94aece; 
+	TEXT-DECORATION: none; padding-top:3px;padding-right:6px;padding-bottom:1px;padding-left:6px
+}
+A.graybutton2:visited
+{
+	BORDER-RIGHT: #002200 1px solid; BORDER-TOP: #a6c1df 1px solid; BORDER-LEFT: #a6c1df 1px solid; BORDER-BOTTOM: #002200 1px solid; COLOR: #000000; BACKGROUND-COLOR: #94aece; 
+	TEXT-DECORATION: none; padding-top:3px;padding-right:6px;padding-bottom:1px;padding-left:6px
+}
+A.graybutton2:hover
+{
+	BORDER-RIGHT: #002200 2px solid; BORDER-TOP: #a6c1df 1px solid; BORDER-LEFT: #a6c1df 1px solid; BORDER-BOTTOM: #002200 2px solid; COLOR: #000000; BACKGROUND-COLOR: #94aece;
+	TEXT-DECORATION: none; padding-top:3px;padding-right:6px;padding-bottom:1px;padding-left:6px
+}
+A.graybutton:link 
+{
+	BORDER-RIGHT: #666666 1px solid; BORDER-TOP: #EEEEEE 1px solid; BORDER-LEFT: #EEEEEE 1px solid; BORDER-BOTTOM: #666666 1px solid; COLOR: #000000; BACKGROUND-COLOR: #CCCCCC; 
+	TEXT-DECORATION: none; padding-top:3px;padding-right:6px;padding-bottom:1px;padding-left:6px
+}
+A.graybutton:visited
+{
+	BORDER-RIGHT: #666666 1px solid; BORDER-TOP: #EEEEEE 1px solid; BORDER-LEFT: #EEEEEE 1px solid; BORDER-BOTTOM: #666666 1px solid; COLOR: #000000; BACKGROUND-COLOR: #CCCCCC;
+	TEXT-DECORATION: none; padding-top:3px;padding-right:6px;padding-bottom:1px;padding-left:6px
+}
+A.graybutton:hover
+{
+	BORDER-RIGHT: #333333 2px solid; BORDER-TOP: #999999 1px solid; BORDER-LEFT: #999999 1px solid; BORDER-BOTTOM: #333333 2px solid; COLOR: #111111; BACKGROUND-COLOR: #CCCCCC;
+	TEXT-DECORATION: none; padding-top:3px;padding-right:6px;padding-bottom:1px;padding-left:6px
+}
+A.bluebutton:link 
+{
+	BORDER-RIGHT: #002200 1px solid; BORDER-TOP: #a6c1df 1px solid; BORDER-LEFT: #a6c1df 1px solid; BORDER-BOTTOM: #002200 1px solid; COLOR: #000000; BACKGROUND-COLOR: #94aece; 
+	TEXT-DECORATION: none; padding-top:3px;padding-right:6px;padding-bottom:1px;padding-left:6px
+}
+A.bluebutton:visited
+{
+	BORDER-RIGHT: #002200 1px solid; BORDER-TOP: #a6c1df 1px solid; BORDER-LEFT: #a6c1df 1px solid; BORDER-BOTTOM: #002200 1px solid; COLOR: #000000; BACKGROUND-COLOR: #94aece; 
+	TEXT-DECORATION: none; padding-top:3px;padding-right:6px;padding-bottom:1px;padding-left:6px
+}
+A.bluebutton:hover
+{
+	BORDER-RIGHT: #002200 2px solid; BORDER-TOP: #a6c1df 1px solid; BORDER-LEFT: #a6c1df 1px solid; BORDER-BOTTOM: #002200 2px solid; COLOR: #000000; BACKGROUND-COLOR: #94aece;
+	TEXT-DECORATION: none; padding-top:3px;padding-right:6px;padding-bottom:1px;padding-left:6px
+}
+A.imagebutton:link {
+	BORDER-TOP: #999999 1px solid; BORDER-RIGHT: #666666 1px solid; BORDER-BOTTOM: #666666 5px solid; BORDER-LEFT: #999999 1px solid;
+	PADDING-TOP: 0px; PADDING-RIGHT: 5px; PADDING-BOTTOM: 1px; PADDING-LEFT: 1px; TEXT-DECORATION: none; 
+	FONT-SIZE: 11px; COLOR: #666666; CURSOR: hand;  background-image:url(../Images/System/WhiteBlue.jpg);
+}
+A.imagebutton:visited {
+	BORDER-TOP: #999999 1px solid; BORDER-RIGHT: #666666 1px solid; BORDER-BOTTOM: #666666 1px solid; BORDER-LEFT: #999999 1px solid;
+	PADDING-TOP: 0px; PADDING-RIGHT: 5px; PADDING-BOTTOM: 1px; PADDING-LEFT: 5px; TEXT-DECORATION: none; 
+	FONT-SIZE: 11px; COLOR: #666666; CURSOR: hand;  background-image:url(../Images/System/WhiteBlue.jpg);
+}
+A.imagebutton:hover
+{
+	BORDER-TOP: #999999 1px solid; BORDER-RIGHT: #777777 2px solid; BORDER-BOTTOM: #777777 2px solid; BORDER-LEFT: #999999 1px solid;
+	PADDING-TOP: 0px; PADDING-RIGHT: 5px; PADDING-BOTTOM: 1px; PADDING-LEFT: 5px; TEXT-DECORATION: none;
+	FONT-SIZE: 11px; COLOR: black; CURSOR: hand;  background-image:url(../Images/System/WhiteBlue.jpg);
+}
+A.GrayTextUnder:link 
+{
+	Font-Size:15pt;
+	Width:100%;
+	Color:Black;
+	Line-Height:150%;
+	Font-Family:impact;
+	TEXT-DECORATION: none;
+	filter:DropShadow(Color=WhiteSmoke,Offx=-1,Offy=-1,Positive=1);
+}
+A.GrayTextUnder:visited 
+{
+	Font-Size:15pt;
+	Width:100%;
+	Color:Black;
+	Line-Height:150%;
+	Font-Family:impact;
+	TEXT-DECORATION: none;
+	filter:DropShadow(Color=WhiteSmoke,Offx=-1,Offy=-1,Positive=1);
+}
+A.GrayTextUnder:hover
+{
+	Font-Size:15pt;
+	Width:100%;
+	Color:WhiteSmoke;
+	Line-Height:150%;
+	Font-Family:impact;
+	TEXT-DECORATION: none;
+	filter:DropShadow(Color=Black,Offx=-1,Offy=-1,Positive=1);
+}
+
+.WindowsBackground
+{
+	FONT-SIZE: 11px;
+	FONT-FAMILY: Arial; 
+	padding:10px;
+	margin:0px;
+	scrollbar-face-color: #DEE3E7;
+	scrollbar-highlight-color: #FFFFFF;
+	scrollbar-shadow-color: #DEE3E7;
+	scrollbar-:3dlight-color: #D1D7DC;
+	scrollbar-arrow-color:  #006699;
+	scrollbar-track-color: #EFEFEF;
+	scrollbar-darkshadow-color: #EFEFEF;
+	overflow:auto;	
+	background-color:GhostWhite;
+}
+/*===========================================================*/
+/*                    View Widows CSS                        */
+.ViewWinBodyBackground
+{
+	background:GhostWhite;		/*GhostWhite;  Ivory*/
+}
+
+Table.ViewWinTableEdge
+{
+	width:95%;
+	height:94%;
+	background:White;
+	border:1px solid LightGrey;
+}
+
+Table.ViewWinTable
+{
+	border:1px solid Gray;
+	background-color:White;
+	border-collapse:collapse;
+	
+}
+
+TD.ViewWinTitleTD
+{
+	font-size: 11px;
+	font-family: Arial;
+	font-weight:normal;
+	color:#333333;
+	background-color:#F0FFFF;  /* aliceblue; #F4F8FC #F6F6F6*/
+	text-align:right ;
+	border-style:solid;
+	border-width:1px;
+}
+
+TD.ViewWinValueTD
+{
+	font-size: 11px;
+	font-family: Arial;
+	font-weight:normal;
+	color:Black ;
+	background-color:White;
+	text-align:left;
+	border-style:solid;
+	border-width:1px;
+}
+
+TD.ViewTableHeader
+{
+	font-weight:normal;
+	color:Black;
+	background-color:#F0FFFF;      /*#CEE3FE; #425d8c;*/
+	text-align:center ;
+	FONT-SIZE: 11px;
+	border-bottom:solid 1px #999999;
+}
+
+TD.ViewTitleText
+{	
+	font-size: 14px;
+	font-family: Arial;
+	font-weight:bold ;
+	color: Black;
+	height:30px;
+	text-align:center ;
+}
+
+TR.ViewTableRow
+{
+	background-color:White;/*#e8f4ff;*/
+	text-align:left;
+	FONT-SIZE: 11px;
+	height:23px;
+}
+
+TR.ViewTableAlterRow
+{
+	background-color:White;/*#e8f4ff;*/
+	text-align:left;
+	FONT-SIZE: 11px;
+	height:23px;
+}
+
+/*===========================================================*/
+/*               Ref Windows CSS                             */
+
+Table.RefHeadSearch
+{
+	 text-align:center ;
+	 background-color:Gainsboro;
+	 FONT-SIZE: 11px;
+	 border:10px;
+}
+
+Table.RefHeadArea
+{
+	 text-align:center ;
+	 background-color:White;
+	 MARGIN-TOP:0px;
+	 MARGIN-Left:0px;
+	 MARGIN-Right:0px;
+	 MARGIN-Bottom:2px;
+	 FONT-SIZE: 11px;
+}
+
+Table.RefTable
+{
+	background:White;
+	border:1px solid #999999; /*Silver*/
+	color:Black;           /* DimGray;*/
+}
+
+TR.RefTableHeader
+{
+	font-weight:normal;
+	color:Black;
+	background-color:#F0FFFF;
+	text-align:center ;
+	FONT-SIZE: 11px;
+	border-bottom:soild 1px black;
+}
+
+TR.RefTableRow
+{
+	background-color:White;
+	text-align:left ;
+	FONT-SIZE: 11px;
+	height:23px;
+}
+
+/*===========================================================*/
+/*     List Control CSS                                       */
+
+Table.TitleArea
+{
+	 border:solid 0px #425d8c;
+	 border-collapse:collapse ;
+	 /* background-color:White;  */
+}
+
+TD.TitleText1
+{	
+	font-size: 16px;
+	font-family: Arial;
+	font-weight:bold ;
+	color: Black;
+	height:30px;
+	text-align:center ;
+}
+
+Table.TableGlobalOne
+{
+	FONT-SIZE: 11px;
+	padding: 1 1 1 1;
+	color:Black;
+	border-width:1px;
+	border-color:#999999;   /* LightCyan; */
+	background-color: White; /* aliceblue;DimGray */
+}
+
+TR.TableHeader
+{
+	font-weight:normal;
+	color:Black;
+	/* background-image:url(../images/Office2003/toolbar_top_background3.gif); */
+	background-color:LightBlue;
+	text-align:center ;
+	FONT-SIZE: 11px;
+	height:26px;
+}
+
+TD.TableHeaderTD
+{
+	font-weight:normal;
+	color:Black;
+	/* background-image:url(../images/Office2003/toolbar_top_background3.gif); */
+	background-color:LightBlue;
+	/* filter:progid:DXImageTransform.Microsoft.Gradient(startColorStr='#AFC6F5', endColorStr='#FFFFFF', gradientType='0');  */
+	text-align:center ;
+	FONT-SIZE: 11px;
+	height:26px;
+	border-bottom:solid 1px #999999;
+}
+
+TR.TableRow
+{
+	background-color:White;/*#e8f4ff*/
+	text-align:left ;
+	FONT-SIZE: 11px;
+	height:23px;
+}
+
+TR.TableAlterRow
+{
+	background-color:Azure;/*#e8f4ff;*/
+	text-align:left;
+	FONT-SIZE: 11px;
+	height:23px;
+}
+
+/*===========================================================*/
+/*     Child Table CSS                                       */
+
+Table.ChildTable
+{
+	FONT-SIZE:11px;
+	padding: 1 1 1 1;
+	color:Black;
+	border-width:1px;
+	border-color:#999999;
+	background-color: White; /* aliceblue;DimGray */
+	border-collapse: collapse;
+}
+
+TD.ChildTableBgColor
+{
+	background-color: White;  /* 影响表格线的颜色,底色为白色,表格线会显示成灰色*/
+}
+
+TD.ChildTableHeader          /* 定义绑定列 */
+{
+	font-weight:normal;
+	color:Black;
+	background-color:LIghtBlue; 
+	text-align:center ;
+	FONT-SIZE: 11px;
+	height:20px;
+	border-bottom:solid 1px #999999; 
+}
+
+.ChildRequiredTitle				 /* 定义必输列 */
+{
+	font-size: 11px;
+	font-family: Arial;
+	word-break:break-word;
+	font-weight:bold ;
+	background-color:LIghtBlue;
+	color:Black;
+	border-bottom:solid 1px #999999;
+}
+
+.ChildNormalTitle				 /* 定义非必输列 */
+{
+	font-size: 11px;
+	font-family: Arial;
+	word-break:break-word;
+	font-weight:Normal ;
+	text-align:center;
+	background-color:LIghtBlue;
+	color:Black;
+	border-bottom:solid 1px #999999;
+}
+
+TR.ChildTableRow
+{
+	background-color:#F0FFFF;
+	text-align:left ;
+	FONT-SIZE: 11px;
+	height:23px;
+}
+
+TR.ChildTableAlterRow
+{
+	background-color:#F0FFFF;
+	text-align:left;
+	FONT-SIZE: 11px;
+	height:23px;
+}
+
+TR.ChildSelectRow
+{
+	background-color:Lemonchiffon;
+	text-align:left;
+	FONT-SIZE: 11px;
+	height:23px;
+}
+
+
+/*===========================================================*/
+
+
+Table.SearchTableArea
+{
+	 text-align:center ;
+	 FONT-SIZE: 11px;
+	 background-color:"Ivory";
+	 border:solid 1px #999999;
+	 MARGIN:0px;
+}
+
+TR.AttachTableHeader
+{
+	font-weight:normal;
+	color:Black;
+	background-color:#D6EEEE;    /*#CEE3FE;*/
+	text-align:Left ;
+	FONT-SIZE: 11px;
+	height:23px;
+
+}
+
+TD.TitleText2
+{	
+	font-size: 11px;
+	font-family: Arial;
+	font-weight:bold ;
+	color:darkblue ;
+	height:30px;
+	background-color:aliceblue;
+	border-bottom: solid 2px #425d8c;
+	text-align:center ;
+}
+TD.SRState1
+{
+	font-size: 11px;
+	font-family: Arial;
+	color:darkblue ;
+	height:30px;
+	text-align:center ;
+}
+TD.SRState8
+{
+	font-size: 11px;
+	font-family: Arial;
+	color:red ;
+	height:30px;
+	text-align:center ;
+}
+	
+
+
+Table.FooterArea
+{
+	 text-align:center ;
+	 background-color:"#e7e7e7";
+	 FONT-SIZE: 11px;
+}
+
+Table.TableWithBorder
+{
+ 	 border:solid 1px #425d8c;
+	 border-collapse:collapse ;
+	 background-color:white;
+}
+
+Table.TableGlobalTwo11
+{
+	FONT-SIZE: 11px;
+	padding: 1 1 1 1;
+	color:Black;
+	border-width:1px;
+	border-color:#999999;   /* LightCyan; */
+	background-color: White; /* aliceblue;DimGray */
+}
+
+Table.TableGlobaLight
+{
+	FONT-SIZE: 11px;
+	border-width:1px;
+	border-color:#94aece;
+	border-style:solid  ;
+	background-color:"white";
+	padding:2 2 2 2;
+}
+
+
+TR.TableHeaderLight
+{
+	font-weight: normal;
+	font-size: 11px;
+	color: black;
+	background-color: LightYellow;
+	text-align: center;
+}
+
+TR.TableSearchConditionRow
+{
+	background-color: Ivory;
+	text-align:left ;
+	FONT-SIZE: 11px;
+}
+
+
+TR.TitleArea
+{
+	 border:solid 1px #425d8c;
+	 border-collapse:collapse ;
+	 background-color:White;
+}
+
+TR.TableSelectRow
+{
+	background-color:LightYellow;/*#76aef0;#ffffcc*/
+	color:Red;
+	font-weight:normal ;
+	text-align:center ;
+	FONT-SIZE: 11px;
+	height:35px;
+}
+
+Table.TopLineTable
+{
+	  color:"#003399" ;
+	  background-color:white;
+	  border-top-color:#167cac;
+	  border-top-style:solid ;
+	  border-top-width:1px;
+}
+
+Table.BottomLineTable
+{
+	border-bottom:solid 1px #425d8c;
+	border-left:none 0px ;
+	border-right:none 0px;
+	border-top :none 0px;
+	color:darkblue;
+}
+
+Table.NoBorder
+{
+	border-bottom:none 0px;
+	border-left:none 0px ;
+	border-right:none 0px;
+	border-top :none 0px;
+}
+
+
+TR.OneSelfObject
+{
+	background-color:#ffffcc;  /*#76aef0;*/
+}
+
+TR.ListTableHeader
+{
+	background-color:SteelBlue;
+}
+
+TR.ListTableRow1
+{
+	background-color:LightBlue;
+}
+
+TR.ListTableRow2
+{
+	background-color:PowderBlue;
+}
+
+.FormRequiredTitle
+{
+	font-size: 11px;
+	font-family: Arial;
+	word-break:break-word;
+	font-weight:bold ;
+	color:Black; /* DimGray  */
+}
+
+.FormNormalTitle
+{
+	font-size: 11px;
+	font-family: Arial;
+	word-break:break-word;
+	font-weight:Normal ;
+	text-align:right;
+	color:Black;    /* DimGray  */
+}
+
+
+TD.UnderLine
+{
+	border-top: thin;
+	border-bottom: black thin solid;
+	border-right-style: none;
+	border-left-style: none;
+	border-width:1px;
+}
+
+TD.StatusLine
+{
+	border:solid 1px LightGray;
+	height:30px;
+	color:black;
+	background-color:#F9FFFF;   /* #F4F8FC  */
+}
+/*===========================================================*/
+/*                  INPUT CSS                                */
+
+INPUT.NormalTextBox
+{
+	font-size: 11px;
+	border-width:1px;
+	font-family: Arial;
+	color:Black ;
+	border-color:black;
+	border-style:solid ;
+
+}
+
+INPUT.ReadOnlyTextBox
+{
+	border-right: 1px;
+	border-top: 1px;
+	font-size: 11px;
+	border-left: 1px;
+	color: black;
+	border-bottom: 1px;
+	font-family: Arial;
+}
+
+INPUT.SingleLineTextBox1
+{ 
+	font-size: 11px;	
+	font-family: Arial;
+	border:none 1px black;
+	border-bottom:solid 1px DimGray;
+}
+
+INPUT.SingleLineTextBox
+{ 
+	font-size: 11px;
+	border-width:1px;
+	font-family: Arial;
+	color:Black ;
+	border-color:Gray;
+	border-style:solid ;
+}
+
+INPUT.NoBorderTextBox
+{ 
+	font-size: 11px;	
+	font-family: Arial;
+	border:none 1px black;
+}
+
+INPUT.ColorTextBox
+{
+	  FONT-SIZE: 11px;
+	  border-color:#425d8c;
+	  font-family: Arial;
+	  border-style:solid ;
+	  background-color:aliceblue;
+}
+
+INPUT.AddButton
+{  
+	  BORDER-RIGHT: #002200 1px solid; 
+	  BORDER-TOP: #a6c1df 1px solid; 
+	  BORDER-LEFT: #a6c1df 1px solid; 
+	  BORDER-BOTTOM: #002200 1px solid; 
+	  COLOR: #000000; 
+	  BACKGROUND-COLOR: #94aece; 
+	  TEXT-DECORATION: none; padding-top:3px;padding-right:6px;padding-bottom:1px;padding-left:6px
+}
+
+INPUT.GrayButton {
+	BORDER-TOP: #999999 1px solid; 
+	BORDER-RIGHT: #666666 1px solid; 
+	BORDER-BOTTOM: #666666 1px solid; 
+	BORDER-LEFT: #999999 1px solid;
+	PADDING: 1px; 
+	TEXT-DECORATION: none; 
+	FONT-SIZE: 11px; 
+	COLOR: #333333; 
+	CURSOR: hand;  
+	background-image:url(../Images/System/WhiteBlue.jpg);
+}
+
+Select.DDLRefenerce
+{
+	margin-top:-1px;
+	margin-bottom:-1px;
+	margin-left:0px;
+	margin-right:-1px;
+
+}
+Div.SelectDDLRefenerce
+{
+	border:1px solid red;
+	position: relative;
+	top:0px;
+	left:0px; 
+	height:20px;
+	width:100%;
+}
+/*===========================================================*/
+Select.SearchCompareSign
+{
+	color:Black;
+	background-color:#F7FFFF;   /*Ivory;  Azure */
+
+}
+
+TextArea.NormalTextBox
+{
+	font-size: 11px;
+	border-width:1px;
+	font-family: Arial;
+	color:Black ;
+	border-color:DimGray;
+	border-style:solid ;
+}
+
+
+IMAGE.imgSort
+{
+	border :NONE;	
+}
+
+.ValidDaysTextBox
+{ 
+	font-size: 11px;	
+	font-family: Arial;
+	font-size:16px;
+	border:none 1px black;
+	border-bottom:solid 1px black;
+	Color:Red;
+	font-weight:bolder;
+	background-color:#EFF0EB;
+		
+}
+
+SELECT.UnderLineSelectBox
+{ 
+	font-size: 11px;	
+	font-family: Arial;
+	border:none 1px black;
+	border-bottom:solid 1px black;
+	
+}
+
+.ImageBorder
+{
+	BORDER-RIGHT:LightSteelBlue 0px solid; 
+	BORDER-TOP:#728FA1 0px solid; 
+	BORDER-LEFT:#728FA1 0px solid; 
+	BORDER-BOTTOM:LightSteelBlue 0px solid;
+}
+.framebackgroundimage
+{
+	background-image:url(../images/Office2003/toolbar_top_background3.gif); 
+}
+
+@media Print
+{
+	.NoPrint
+	{
+	display: none;
+	}
+	input
+	{
+	display:none ;
+	}
+}
+
+.mypager
+{
+	background-color:none;
+}
+
+.FramesetBorderColor
+{
+
+	bordercolor:#58B5D5;
+
+}
+.LeftBar_Body
+{
+	background-color:#53A1CA;
+	PADDING-RIGHT:0px;
+	PADDING-LEFT:0px;
+	PADDING-BOTTOM:0px;
+	MARGIN:0px;
+	OVERFLOW:hidden;
+	PADDING-TOP:0px;
+}
+
+.Tree_Body
+{
+	MARGIN: 0px;
+	background-color:#F4F8FC;
+}
+
+.Tree_Topline
+{
+	background-color:#53A1CA;
+	BORDER-RIGHT: #58B5D5 0px solid; 
+	BORDER-TOP: #5EB2DE 1px solid; 
+	BORDER-LEFT: #EEEEEE 0px solid; 
+	BORDER-BOTTOM: #666666 0px solid;
+	/* background-image:url(../images/Office2003/toolbar_top_background1.gif); */
+}
+
+.Desktop_Topline
+{
+	background-color:#53A1CA;  /* #58B5D5 53A1CA */
+	background-image:url(../images/Office2003/toolbar_top_background1.gif);
+}
+
+.Tree_Area
+{
+	background-color:AliceBlue;
+	BORDER-RIGHT: #58B5D5 0px solid; 
+	BORDER-TOP: #EEEEEE 0px solid; 
+	BORDER-LEFT: #EEEEEE 0px solid; 
+	BORDER-BOTTOM: #666666 0px solid;
+}
+.ContentFrame_Bgcolor
+{
+	background-color:#BFD7F6;
+}

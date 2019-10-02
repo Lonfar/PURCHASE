@@ -1,0 +1,22 @@
+<PUBLIC:COMPONENT>
+<PUBLIC:ATTACH EVENT="onkeydown" ONEVENT="OnKeyDown()" />
+<SCRIPT>
+function OnKeyDown()
+{
+	
+	var keycode=event.keyCode;
+
+	if(keycode==60 || keycode==62)
+	{
+
+		element.value=keycode;
+		event.returnValue=false;	
+	}
+	else
+	{
+		event.returnValue=true;
+	}	
+}
+
+</SCRIPT>
+</PUBLIC:COMPONENT>

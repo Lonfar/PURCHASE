@@ -1,0 +1,1376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Topis" xml:space="preserve">
+    <value>Topis</value>
+    <comment>Topis</comment>
+  </data>
+  <data name="Topis.Account" xml:space="preserve">
+    <value>Accounts</value>
+    <comment>Accounts</comment>
+  </data>
+  <data name="Topis.Account.ChangePassword" xml:space="preserve">
+    <value>Change Password</value>
+    <comment>Change Password</comment>
+  </data>
+  <data name="Topis.Account.OnlineUser" xml:space="preserve">
+    <value>Online Users</value>
+    <comment>Online Users</comment>
+  </data>
+  <data name="Topis.Account.Profile" xml:space="preserve">
+    <value>Profile</value>
+    <comment>Profile</comment>
+  </data>
+  <data name="Topis.Account.SystemLog" xml:space="preserve">
+    <value>Personal Log</value>
+    <comment>Personal Log</comment>
+  </data>
+  <data name="Topis.Configuration" xml:space="preserve">
+    <value>Configuration</value>
+    <comment>Configuration</comment>
+  </data>
+  <data name="Topis.BasicConfig.AFE" xml:space="preserve">
+    <value>AFE</value>
+    <comment>AFE</comment>
+  </data>
+  <data name="Topis.Configuration.AuthoirtyManagement.Authority" xml:space="preserve">
+    <value>Authority</value>
+    <comment>Authority</comment>
+  </data>
+  <data name="Topis.Configuration.BaseTypes" xml:space="preserve">
+    <value>Base Types</value>
+    <comment>Base Types</comment>
+  </data>
+  <data name="Topis.Configuration.Bin" xml:space="preserve">
+    <value>Bin</value>
+    <comment>Bin</comment>
+  </data>
+  <data name="Topis.Configuration.Currency" xml:space="preserve">
+    <value>Currency</value>
+    <comment>Currency</comment>
+  </data>
+  <data name="Topis.Configuration.CurrencyExchangeRate" xml:space="preserve">
+    <value>Exchange Rate</value>
+    <comment>CurrencyExchangeRate</comment>
+  </data>
+  <data name="Topis.Configuration.CurrencyExRateHistory" xml:space="preserve">
+    <value>History Exchange Rate</value>
+    <comment>History Exchange Rate</comment>
+  </data>
+  <data name="Topis.Configuration.UserManagement.Department" xml:space="preserve">
+    <value>Department</value>
+    <comment>Department</comment>
+  </data>
+  <data name="Topis.Configuration.Employee" xml:space="preserve">
+    <value>Employee</value>
+    <comment>Employee</comment>
+  </data>
+  <data name="Topis.Configuration.ModuleAuthority" xml:space="preserve">
+    <value>Authorities Of Module</value>
+    <comment>Authorities of Module</comment>
+  </data>
+  <data name="Topis.Configuration.BasicInfo.Project" xml:space="preserve">
+    <value>Project</value>
+    <comment>Project</comment>
+  </data>
+  <data name="Topis.Configuration.AuthoirtyManagement.Role" xml:space="preserve">
+    <value>Role</value>
+    <comment>Role</comment>
+  </data>
+  <data name="Topis.Configuration.SubProject" xml:space="preserve">
+    <value>Sub-Project</value>
+    <comment>SubProject</comment>
+  </data>
+  <data name="Topis.Configuration.SystemLog" xml:space="preserve">
+    <value>System Log</value>
+    <comment>SystemLog</comment>
+  </data>
+  <data name="Topis.Configuration.UOM" xml:space="preserve">
+    <value>WH UOM</value>
+    <comment>WHUOM</comment>
+  </data>
+  <data name="Topis.Configuration.UserManagement.UpdateUserPasswd" xml:space="preserve">
+    <value>Change Password</value>
+    <comment>UpdateUserPasswd</comment>
+  </data>
+  <data name="Topis.Configuration.UserManagement.User" xml:space="preserve">
+    <value>User</value>
+    <comment>User</comment>
+  </data>
+  <data name="Topis.Configuration.Warehouse" xml:space="preserve">
+    <value>Warehouse</value>
+    <comment>Warehouse</comment>
+  </data>
+  <data name="Topis.Default" xml:space="preserve">
+    <value>Default</value>
+    <comment>Default</comment>
+  </data>
+  <data name="Topis.Desktop" xml:space="preserve">
+    <value>Desktop</value>
+    <comment>Desktop</comment>
+  </data>
+  <data name="Topis.Head" xml:space="preserve">
+    <value>Head</value>
+    <comment>Head</comment>
+  </data>
+  <data name="Topis.Initialization" xml:space="preserve">
+    <value>System Init</value>
+    <comment>System Init</comment>
+  </data>
+  <data name="Topis.Configuration.SystemInit" xml:space="preserve">
+    <value>System Init</value>
+    <comment>System init</comment>
+  </data>
+  <data name="Topis.Configuration.SystemInit.SystemInit" xml:space="preserve">
+    <value>System Init</value>
+    <comment>System init</comment>
+  </data>
+  <data name="Topis.Configuration.SystemInit.ViewInitStatus" xml:space="preserve">
+    <value>Init Status</value>
+    <comment>View Init Status</comment>
+  </data>
+  <data name="Topis.Inventory" xml:space="preserve">
+    <value>Inventory</value>
+    <comment>Inventory</comment>
+  </data>
+  <data name="Topis.Inventory.InStoreMaterialMaxMin" xml:space="preserve">
+    <value>In-Store Material Max/Min Quantity</value>
+    <comment>InStoreMaterialMaxMin</comment>
+  </data>
+  <data name="Topis.Inventory.InStoreMaterial" xml:space="preserve">
+    <value>In-Store Material</value>
+    <comment>InStoreMaterial</comment>
+  </data>
+  <data name="Topis.Inventory.HistoryInStoreMaterial" xml:space="preserve">
+    <value>History In-Store Material</value>
+    <comment>HistoryInStoreMaterial</comment>
+  </data>
+  <data name="Topis.Inventory.ThroughToDepartment" xml:space="preserve">
+    <value>Through To Department</value>
+    <comment>ThroughToDepartment</comment>
+  </data>
+  <data name="Topis.Inventory.Adjust.InStoreMaterialAdjust" xml:space="preserve">
+    <value>In-Store Material Adjust</value>
+    <comment>InStoreMaterialAdjust</comment>
+  </data>
+  <data name="Topis.Report.Inventory.ThroughToDepartmentMaterial" xml:space="preserve">
+    <value>Material Through To Department</value>
+    <comment>ThroughToDepartmentMaterial</comment>
+  </data>
+  <data name="Topis.Inventory.Receive" xml:space="preserve">
+    <value>Receive</value>
+    <comment>Receive</comment>
+  </data>
+  <data name="Topis.Inventory.WHPurchaseOrder" xml:space="preserve">
+    <value>WH Purchase Order</value>
+    <comment>WHPurchaseOrder</comment>
+  </data>
+  <data name="Topis.Inventory.Reserve" xml:space="preserve">
+    <value>Reserve</value>
+    <comment>Reserve</comment>
+  </data>
+  <data name="Topis.Inventory.Issue" xml:space="preserve">
+    <value>Issue</value>
+    <comment>Issue</comment>
+  </data>
+  <data name="Topis.Inventory.Transfer.TransferBin2Bin" xml:space="preserve">
+    <value>Transfer(Bin to Bin)</value>
+    <comment>TransferBin2Bin</comment>
+  </data>
+  <data name="Topis.Inventory.Transfer.TransferWH2WH" xml:space="preserve">
+    <value>Transfer(WH to WH)</value>
+    <comment>TransferBin2Bin</comment>
+  </data>
+  <data name="Topis.Inventory.Transfer.TransferDep2Dep" xml:space="preserve">
+    <value>Transfer(Dep to Dep)</value>
+    <comment>TransferDep2Dep</comment>
+  </data>
+  <data name="Topis.Inventory.Return" xml:space="preserve">
+    <value>Return</value>
+    <comment>Return</comment>
+  </data>
+  <data name="Topis.Inventory.Adjust.AdjustIn" xml:space="preserve">
+    <value>Adjust In</value>
+    <comment>AdjustIn</comment>
+  </data>
+  <data name="Topis.Inventory.Adjust.AdjustOut" xml:space="preserve">
+    <value>Adjust Out</value>
+    <comment>AdjustOut</comment>
+  </data>
+  <data name="Topis.Logout" xml:space="preserve">
+    <value>Logout</value>
+    <comment>Logout</comment>
+  </data>
+  <data name="Topis.Material" xml:space="preserve">
+    <value>Material</value>
+    <comment>Material</comment>
+  </data>
+  <data name="Topis.Material.Material" xml:space="preserve">
+    <value>Material</value>
+    <comment>Material</comment>
+  </data>
+  <data name="Topis.Material.MaterialVendor" xml:space="preserve">
+    <value>Material Vendor</value>
+    <comment>MaterialVendor</comment>
+  </data>
+  <data name="Topis.Material.PurchaseHistory" xml:space="preserve">
+    <value>Purchase History</value>
+    <comment>PurchaseHistory</comment>
+  </data>
+  <data name="Topis.Material.InventoryHistory" xml:space="preserve">
+    <value>Inventory History</value>
+    <comment>InventoryHistory</comment>
+  </data>
+  <data name="Topis.Purchase" xml:space="preserve">
+    <value>Purchase</value>
+    <comment>Purchase</comment>
+  </data>
+  <data name="Topis.Purchase.MaterialRequest" xml:space="preserve">
+    <value>Material Request</value>
+    <comment>MaterialRequest</comment>
+  </data>
+  <data name="Topis.Purchase.Enquiry" xml:space="preserve">
+    <value>Enquiry</value>
+    <comment>Enquiry</comment>
+  </data>
+  <data name="Topis.Purchase.Quotation" xml:space="preserve">
+    <value>Quotation</value>
+    <comment>Quotation</comment>
+  </data>
+  <data name="Topis.Purchase.BidEvaluation" xml:space="preserve">
+    <value>Bid Evaluation</value>
+    <comment>BidEvaluation</comment>
+  </data>
+  <data name="Topis.Purchase.PurchaseOrder" xml:space="preserve">
+    <value>Purchase Order</value>
+    <comment>PurchaseOrder</comment>
+  </data>
+  <data name="Topis.Purchase.SDT" xml:space="preserve">
+    <value>SDT</value>
+    <comment>SDT</comment>
+  </data>
+  <data name="Topis.Purchase.WorkOrder" xml:space="preserve">
+    <value>Work Order</value>
+    <comment>WorkOrder</comment>
+  </data>
+  <data name="Topis.Purchase.InlandShipping" xml:space="preserve">
+    <value>Inland Shipping</value>
+    <comment>Inland Shipping</comment>
+  </data>
+  <data name="Topis.Purchase.PaymentRequirement" xml:space="preserve">
+    <value>Payment Requirement</value>
+    <comment>Payment Requirement</comment>
+  </data>
+  <data name="Topis.SystemLogin" xml:space="preserve">
+    <value>System Login</value>
+    <comment>SystemLogin</comment>
+  </data>
+  <data name="Topis.Vendor" xml:space="preserve">
+    <value>Vendor</value>
+    <comment>Vendor</comment>
+  </data>
+  <data name="Topis.Vendor.Vendor" xml:space="preserve">
+    <value>Vendor</value>
+    <comment>Vendor</comment>
+  </data>
+  <data name="Topis.Vendor.BusinessHistory" xml:space="preserve">
+    <value>Business History</value>
+    <comment>BusinessHistory</comment>
+  </data>
+  <data name="Topis.Contract" xml:space="preserve">
+    <value>Contract</value>
+    <comment>Contract</comment>
+  </data>
+  <data name="Topis.Help" xml:space="preserve">
+    <value>Help</value>
+    <comment>Help</comment>
+  </data>
+  <data name="Topis.Report" xml:space="preserve">
+    <value>Report</value>
+    <comment>Report</comment>
+  </data>
+  <data name="Topis.Report.Purchase" xml:space="preserve">
+    <value>Purchase Report</value>
+    <comment>Purchase</comment>
+  </data>
+  <data name="Topis.Report.Purchase.PurchaseOrderByVendor" xml:space="preserve">
+    <value>Purchase Order(by Vendor)</value>
+  </data>
+  <data name="Topis.Report.Purchase.PurchaseOrderByMaterial" xml:space="preserve">
+    <value>Purchase Order(by Material)</value>
+  </data>
+  <data name="Topis.Report.Purchase.PurchaseOrderByBuyer" xml:space="preserve">
+    <value>Purchase Order(by Buyer)</value>
+  </data>
+  <data name="Topis.Report.Inventory" xml:space="preserve">
+    <value>Inventory Report</value>
+    <comment>Inventory</comment>
+  </data>
+  <data name="Topis.Report.Inventory.InStockSummary" xml:space="preserve">
+    <value>In-Store Summary</value>
+    <comment>InStock Summary</comment>
+  </data>
+  <data name="Topis.Report.Inventory.InStockDetails" xml:space="preserve">
+    <value>In-Store Details</value>
+    <comment>InStock Details</comment>
+  </data>
+  <data name="Topis.Report.Inventory.ReturnMaterial" xml:space="preserve">
+    <value>Material Return</value>
+  </data>
+  <data name="Topis.Report.Contract" xml:space="preserve">
+    <value>Contract Report</value>
+    <comment>Contract</comment>
+  </data>
+  <data name="Topis.Report.Crossed" xml:space="preserve">
+    <value>Crossed Report</value>
+    <comment>Crossed</comment>
+  </data>
+  <data name="Topis.Report.Others" xml:space="preserve">
+    <value>Other Report</value>
+    <comment>Others</comment>
+  </data>
+  <data name="Topis.Report.Others.SystemLog" xml:space="preserve">
+    <value>System Log</value>
+    <comment>SystemLog</comment>
+  </data>
+  <data name="Topis.Report.Purchase.MRByBuyer" xml:space="preserve">
+    <value>Material Request Report(By Buyer)</value>
+  </data>
+  <data name="Topis.Report.Purchase.EnquiryByEnquiryEmployee" xml:space="preserve">
+    <value>Enquiry (By Buyer)</value>
+  </data>
+  <data name="Topis.Report.Purchase.QuotationByVendor" xml:space="preserve">
+    <value>Quotation By Vendor</value>
+  </data>
+  <data name="Topis.Report.Purchase.QuotationByMaterial" xml:space="preserve">
+    <value>Quotation By Material</value>
+  </data>
+  <data name="Topis.Report.Inventory.ReceiveMaterial" xml:space="preserve">
+    <value>Material Receive</value>
+    <comment>ReceiveMaterial</comment>
+  </data>
+  <data name="Topis.Report.Inventory.IssueMaterial" xml:space="preserve">
+    <value>Material Issue</value>
+    <comment>IssueMaterial</comment>
+  </data>
+  <data name="Topis.Report.Inventory.TransferBin2BinMaterial" xml:space="preserve">
+    <value>Material Transfer Bin2Bin</value>
+    <comment>TransferBin2BinMaterial</comment>
+  </data>
+  <data name="Topis.Report.Inventory.TransferWH2WHMaterial" xml:space="preserve">
+    <value>Material Transfer WH2WH</value>
+    <comment>TransferWH2WHMaterial</comment>
+  </data>
+  <data name="Topis.Report.Inventory.TransferDep2DepMaterial" xml:space="preserve">
+    <value>Material Transfer Dep2Dep</value>
+    <comment>TransferDep2DepMaterial</comment>
+  </data>
+  <data name="Topis.Report.Inventory.ReserveMaterial" xml:space="preserve">
+    <value>Material Reserve</value>
+    <comment>ReserveMaterial</comment>
+  </data>
+  <data name="Topis.Report.Inventory.AdjustInMaterial" xml:space="preserve">
+    <value>Material AdjustIn</value>
+    <comment>AdjustInMaterial</comment>
+  </data>
+  <data name="Topis.Report.Inventory.AdjustOutMaterial" xml:space="preserve">
+    <value>Material AdjustOut</value>
+    <comment>AdjustOutMaterial</comment>
+  </data>
+  <data name="Topis.Report.Inventory.WHPurchaseOrderMaterial" xml:space="preserve">
+    <value>Material WH Purchase Order</value>
+    <comment>WHPurchaseOrderMaterial</comment>
+  </data>
+  <data name="Topis.Report.Inventory.InventoryMaterial" xml:space="preserve">
+    <value>Material Inventory</value>
+    <comment>InventoryMaterial</comment>
+  </data>
+  <data name="Topis.Management" xml:space="preserve">
+    <value>Manegment</value>
+    <comment>Manegment</comment>
+  </data>
+  <data name="Topis.Management.Policy.Sort" xml:space="preserve">
+    <value>Sort</value>
+    <comment>Sort</comment>
+  </data>
+  <data name="Topis.Contract.SR" xml:space="preserve">
+    <value>SR</value>
+    <comment>SR/MR</comment>
+  </data>
+  <data name="Topis.Inventory.Transfer" xml:space="preserve">
+    <value>Transfer</value>
+    <comment>Transfer</comment>
+  </data>
+  <data name="Topis.Inventory.Adjust" xml:space="preserve">
+    <value>Adjust</value>
+    <comment>Adjust</comment>
+  </data>
+  <data name="Topis.Report.Purchase.MRTracking" xml:space="preserve">
+    <value>MR Tracking</value>
+    <comment>MRTracking</comment>
+  </data>
+  <data name="Topis.Report.Purchase.MRWarning" xml:space="preserve">
+    <value>MR Warning</value>
+    <comment>MRWarning</comment>
+  </data>
+  <data name="Topis.Report.Purchase.POTracking" xml:space="preserve">
+    <value>PO Tracking</value>
+    <comment>POTracking</comment>
+  </data>
+  <data name="Topis.Report.Purchase.POWarning" xml:space="preserve">
+    <value>PO Warning</value>
+    <comment>POWarning</comment>
+  </data>
+  <data name="Topis.Contract.ContractStrategy" xml:space="preserve">
+    <value>Contract Strategy</value>
+    <comment>ContractStrategy</comment>
+  </data>
+  <data name="Topis.Contract.TCMeetting" xml:space="preserve">
+    <value>TC Agenda</value>
+    <comment>TC Meetting</comment>
+  </data>
+  <data name="Topis.Contract.ITB" xml:space="preserve">
+    <value>ITB</value>
+    <comment>ITB</comment>
+  </data>
+  <data name="Topis.Contract.BIDOpenAndEval" xml:space="preserve">
+    <value>Bid Open And Evaluation</value>
+    <comment>BID Open And Evaluation</comment>
+  </data>
+  <data name="Topis.Contract.BIDOpenAndEval.BIDOpen" xml:space="preserve">
+    <value>Bid Open</value>
+    <comment>BID Open</comment>
+  </data>
+  <data name="Topis.Contract.BIDOpenAndEval.CommReport" xml:space="preserve">
+    <value>Commercial Report</value>
+    <comment>Commercial Report</comment>
+  </data>
+  <data name="Topis.Contract.BIDOpenAndEval.IntegReport" xml:space="preserve">
+    <value>Integerate Report</value>
+    <comment>Integerate Report</comment>
+  </data>
+  <data name="Topis.Contract.BIDOpenAndEval.TechReport" xml:space="preserve">
+    <value>Technical Report</value>
+    <comment>Technical Report</comment>
+  </data>
+  <data name="Topis.Contract.Contract" xml:space="preserve">
+    <value>Contract</value>
+    <comment>Contract</comment>
+  </data>
+  <data name="Topis.Contract.Letter" xml:space="preserve">
+    <value>Letter</value>
+    <comment>Letter</comment>
+  </data>
+  <data name="Topis.Configuration.ContractConfiguration" xml:space="preserve">
+    <value>Contract Configuration</value>
+    <comment>Contract Configuration</comment>
+  </data>
+  <data name="Topis.Configuration.ContractConfiguration.CommGroup" xml:space="preserve">
+    <value>Commercial Evaluation Group</value>
+    <comment>Commerce Evaluation Group</comment>
+  </data>
+  <data name="Topis.Configuration.ContractConfiguration.TechGroup" xml:space="preserve">
+    <value>Technical Evaluation Group</value>
+    <comment>Technique Evaluation Group</comment>
+  </data>
+  <data name="Topis.Configuration.ContractConfiguration.ConfirmerGroup" xml:space="preserve">
+    <value>Confirmer Group</value>
+    <comment>Confirmer Group</comment>
+  </data>
+  <data name="Topis.Configuration.ContractConfiguration.SealConfig" xml:space="preserve">
+    <value>Seal Configuration</value>
+    <comment>Seal Configuration</comment>
+  </data>
+  <data name="Topis.Configuration.ContractConfiguration.TCGroup" xml:space="preserve">
+    <value>Tender Group</value>
+    <comment>TC Group</comment>
+  </data>
+  <data name="Topis.Configuration.ContractConfiguration.ViewerGroup" xml:space="preserve">
+    <value>Viewer Group</value>
+    <comment>Viewer Group</comment>
+  </data>
+  <data name="Topis.Configuration.ContractConfiguration.SRRemark" xml:space="preserve">
+    <value>SR Description</value>
+    <comment>SR Description</comment>
+  </data>
+  <data name="Topis.Contract.TCMeettingMinutes" xml:space="preserve">
+    <value>TC Minutes</value>
+    <comment>TC Minutes</comment>
+  </data>
+  <data name="Topis.Report.Contract_Report" xml:space="preserve">
+    <value>Contract Report</value>
+    <comment>Contract_Report</comment>
+  </data>
+  <data name="Topis.Report.Contract_Report.ReportCancaledContract" xml:space="preserve">
+    <value>Cancel Contract Report</value>
+    <comment>Report Cancaled Contract</comment>
+  </data>
+  <data name="Topis.Report.Contract_Report.ReportContract3" xml:space="preserve">
+    <value>Contract 3 Months Report</value>
+    <comment>ReportContract3</comment>
+  </data>
+  <data name="Topis.Report.Contract_Report.ReportContract6" xml:space="preserve">
+    <value>Contract 6 Months Report</value>
+    <comment>Report Contract 6 Months</comment>
+  </data>
+  <data name="Topis.Report.Contract_Report.ReportCurrentContract" xml:space="preserve">
+    <value>Current Contract Report</value>
+    <comment>ReportCurrentContract</comment>
+  </data>
+  <data name="Topis.Report.Contract_Report.ReportFinishContract" xml:space="preserve">
+    <value>Finish Contract Report</value>
+    <comment>Finish Contract</comment>
+  </data>
+  <data name="Topis.Report.Contract_Report.ReportPandingContract" xml:space="preserve">
+    <value>Panding Contract Report</value>
+    <comment>Panding Contract</comment>
+  </data>
+  <data name="Topis.Report.Delay_Report" xml:space="preserve">
+    <value>Delay Report</value>
+    <comment>Comm BID</comment>
+  </data>
+  <data name="Topis.Report.Delay_Report.ReportCommBID" xml:space="preserve">
+    <value>Commercial Bid Report</value>
+    <comment>Comm BID</comment>
+  </data>
+  <data name="Topis.Report.Delay_Report.ReportCommConfirm" xml:space="preserve">
+    <value>Commercial Confirm Report</value>
+    <comment>Comm Confirm</comment>
+  </data>
+  <data name="Topis.Report.Delay_Report.ReportCommOpen" xml:space="preserve">
+    <value>Commercial Open Report</value>
+    <comment>Commercial Open</comment>
+  </data>
+  <data name="Topis.Report.Delay_Report.ReportContractAward" xml:space="preserve">
+    <value>Contract Award Report</value>
+    <comment>ContractAward</comment>
+  </data>
+  <data name="Topis.Report.Delay_Report.ReportContractModify" xml:space="preserve">
+    <value>Contract Modify Report</value>
+    <comment>ContractModify</comment>
+  </data>
+  <data name="Topis.Report.Delay_Report.ReportContractValid" xml:space="preserve">
+    <value>Contract Valid Report</value>
+    <comment>ContractValid</comment>
+  </data>
+  <data name="Topis.Report.Delay_Report.ReportITBConfirm" xml:space="preserve">
+    <value>ITB Confirm Report</value>
+    <comment>ITB Confirm</comment>
+  </data>
+  <data name="Topis.Report.Delay_Report.ReportITBEdit" xml:space="preserve">
+    <value>ITB Edit Report</value>
+    <comment>ITB Edit</comment>
+  </data>
+  <data name="Topis.Report.Delay_Report.ReportITBFinish" xml:space="preserve">
+    <value>ITB Finish Report</value>
+    <comment>ITB Finish</comment>
+  </data>
+  <data name="Topis.Report.Delay_Report.ReportTC" xml:space="preserve">
+    <value>TC Meetting Report</value>
+    <comment>TC Meetting</comment>
+  </data>
+  <data name="Topis.Report.Delay_Report.ReportTechBID" xml:space="preserve">
+    <value>Technique Bid Report</value>
+    <comment>Technique BID Report</comment>
+  </data>
+  <data name="Topis.Report.Delay_Report.ReportTechConfirm" xml:space="preserve">
+    <value>Technique Confirm Report</value>
+    <comment>Technique Confirm Report</comment>
+  </data>
+  <data name="Topis.Report.Delay_Report.ReportTechOpen" xml:space="preserve">
+    <value>Technique Open Report</value>
+    <comment>Technique Open Report</comment>
+  </data>
+  <data name="Topis.Report.Delay_Report.ReportTenderDocValid" xml:space="preserve">
+    <value>Tender Doc Valid Report</value>
+    <comment>Tender Doc Valid Report</comment>
+  </data>
+  <data name="Topis.Report.SR_Report" xml:space="preserve">
+    <value>SR Report</value>
+    <comment>SR Report</comment>
+  </data>
+  <data name="Topis.Report.SR_Report.ReportCommercialBID" xml:space="preserve">
+    <value>Commercial Bid Report</value>
+    <comment>Commercial BID Report</comment>
+  </data>
+  <data name="Topis.Report.SR_Report.ReportCommercialTC" xml:space="preserve">
+    <value>Commercial TC Report</value>
+    <comment>CommercialTC</comment>
+  </data>
+  <data name="Topis.Report.SR_Report.ReportContractStrategy" xml:space="preserve">
+    <value>Contract Strategy Report</value>
+    <comment>Contract Strategy Report</comment>
+  </data>
+  <data name="Topis.Report.SR_Report.ReportContractStrategyTC" xml:space="preserve">
+    <value>Contract Strategy TC Report</value>
+    <comment>Contract Strategy TC Report</comment>
+  </data>
+  <data name="Topis.Report.SR_Report.ReportForITB" xml:space="preserve">
+    <value>ITB Report</value>
+    <comment>For BID Report</comment>
+  </data>
+  <data name="Topis.Report.SR_Report.ReportITB" xml:space="preserve">
+    <value>ITB Report</value>
+    <comment>ITB Report</comment>
+  </data>
+  <data name="Topis.Report.SR_Report.ReportITBFinished" xml:space="preserve">
+    <value>ITB Finished Report</value>
+    <comment>ITB Finished Report</comment>
+  </data>
+  <data name="Topis.Report.SR_Report.ReportNew" xml:space="preserve">
+    <value>New SR Report</value>
+    <comment>New SR Report</comment>
+  </data>
+  <data name="Topis.Report.SR_Report.ReportServiceRequest" xml:space="preserve">
+    <value>SR Report</value>
+    <comment>SR Report</comment>
+  </data>
+  <data name="Topis.Report.SR_Report.ReportSRConfirmBack" xml:space="preserve">
+    <value>Confirm-Reject SR Report</value>
+    <comment>Confirm Back SR Report</comment>
+  </data>
+  <data name="Topis.Report.SR_Report.ReportSRProcessing" xml:space="preserve">
+    <value>Processing SR Report</value>
+    <comment>Processing SR Report</comment>
+  </data>
+  <data name="Topis.Report.SR_Report.ReportTechBID" xml:space="preserve">
+    <value>Technique Bid Report</value>
+    <comment>Technique BID Report</comment>
+  </data>
+  <data name="Topis.Report.SR_Report.ReportTechTC" xml:space="preserve">
+    <value>Technique TC</value>
+    <comment>Technique TC</comment>
+  </data>
+  <data name="Topis.Contract.AtachmentManagment" xml:space="preserve">
+    <value>Atachment Managment</value>
+    <comment>AtachmentManagment</comment>
+  </data>
+  <data name="Topis.Contract.Award" xml:space="preserve">
+    <value>Award</value>
+    <comment>Award</comment>
+  </data>
+  <data name="Topis.Management.Policy.Management" xml:space="preserve">
+    <value>Policy Management</value>
+    <comment>Policy Management</comment>
+  </data>
+  <data name="Topis.Management.Contract.Category" xml:space="preserve">
+    <value>Contract Category</value>
+    <comment>Contract Category</comment>
+  </data>
+  <data name="Topis.Management.Contract.OrigContract.OrigContract" xml:space="preserve">
+    <value>Original Contract/Tender Management</value>
+    <comment>Original Contract/Tender Management</comment>
+  </data>
+  <data name="Topis.Management.Contract.PriceContract.PriceContract" xml:space="preserve">
+    <value>Contract Price Management</value>
+    <comment>Contract Price Management</comment>
+  </data>
+  <data name="Topis.Management.Contract.RefeContract.RefeContract" xml:space="preserve">
+    <value>Reference Contract/Tender Management</value>
+    <comment>Contract</comment>
+  </data>
+  <data name="Topis.Management.Contract.StdContract.StdContract" xml:space="preserve">
+    <value>Standard Contract/Tender Management</value>
+    <comment>Standard Contract/Tender Management</comment>
+  </data>
+  <data name="Topis.Management.Contract.Search" xml:space="preserve">
+    <value>Search Contract</value>
+    <comment>Contract </comment>
+  </data>
+  <data name="Topis.Contract.Unlock" xml:space="preserve">
+    <value>Unlock</value>
+    <comment>Unlock</comment>
+  </data>
+  <data name="Topis.Contract.ModelDoc" xml:space="preserve">
+    <value>Template</value>
+    <comment>ModelDoc</comment>
+  </data>
+  <data name="Topis.Contract.SRTracking" xml:space="preserve">
+    <value>SR Tracking</value>
+    <comment>SR Tracking</comment>
+  </data>
+  <data name="Topis.Management.Contract" xml:space="preserve">
+    <value>Contract or Tender</value>
+  </data>
+  <data name="Topis.Management.Policy" xml:space="preserve">
+    <value>Policy Management</value>
+  </data>
+  <data name="Topis.Management.Policy.Search" xml:space="preserve">
+    <value>Policy Search</value>
+  </data>
+  <data name="Topis.Configuration.AllProject" xml:space="preserve">
+    <value>All Project</value>
+  </data>
+  <data name="Topis.Configuration.ContractMode" xml:space="preserve">
+    <value>Contract Mode</value>
+  </data>
+  <data name="Topis.Management.AbroadData.OperationData" xml:space="preserve">
+    <value>Report</value>
+    <comment>Report</comment>
+  </data>
+  <data name="Topis.Configuration.ContractConfiguration.ProcurementManager" xml:space="preserve">
+    <value>Procurement Manager Configuration</value>
+    <comment>Procurement Manager Configuration</comment>
+  </data>
+  <data name="Topis.Contract.ITBStart" xml:space="preserve">
+    <value>ITB Start</value>
+    <comment>ITB Start</comment>
+  </data>
+  <data name="Topis.Contract.ITBFinish" xml:space="preserve">
+    <value>ITB Finish</value>
+    <comment>ITB Finish</comment>
+  </data>
+  <data name="Topis.Configuration.UserManagement" xml:space="preserve">
+    <value>Departments and Users</value>
+  </data>
+  <data name="Topis.Configuration.AuthorityManagement" xml:space="preserve">
+    <value>Authority Management</value>
+  </data>
+  <data name="Topis.Configuration.BasicInfo" xml:space="preserve">
+    <value>Basic Information</value>
+  </data>
+  <data name="Topis.Configuration.UserManagement.Employee" xml:space="preserve">
+    <value>Employee</value>
+  </data>
+  <data name="Topis.Configuration.BasicInfo.BasicTables" xml:space="preserve">
+    <value>Basic Tables</value>
+  </data>
+  <data name="Topis.BasicConfig.Bin" xml:space="preserve">
+    <value>Bin</value>
+  </data>
+  <data name="Topis.BasicConfig.CurrencyExchangeRate" xml:space="preserve">
+    <value>Exchange Rate</value>
+  </data>
+  <data name="Topis.BasicConfig.ExchangeRateHistory" xml:space="preserve">
+    <value>Exchange Rate History</value>
+  </data>
+  <data name="Topis.BasicConfig.UOM" xml:space="preserve">
+    <value>UOM</value>
+  </data>
+  <data name="Topis.BasicConfig.WareHouse" xml:space="preserve">
+    <value>Warehouse</value>
+  </data>
+  <data name="Topis.Configuration.Authority" xml:space="preserve">
+    <value>System Authority</value>
+  </data>
+  <data name="Topis.Configuration.CalCurrency" xml:space="preserve">
+    <value>N/S Currency</value>
+  </data>
+  <data name="Topis.Configuration.Department" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="Topis.Configuration.DepartmentEmployee" xml:space="preserve">
+    <value>Department Employee</value>
+  </data>
+  <data name="Topis.Configuration.GenerateIDRule" xml:space="preserve">
+    <value>Code Rule</value>
+  </data>
+  <data name="Topis.Configuration.MaterialCode" xml:space="preserve">
+    <value>Item Code</value>
+  </data>
+  <data name="Topis.Configuration.ModifyPassword" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="Topis.Configuration.PositionType" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="Topis.Configuration.Projects" xml:space="preserve">
+    <value>Projects</value>
+  </data>
+  <data name="Topis.Configuration.Role" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="Topis.Configuration.BasicType" xml:space="preserve">
+    <value>Basic Type</value>
+  </data>
+  <data name="Topis.BasicConfig" xml:space="preserve">
+    <value>Basic Config</value>
+  </data>
+  <data name="Topis.TendorOperation" xml:space="preserve">
+    <value>Contract Operation</value>
+  </data>
+  <data name="Topis.TendorOperation.ServiceRequistion" xml:space="preserve">
+    <value>Service Request</value>
+  </data>
+  <data name="Topis.TendorOperation.ProcurementPolicy" xml:space="preserve">
+    <value>Procurement Strategy</value>
+  </data>
+  <data name="Topis.TendorOperation.ITB" xml:space="preserve">
+    <value>ITB Documents</value>
+  </data>
+  <data name="Topis.TendorOperation.Approve" xml:space="preserve">
+    <value>Approve</value>
+  </data>
+  <data name="Topis.TenderConfig" xml:space="preserve">
+    <value>Tender Configuration</value>
+  </data>
+  <data name="Topis.TenderConfig.SealConfig" xml:space="preserve">
+    <value>Sealed Bids Amount</value>
+  </data>
+  <data name="Topis.TenderConfig.ApproveFlow" xml:space="preserve">
+    <value>Approve Flow</value>
+  </data>
+  <data name="Topis.TenderConfig.DefaultTCGroup" xml:space="preserve">
+    <value>Tender Committee</value>
+  </data>
+  <data name="Topis.TenderConfig.DefaultGroup" xml:space="preserve">
+    <value>Tender Group</value>
+  </data>
+  <data name="Topis.TenderConfig.VendorAppraise" xml:space="preserve">
+    <value>Vendor Appraise</value>
+  </data>
+  <data name="Topis.ProcurementManagement" xml:space="preserve">
+    <value>Procurement Management</value>
+  </data>
+  <data name="Topis.ProcurementManagement.VendorDatabase" xml:space="preserve">
+    <value>Vendor Database</value>
+  </data>
+  <data name="Topis.ProcurementManagement.VendorDatabase.VendorPrejudication" xml:space="preserve">
+    <value>Prejudication</value>
+  </data>
+  <data name="Topis.ProcurementManagement.VendorDatabase.BusyHistory" xml:space="preserve">
+    <value>Business History</value>
+  </data>
+  <data name="Topis.ProcurementManagement.VendorDatabase.CreditAppraise" xml:space="preserve">
+    <value>Credit Appraise</value>
+  </data>
+  <data name="Topis.ProcurementManagement.VendorDatabase.Database" xml:space="preserve">
+    <value>Database</value>
+  </data>
+  <data name="Topis.ProcurementManagement.TenderManagement" xml:space="preserve">
+    <value>TC Meeting</value>
+  </data>
+  <data name="Topis.ProcurementManagement.TenderManagement.TenderBulletin" xml:space="preserve">
+    <value>Tender Bulletin</value>
+  </data>
+  <data name="Topis.Configuration.UserRole" xml:space="preserve">
+    <value>User Role</value>
+  </data>
+  <data name="Topis.ProcurementManagement.VendorDatabase.VendorsPermited" xml:space="preserve">
+    <value>Vendor List</value>
+  </data>
+  <data name="Topis.ProcurementManagement.VendorDatabase.SearchContact" xml:space="preserve">
+    <value>Contact of Vendor</value>
+  </data>
+  <data name="Topis.ProcurementManagement.VendorDatabase.DealHistory" xml:space="preserve">
+    <value>Search Contract</value>
+  </data>
+  <data name="Topis.ProcurementManagement.VendorDatabase.BlackList" xml:space="preserve">
+    <value>Black List</value>
+  </data>
+  <data name="Topis.ProcurementManagement.VendorDatabase.VendorRegister" xml:space="preserve">
+    <value>Sign Up</value>
+  </data>
+  <data name="Topis.ProcurementManagement.VendorDatabase.VendorModification" xml:space="preserve">
+    <value>Vendor Modification</value>
+  </data>
+  <data name="Topis.ProcurementManagement.TenderManagement.TCSchedule" xml:space="preserve">
+    <value>TC Schedule</value>
+  </data>
+  <data name="Topis.ProcurementManagement.TenderManagement.TCSummary" xml:space="preserve">
+    <value>TC Summary</value>
+  </data>
+  <data name="Topis.Tendor" xml:space="preserve">
+    <value>Tender</value>
+  </data>
+  <data name="Topis.Tender.SR" xml:space="preserve">
+    <value>SR</value>
+  </data>
+  <data name="Topis.TenderConfig.VendorPlan" xml:space="preserve">
+    <value>Tender Plan</value>
+  </data>
+  <data name="Topis.BasicConfig.VendorEvaluateStandard" xml:space="preserve">
+    <value>Vendor Evaluate Standard</value>
+  </data>
+  <data name="Topis.BasicConfig.VendorGradeEvaluateStandard" xml:space="preserve">
+    <value>Vendor Grade Evaluate Standard</value>
+  </data>
+  <data name="Topis.BasicConfig.VendorAssociationName" xml:space="preserve">
+    <value>Vendor Association Name</value>
+  </data>
+  <data name="Topis.TendorOperation.SuperView" xml:space="preserve">
+    <value>Super View</value>
+  </data>
+  <data name="Topis.ProcurementManagement.ContractDatabase" xml:space="preserve">
+    <value>Contract Database</value>
+  </data>
+  <data name="Topis.ProcurementManagement.ContractDatabase.ContractCategory" xml:space="preserve">
+    <value>Contract Category</value>
+  </data>
+  <data name="Topis.ProcurementManagement.ContractDatabase.Contract" xml:space="preserve">
+    <value>Contract</value>
+  </data>
+  <data name="Topis.ProcurementManagement.ContractDatabase.ContractPayment" xml:space="preserve">
+    <value>Contract Payment</value>
+  </data>
+  <data name="Topis.ProcurementManagement.ContractDatabase.VendorSearch" xml:space="preserve">
+    <value>Search Contract</value>
+  </data>
+  <data name="Topis.ProcurementManagement.ContractDatabase.ExecuteManagement" xml:space="preserve">
+    <value>Execute Management</value>
+  </data>
+  <data name="Topis.ProcurementManagement.ITBDocumentDatabase" xml:space="preserve">
+    <value>ITB Database</value>
+  </data>
+  <data name="Topis.ProcurementManagement.ITBDocumentDatabase.ITBDocument" xml:space="preserve">
+    <value>ITB Document</value>
+  </data>
+  <data name="Topis.TendorOperation.TenderSend" xml:space="preserve">
+    <value>ITB Issue</value>
+  </data>
+  <data name="Topis.TendorOperation.TenderEnd" xml:space="preserve">
+    <value>ITB Close</value>
+  </data>
+  <data name="Topis.TendorOperation.TenderOpen" xml:space="preserve">
+    <value>Bid Opening</value>
+  </data>
+  <data name="Topis.AppoveFlow" xml:space="preserve">
+    <value>Approve Flow</value>
+  </data>
+  <data name="Topis.AppoveFlow.ApproveProcess" xml:space="preserve">
+    <value>Approve Process</value>
+  </data>
+  <data name="Topis.AppoveFlow.ApproveProcedure" xml:space="preserve">
+    <value>Approve Procedure</value>
+  </data>
+  <data name="Topis.TendorOperation.TenderEvaluation" xml:space="preserve">
+    <value>Technical Evaluation</value>
+  </data>
+  <data name="Topis.TendorOperation.TenderBulletin" xml:space="preserve">
+    <value>Published</value>
+  </data>
+  <data name="Topis.TenderConfig.SRPlanType" xml:space="preserve">
+    <value>Requisition Catalog</value>
+  </data>
+  <data name="Topis.TendorOperation.CommTenderEvaluation" xml:space="preserve">
+    <value>Commercial Evaluation</value>
+  </data>
+  <data name="Topis.TendorOperation.ContractSign" xml:space="preserve">
+    <value>Contract</value>
+  </data>
+  <data name="Topis.ProcurementManagement.VendorDatabase.VendorPrejudication.Application" xml:space="preserve">
+    <value>Registration</value>
+  </data>
+  <data name="Topis.ProcurementManagement.VendorDatabase.VendorPrejudication.Submit" xml:space="preserve">
+    <value>Prejudication</value>
+  </data>
+  <data name="Topis.ProcurementManagement.VendorDatabase.VendorPrejudication.SubmitFailure" xml:space="preserve">
+    <value>Prejudication Rejection</value>
+  </data>
+  <data name="Topis.ProcurementManagement.VendorDatabase.VendorPrejudication.SuccessfullyRegister" xml:space="preserve">
+    <value>Registration Completed</value>
+  </data>
+  <data name="Topis.TendorOperation.NoFlowContractSign" xml:space="preserve">
+    <value>Direct Contract</value>
+  </data>
+  <data name="Topis.ReportSystem" xml:space="preserve">
+    <value>Business Report</value>
+  </data>
+  <data name="Topis.ReportSystem.VendorDatabaseReportSystem" xml:space="preserve">
+    <value>Vendor Report</value>
+  </data>
+  <data name="Topis.ReportSystem.VendorDatabaseReportSystem.VendorReport" xml:space="preserve">
+    <value>Vendor Statistics Report</value>
+  </data>
+  <data name="Topis.ReportSystem.VendorDatabaseReportSystem.VendorReport1" xml:space="preserve">
+    <value>Contract Amount Statistics Report</value>
+  </data>
+  <data name="Topis.ReportSystem.ContractDatabaseReportSystem" xml:space="preserve">
+    <value>Contract Report</value>
+  </data>
+  <data name="Topis.ReportSystem.ContractDatabaseReportSystem.ContractReport" xml:space="preserve">
+    <value>Contract Statistics Report</value>
+  </data>
+  <data name="Topis.ReportSystem.ContractDatabaseReportSystem.ContractReport1" xml:space="preserve">
+    <value>Contractor Statistics Report</value>
+  </data>
+  <data name="Topis.ReportSystem.ContractDatabaseReportSystem.ContractReport2" xml:space="preserve">
+    <value>Associated Statistics Report</value>
+  </data>
+  <data name="Topis.ReportSystem.SRReportSystem" xml:space="preserve">
+    <value>SR Report</value>
+  </data>
+  <data name="Topis.ReportSystem.SRReportSystem.SRReport" xml:space="preserve">
+    <value>SR Statistics Report</value>
+  </data>
+  <data name="Topis.ReportSystem.SRReportSystem.SRReport1" xml:space="preserve">
+    <value>SR Track Report</value>
+  </data>
+  <data name="Topis.ReportSystem.ITBDocumentReportSystem" xml:space="preserve">
+    <value>Tender Report</value>
+  </data>
+  <data name="Topis.ReportSystem.ITBDocumentReportSystem.ITBDocumentReport" xml:space="preserve">
+    <value>Tender Statistics Report</value>
+  </data>
+  <data name="Topis.TendorOperation.FlowTrack" xml:space="preserve">
+    <value>SR Tracking</value>
+  </data>
+  <data name="Topis.BasicConfig.SubProject" xml:space="preserve">
+    <value>Sub-Project</value>
+  </data>
+  <data name="Topis.MaterialManagement.MaterialCatalog" xml:space="preserve">
+    <value>Material Catalog</value>
+  </data>
+  <data name="Topis.MaterialManagement" xml:space="preserve">
+    <value>Material</value>
+  </data>
+  <data name="Topis.MaterialManagement.MaterialCode" xml:space="preserve">
+    <value>Item Code</value>
+  </data>
+  <data name="Topis.BasicConfig.ABCCalssScale" xml:space="preserve">
+    <value>ABC Class</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseManagment.BinSearch" xml:space="preserve">
+    <value>Bin Search</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseManagment.POSearch" xml:space="preserve">
+    <value>PO Search</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseManagment" xml:space="preserve">
+    <value>Warehouse Managment</value>
+  </data>
+  <data name="Topis.MaterialManagement.MaterialHistory" xml:space="preserve">
+    <value>Material History</value>
+  </data>
+  <data name="Topis.MaterialManagement.POHistory" xml:space="preserve">
+    <value>PO History</value>
+  </data>
+  <data name="Topis.BasicConfig.MaxMinMaterial" xml:space="preserve">
+    <value>Warehouse Capacity</value>
+  </data>
+  <data name="Topis.BasicConfig.ImportantMaterial" xml:space="preserve">
+    <value>Important Material</value>
+  </data>
+  <data name="Topis.WareHouse" xml:space="preserve">
+    <value>Warehouse</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseOperation" xml:space="preserve">
+    <value>Warehouse Operation</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseOperation.Receive" xml:space="preserve">
+    <value>Receive</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseOperation.Issue" xml:space="preserve">
+    <value>Issue</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseManagment.InStoreMaterialDetail" xml:space="preserve">
+    <value>In-Store Material Detail</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseOperation.Return" xml:space="preserve">
+    <value>Return</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseOperation.Transfer" xml:space="preserve">
+    <value>Transfer</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseOperation.Transfer.TransferBin2Bin" xml:space="preserve">
+    <value>Transfer(Bin to Bin)</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseOperation.Transfer.TransferWH2WH" xml:space="preserve">
+    <value>Transfer(WH to WH)</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseOperation.Transfer.TransferDEP2DEP" xml:space="preserve">
+    <value>Transfer(Dep to Dep)</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseOperation.Preserve.Preserve" xml:space="preserve">
+    <value>Preserve</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseOperation.Reject" xml:space="preserve">
+    <value>Reject</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseOperation.Borrow" xml:space="preserve">
+    <value>Borrow</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseManagment.MaterialCapacity" xml:space="preserve">
+    <value>Material Capacity</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseOperation.DirectArrivalMaterial" xml:space="preserve">
+    <value>Direct Arrival Material</value>
+  </data>
+  <data name="Topis.WareHouse.Inventory" xml:space="preserve">
+    <value>Inventory</value>
+  </data>
+  <data name="Topis.WareHouse.Inventory.CheckStock" xml:space="preserve">
+    <value>Check Stock</value>
+  </data>
+  <data name="Topis.WareHouse.Inventory.InventoryReport" xml:space="preserve">
+    <value>Inventory Report</value>
+  </data>
+  <data name="Topis.WareHouse.Inventory.AdjustIn" xml:space="preserve">
+    <value>Adjust In</value>
+  </data>
+  <data name="Topis.WareHouse.Inventory.AdjustOut" xml:space="preserve">
+    <value>Adjust Out</value>
+  </data>
+  <data name="Topis.ReportSystem.WareHouse" xml:space="preserve">
+    <value>Warehouse Report</value>
+  </data>
+  <data name="Topis.ReportSystem.WareHouse.AdjustIn" xml:space="preserve">
+    <value>Adjust In Report</value>
+  </data>
+  <data name="Topis.ReportSystem.WareHouse.InStoreMaterialDetail" xml:space="preserve">
+    <value>Material Detail Report</value>
+  </data>
+  <data name="Topis.ReportSystem.WareHouse.Issue" xml:space="preserve">
+    <value>Issue Report</value>
+  </data>
+  <data name="Topis.ReportSystem.WareHouse.Preserve" xml:space="preserve">
+    <value>Preserve Report</value>
+  </data>
+  <data name="Topis.ReportSystem.WareHouse.PurchaseOrder" xml:space="preserve">
+    <value>Purchase Order RII Report</value>
+  </data>
+  <data name="Topis.ReportSystem.WareHouse.Receive" xml:space="preserve">
+    <value>Receive Report</value>
+  </data>
+  <data name="Topis.ReportSystem.WareHouse.Return" xml:space="preserve">
+    <value>Return Report</value>
+  </data>
+  <data name="Topis.ReportSystem.WareHouse.TransferBin2Bin" xml:space="preserve">
+    <value>Transfer(Bin to Bin) Report</value>
+  </data>
+  <data name="Topis.ReportSystem.WareHouse.TransferDep2Dep" xml:space="preserve">
+    <value>Transfer(Dep to Dep) Report</value>
+  </data>
+  <data name="Topis.ReportSystem.WareHouse.TransferWH2WH" xml:space="preserve">
+    <value>Transfer(WH to WH) Report</value>
+  </data>
+  <data name="Topis.Statistic" xml:space="preserve">
+    <value>Statistic</value>
+  </data>
+  <data name="Topis.Statistic.FinancingUseAnalysis" xml:space="preserve">
+    <value>Financing Analysis</value>
+  </data>
+  <data name="Topis.Statistic.MaterialUseAnalysis" xml:space="preserve">
+    <value>Material Use Analysis</value>
+  </data>
+  <data name="Topis.ProcurementManagement.ContractDatabase.PurchaseOrder" xml:space="preserve">
+    <value>Purchase Order</value>
+  </data>
+  <data name="Topis.ReportSystem.WareHouse.InventoryReport" xml:space="preserve">
+    <value>Inventory Report</value>
+  </data>
+  <data name="Topis.ReportSystem.WareHouse.POInWareHouse" xml:space="preserve">
+    <value>PO Amount Report</value>
+  </data>
+  <data name="Topis.DocumentManagement" xml:space="preserve">
+    <value>Document Management</value>
+  </data>
+  <data name="Topis.DocumentManagement.AttachmentManagment" xml:space="preserve">
+    <value>Attachment Managment</value>
+  </data>
+  <data name="Topis.DocumentManagement.DocumentModel" xml:space="preserve">
+    <value>Documents</value>
+  </data>
+  <data name="Topis.DocumentManagement.DocumentModelCategory" xml:space="preserve">
+    <value>Document Category</value>
+  </data>
+  <data name="Topis.BasicConfig.WareHouseEmployee" xml:space="preserve">
+    <value>Warehouse Employee</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseOperation.Preserve" xml:space="preserve">
+    <value>Preserve Material</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseOperation.Preserve.CancelPreserve" xml:space="preserve">
+    <value>Cancel Preserve</value>
+  </data>
+  <data name="Topis.ReportSystem.WareHouse.AdjustOut" xml:space="preserve">
+    <value>Adjust Out Report</value>
+  </data>
+  <data name="Topis.ProcurementManagement.VendorDatabase.VendorMaterialHistory" xml:space="preserve">
+    <value>Material History</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseManagment.InterfaceOfFinance" xml:space="preserve">
+    <value>Interface Of Finance</value>
+  </data>
+  <data name="Topis.Statistic.ImportantMaterialFinancingUseAnalysis" xml:space="preserve">
+    <value>Financing Analysis for Important Material  </value>
+  </data>
+  <data name="Topis.MaterialPurchase.MaterialRequest" xml:space="preserve">
+    <value>Material Request</value>
+  </data>
+  <data name="Topis.MaterialPurchase" xml:space="preserve">
+    <value>Purchase</value>
+  </data>
+  <data name="Topis.MaterialPurchase.EnquiryPrice" xml:space="preserve">
+    <value>Enquiry</value>
+  </data>
+  <data name="Topis.MaterialPurchase.Quotation" xml:space="preserve">
+    <value>Quotation</value>
+  </data>
+  <data name="Topis.MaterialPurchase.BIDEvaluation" xml:space="preserve">
+    <value>Bid Evaluation</value>
+  </data>
+  <data name="Topis.MaterialPurchase.POBidFlow" xml:space="preserve">
+    <value>Purchase Order</value>
+  </data>
+  <data name="Topis.MaterialPurchase.PONOBidFlow" xml:space="preserve">
+    <value>Purchase Order</value>
+  </data>
+  <data name="Topis.TendorOperation.ProcurementStrategy" xml:space="preserve">
+    <value>Contract Strategy</value>
+  </data>
+  <data name="Topis.TendorOperation.ProcurementStrategy.ProcurementPolicy" xml:space="preserve">
+    <value>SR Strategy</value>
+  </data>
+  <data name="Topis.TendorOperation.ProcurementStrategy.MRStrategy" xml:space="preserve">
+    <value>MR Strategy</value>
+  </data>
+  <data name="Topis.TendorOperation.POSign" xml:space="preserve">
+    <value>PO by Tender</value>
+  </data>
+  <data name="Topis.MaterialPurchase.NoFlowPOSign" xml:space="preserve">
+    <value>Direct PO</value>
+  </data>
+  <data name="Topis.BasicConfig.EnquiryComments" xml:space="preserve">
+    <value>Enquiry Comments</value>
+  </data>
+  <data name="Topis.ReportSystem.MaterialPurchase" xml:space="preserve">
+    <value>Material Purchase Report</value>
+  </data>
+  <data name="Topis.ReportSystem.MaterialPurchase.EnquiryByBuyer" xml:space="preserve">
+    <value>Enquiry By Buyer </value>
+  </data>
+  <data name="Topis.ReportSystem.MaterialPurchase.POTracking" xml:space="preserve">
+    <value>PO Tracking </value>
+  </data>
+  <data name="Topis.ReportSystem.MaterialPurchase.POWarning" xml:space="preserve">
+    <value>PO Warning </value>
+  </data>
+  <data name="Topis.ReportSystem.MaterialPurchase.PurchaseOrderByBuyer" xml:space="preserve">
+    <value>PO By Buyer</value>
+  </data>
+  <data name="Topis.ReportSystem.MaterialPurchase.PurchaseOrderByMaterial" xml:space="preserve">
+    <value>PO By Material</value>
+  </data>
+  <data name="Topis.ReportSystem.MaterialPurchase.PurchaseOrderByVendor" xml:space="preserve">
+    <value>PO By Vendor</value>
+  </data>
+  <data name="Topis.ReportSystem.MaterialPurchase.QuotationByMaterial" xml:space="preserve">
+    <value>Quotation By Material</value>
+  </data>
+  <data name="Topis.ReportSystem.MaterialPurchase.QuotationByVendor" xml:space="preserve">
+    <value>Quotation By Vendor</value>
+  </data>
+  <data name="Topis.ReportSystem.MaterialPurchase.MRByBuyer" xml:space="preserve">
+    <value>MR By Buyer</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseManagment.ABCClass" xml:space="preserve">
+    <value>ABC Material Detail</value>
+  </data>
+</root>

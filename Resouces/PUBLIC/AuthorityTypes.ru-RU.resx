@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<!--
+select distinct
+'<data name="'+AuthorityType+'">
+	<value>'+AuthorityType+'</value>
+	<comment>'+AuthorityType+'</comment>
+</data>'
+from Authority
+	-->
+	<data name="Add">
+		<value>Добавить</value>
+		<comment>Add</comment>
+	</data>
+	<data name="AddCatalog">
+		<value>Добавить содержание</value>
+		<comment>AddCatalog</comment>
+	</data>
+	<data name="Cancel">
+		<value>Отмена</value>
+		<comment>Cancel</comment>
+	</data>
+	<data name="ChangeCatalog">
+		<value>Изменить содержание</value>
+		<comment>ChangeCatalog</comment>
+	</data>
+	<data name="Confirm">
+		<value>Проверка</value>
+		<comment>Confirm</comment>
+	</data>
+	<data name="ConfirmDue">
+		<value>Предварительная проверка</value>
+		<comment>ConfirmDue</comment>
+	</data>
+	<data name="Delete">
+		<value>Удалить</value>
+		<comment>Delete</comment>
+	</data>
+	<data name="DeleteCatalog">
+		<value>Удалить содержание</value>
+		<comment>DeleteCatalog</comment>
+	</data>
+	<data name="Expire">
+		<value>Просрочка</value>
+		<comment>Expire</comment>
+	</data>
+	<data name="Print">
+		<value>Печать</value>
+		<comment>Print</comment>
+	</data>
+	<data name="Set">
+		<value>Установка</value>
+		<comment>Set</comment>
+	</data>
+	<data name="SetPasswd">
+		<value>Изменение пароля</value>
+		<comment>SetPasswd</comment>
+	</data>
+	<data name="Update">
+		<value>Изменить</value>
+		<comment>Update</comment>
+	</data>
+	<data name="UpdateBin">
+		<value>Изменить стеллаж</value>
+		<comment>UpdateBin</comment>
+	</data>
+	<data name="UpdateCatalog">
+		<value>Изменить содержание</value>
+		<comment>UpdateCatalog</comment>
+	</data>
+	<data name="UpdateDue">
+		<value>Предварительное сохранение</value>
+		<comment>UpdateDue</comment>
+	</data>
+	<data name="View">
+		<value>Вход</value>
+		<comment>Entrance</comment>
+	</data>
+	<data name="ViewSingle">
+		<value>Просмотр</value>
+		<comment>View</comment>
+	</data>
+	<data name="AdvancedSearch">
+		<value>Расширенный поиск</value>
+		<comment>AdvancedSearch</comment>
+	</data>
+	<data name="AddFromMR">
+		<value>Добавить материал из SR</value>
+		<comment>AddFromMR</comment>
+	</data>
+	<data name="Create">
+		<value>Создать</value>
+		<comment>Create</comment>
+	</data>
+	<data name="Super">
+		<value>Суперосмотр</value>
+		<comment>Super</comment>
+	</data>
+	<data name="Void">
+		<value>Отмена</value>
+		<comment>Отмена</comment>
+	</data>
+	<data name="CatalogNew">
+		<value>Создать тип модуля</value>
+		<comment>CatalogNew</comment>
+	</data>
+	<data name="CatalogModify">
+		<value>Редактировать тип модуля</value>
+		<comment>CatalogModify</comment>
+	</data>
+	<data name="CatalogDelete">
+		<value>Удалить тип модуля</value>
+		<comment>CatalogDelete</comment>
+	</data>
+	<data name="AttDelete">
+		<value>Удалить  модуль</value>
+		<comment>AttDelete</comment>
+	</data>
+	<data name="AttNew">
+		<value>Добавить модуль</value>
+		<comment>AttNew</comment>
+	</data>
+	<data name="Search">
+		<value>Поиск</value>
+		<comment>Search</comment>
+	</data>
+	<data name="AllProject">
+		<value>Полные права</value>
+		<comment></comment>
+	</data>
+	<data name="AllProjectView">
+		<value>Посмотреть всё</value>
+		<comment>Посмотрить всё</comment>
+	</data>
+	<data name="UploadITB">
+		<value>Загрузить тендерную документацию</value>
+		<comment></comment>
+	</data>
+	<data name="UploadContract">
+		<value>Загрузить контракт</value>
+		<comment></comment>
+	</data>
+</root>

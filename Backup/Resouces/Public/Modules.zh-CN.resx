@@ -1,0 +1,1374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Topis" xml:space="preserve">
+    <value>采办一体化</value>
+    <comment>Topis</comment>
+  </data>
+  <data name="Topis.Account" xml:space="preserve">
+    <value>用户帐号</value>
+    <comment>Accounts</comment>
+  </data>
+  <data name="Topis.Account.ChangePassword" xml:space="preserve">
+    <value>修改密码</value>
+    <comment>Change Password</comment>
+  </data>
+  <data name="Topis.Account.OnlineUser" xml:space="preserve">
+    <value>在线用户</value>
+    <comment>Online Users</comment>
+  </data>
+  <data name="Topis.Account.Profile" xml:space="preserve">
+    <value>用户档案</value>
+    <comment>Profile</comment>
+  </data>
+  <data name="Topis.Account.SystemLog" xml:space="preserve">
+    <value>个人日志</value>
+    <comment>System Log</comment>
+  </data>
+  <data name="Topis.Configuration" xml:space="preserve">
+    <value>系统配置</value>
+    <comment>Configuration</comment>
+  </data>
+  <data name="Topis.Configuration.SystemInit" xml:space="preserve">
+    <value>系统初始化</value>
+  </data>
+  <data name="Topis.Configuration.SystemInit.SystemInit" xml:space="preserve">
+    <value>系统初始化</value>
+    <comment>System init</comment>
+  </data>
+  <data name="Topis.Configuration.SystemInit.ViewInitStatus" xml:space="preserve">
+    <value>初始化状态查看</value>
+    <comment>View Init Status</comment>
+  </data>
+  <data name="Topis.Configuration.AuthorityManagement" xml:space="preserve">
+    <value>权限管理</value>
+    <comment>Authority Management</comment>
+  </data>
+  <data name="Topis.Configuration.AuthorityManagement.Authority" xml:space="preserve">
+    <value>权限明细</value>
+    <comment>Authority</comment>
+  </data>
+  <data name="Topis.Configuration.AuthorityManagement.Role" xml:space="preserve">
+    <value>角色</value>
+    <comment>Role</comment>
+  </data>
+  <data name="Topis.Configuration.UserManagement.Department" xml:space="preserve">
+    <value>部门</value>
+    <comment>Department</comment>
+  </data>
+  <data name="Topis.Configuration.Employee" xml:space="preserve">
+    <value>用户</value>
+    <comment>Employee</comment>
+  </data>
+  <data name="Topis.Configuration.ModuleAuthority" xml:space="preserve">
+    <value>模块权限</value>
+    <comment>Authorities of Module</comment>
+  </data>
+  <data name="Topis.Configuration.BasicInfo" xml:space="preserve">
+    <value>基础信息</value>
+    <comment>Basic Info</comment>
+  </data>
+  <data name="Topis.Configuration.BasicInfo.Project" xml:space="preserve">
+    <value>项目信息</value>
+    <comment>Project</comment>
+  </data>
+  <data name="Topis.Configuration.SubProject" xml:space="preserve">
+    <value>子项目</value>
+    <comment>SubProject</comment>
+  </data>
+  <data name="Topis.Configuration.SystemLog" xml:space="preserve">
+    <value>系统日志</value>
+    <comment>SystemLog</comment>
+  </data>
+  <data name="Topis.Configuration.UOM" xml:space="preserve">
+    <value>单位</value>
+    <comment>UOM</comment>
+  </data>
+  <data name="Topis.Configuration.UserManagement" xml:space="preserve">
+    <value>部门用户管理</value>
+    <comment>User Management</comment>
+  </data>
+  <data name="Topis.Configuration.UserManagement.UpdateUserPasswd" xml:space="preserve">
+    <value>用户密码修改</value>
+    <comment>UpdateUserPasswd</comment>
+  </data>
+  <data name="Topis.Configuration.UserManagement.User" xml:space="preserve">
+    <value>用户</value>
+    <comment>User</comment>
+  </data>
+  <data name="Topis.Configuration.Warehouse" xml:space="preserve">
+    <value>库房</value>
+    <comment>Warehouse</comment>
+  </data>
+  <data name="Topis.Default" xml:space="preserve">
+    <value>首页</value>
+    <comment>Default</comment>
+  </data>
+  <data name="Topis.Desktop" xml:space="preserve">
+    <value>桌面</value>
+    <comment>Desktop</comment>
+  </data>
+  <data name="Topis.Head" xml:space="preserve">
+    <value>页头</value>
+    <comment>Head</comment>
+  </data>
+  <data name="Topis.Initialization" xml:space="preserve">
+    <value>系统初始化</value>
+    <comment>System Init</comment>
+  </data>
+  <data name="Topis.Inventory" xml:space="preserve">
+    <value>库房</value>
+    <comment>Inventory</comment>
+  </data>
+  <data name="Topis.Inventory.InStoreMaterialMaxMin" xml:space="preserve">
+    <value>库存容量管理</value>
+    <comment>InStoreMaterialMaxMin</comment>
+  </data>
+  <data name="Topis.Inventory.InStoreMaterial" xml:space="preserve">
+    <value>库存物资管理</value>
+    <comment>InStoreMaterial</comment>
+  </data>
+  <data name="Topis.Inventory.HistoryInStoreMaterial" xml:space="preserve">
+    <value>历史库存管理</value>
+    <comment>HistoryInStoreMaterial</comment>
+  </data>
+  <data name="Topis.Inventory.ThroughToDepartment" xml:space="preserve">
+    <value>直达料</value>
+    <comment>ThroughToDepartment</comment>
+  </data>
+  <data name="Topis.Inventory.Adjust.InStoreMaterialAdjust" xml:space="preserve">
+    <value>盘库</value>
+    <comment>InStoreMaterialAdjust</comment>
+  </data>
+  <data name="Topis.Report.Inventory.ThroughToDepartmentMaterial" xml:space="preserve">
+    <value>物资直达料</value>
+    <comment>ThroughToDepartmentMaterial</comment>
+  </data>
+  <data name="Topis.Inventory.Receive" xml:space="preserve">
+    <value>收料</value>
+    <comment>Receive</comment>
+  </data>
+  <data name="Topis.Inventory.WHPurchaseOrder" xml:space="preserve">
+    <value>补录采购单</value>
+    <comment>WHPurchaseOrder</comment>
+  </data>
+  <data name="Topis.Inventory.Reserve" xml:space="preserve">
+    <value>预留料</value>
+    <comment>Reserve</comment>
+  </data>
+  <data name="Topis.Inventory.Issue" xml:space="preserve">
+    <value>发料</value>
+    <comment>Issue</comment>
+  </data>
+  <data name="Topis.Inventory.Transfer.TransferBin2Bin" xml:space="preserve">
+    <value>转料(库内)</value>
+    <comment>TransferBin2Bin</comment>
+  </data>
+  <data name="Topis.Inventory.Transfer.TransferWH2WH" xml:space="preserve">
+    <value>转料(库间)</value>
+    <comment>TransferBin2Bin</comment>
+  </data>
+  <data name="Topis.Inventory.Transfer.TransferDep2Dep" xml:space="preserve">
+    <value>转料(库外)</value>
+    <comment>TransferDep2Dep</comment>
+  </data>
+  <data name="Topis.Inventory.Return" xml:space="preserve">
+    <value>返料</value>
+    <comment>Return</comment>
+  </data>
+  <data name="Topis.Inventory.Adjust.AdjustIn" xml:space="preserve">
+    <value>盘赢</value>
+    <comment>AdjustIn</comment>
+  </data>
+  <data name="Topis.Inventory.Adjust.AdjustOut" xml:space="preserve">
+    <value>盘亏</value>
+    <comment>AdjustOut</comment>
+  </data>
+  <data name="Topis.Logout" xml:space="preserve">
+    <value>注销</value>
+    <comment>Logout</comment>
+  </data>
+  <data name="Topis.Material" xml:space="preserve">
+    <value>物资</value>
+    <comment>Material</comment>
+  </data>
+  <data name="Topis.Material.Material" xml:space="preserve">
+    <value>物资管理</value>
+    <comment>Material</comment>
+  </data>
+  <data name="Topis.Material.MaterialVendor" xml:space="preserve">
+    <value>物资供应商</value>
+    <comment>MaterialVendor</comment>
+  </data>
+  <data name="Topis.Material.PurchaseHistory" xml:space="preserve">
+    <value>采购历史</value>
+    <comment>PurchaseHistory</comment>
+  </data>
+  <data name="Topis.Material.InventoryHistory" xml:space="preserve">
+    <value>库房历史</value>
+    <comment>InventoryHistory</comment>
+  </data>
+  <data name="Topis.Purchase" xml:space="preserve">
+    <value>采购</value>
+    <comment>Purchase</comment>
+  </data>
+  <data name="Topis.Purchase.MaterialRequest" xml:space="preserve">
+    <value>物资申请</value>
+    <comment>MaterialRequest</comment>
+  </data>
+  <data name="Topis.Purchase.Enquiry" xml:space="preserve">
+    <value>询价</value>
+    <comment>Enquiry</comment>
+  </data>
+  <data name="Topis.Purchase.Quotation" xml:space="preserve">
+    <value>报价</value>
+    <comment>Quotation</comment>
+  </data>
+  <data name="Topis.Purchase.BidEvaluation" xml:space="preserve">
+    <value>评标</value>
+    <comment>BidEvaluation</comment>
+  </data>
+  <data name="Topis.Purchase.PurchaseOrder" xml:space="preserve">
+    <value>采购订单</value>
+    <comment>PurchaseOrder</comment>
+  </data>
+  <data name="Topis.Purchase.SDT" xml:space="preserve">
+    <value>SDT</value>
+    <comment>SDT</comment>
+  </data>
+  <data name="Topis.Purchase.WorkOrder" xml:space="preserve">
+    <value>工作订单</value>
+    <comment>WorkOrder</comment>
+  </data>
+  <data name="Topis.Purchase.InlandShipping" xml:space="preserve">
+    <value>内陆运输</value>
+    <comment>Inland Shipping</comment>
+  </data>
+  <data name="Topis.Purchase.PaymentRequirement" xml:space="preserve">
+    <value>付款申请</value>
+    <comment>Payment Requirement</comment>
+  </data>
+  <data name="Topis.SystemLogin" xml:space="preserve">
+    <value>系统登录</value>
+    <comment>SystemLogin</comment>
+  </data>
+  <data name="Topis.Vendor" xml:space="preserve">
+    <value>供应商</value>
+    <comment>Vendor</comment>
+  </data>
+  <data name="Topis.Vendor.Vendor" xml:space="preserve">
+    <value>供应商管理</value>
+    <comment>Vendor</comment>
+  </data>
+  <data name="Topis.Vendor.BusinessHistory" xml:space="preserve">
+    <value>业务历史</value>
+    <comment>BusinessHistory</comment>
+  </data>
+  <data name="Topis.Contract" xml:space="preserve">
+    <value>合同</value>
+    <comment>Contract</comment>
+  </data>
+  <data name="Topis.Contract.SR" xml:space="preserve">
+    <value>服务/物资申请</value>
+    <comment>SR/MR</comment>
+  </data>
+  <data name="Topis.Help" xml:space="preserve">
+    <value>帮助</value>
+    <comment>Help</comment>
+  </data>
+  <data name="Topis.Report" xml:space="preserve">
+    <value>报表</value>
+    <comment>Report</comment>
+  </data>
+  <data name="Topis.Report.Purchase" xml:space="preserve">
+    <value>采购报表</value>
+    <comment>Purchase</comment>
+  </data>
+  <data name="Topis.Report.Purchase.PaymentRequirementByVendor" xml:space="preserve">
+    <value>付款申请（按供应商）</value>
+  </data>
+  <data name="Topis.Report.Purchase.PurchaseOrderByVendor" xml:space="preserve">
+    <value>采购订单（按供应商）</value>
+  </data>
+  <data name="Topis.Report.Purchase.PurchaseOrderByMaterial" xml:space="preserve">
+    <value>采购订单（按物资）</value>
+  </data>
+  <data name="Topis.Report.Purchase.PurchaseOrderByBuyer" xml:space="preserve">
+    <value>采购订单（按采购员）</value>
+  </data>
+  <data name="Topis.Report.Inventory" xml:space="preserve">
+    <value>库房报表</value>
+    <comment>Inventory</comment>
+  </data>
+  <data name="Topis.Report.Inventory.InStockSummary" xml:space="preserve">
+    <value>库存概况</value>
+    <comment>InStock Summary</comment>
+  </data>
+  <data name="Topis.Report.Inventory.InStockDetails" xml:space="preserve">
+    <value>库存明细</value>
+    <comment>InStock Details</comment>
+  </data>
+  <data name="Topis.Report.Inventory.ReturnMaterial" xml:space="preserve">
+    <value>物资返库</value>
+  </data>
+  <data name="Topis.Report.Contract" xml:space="preserve">
+    <value>合同报表</value>
+    <comment>Contract</comment>
+  </data>
+  <data name="Topis.Report.Crossed" xml:space="preserve">
+    <value>交叉报表</value>
+    <comment>Crossed</comment>
+  </data>
+  <data name="Topis.Report.Others" xml:space="preserve">
+    <value>其他报表</value>
+    <comment>Others</comment>
+  </data>
+  <data name="Topis.Report.Others.SystemLog" xml:space="preserve">
+    <value>系统日志</value>
+    <comment>SystemLog</comment>
+  </data>
+  <data name="Topis.Report.Purchase.MRByBuyer" xml:space="preserve">
+    <value>物资申请报表（按采购员）</value>
+  </data>
+  <data name="Topis.Report.Purchase.EnquiryByEnquiryEmployee" xml:space="preserve">
+    <value>询价报表（按询价人）</value>
+  </data>
+  <data name="Topis.Report.Purchase.QuotationByVendor" xml:space="preserve">
+    <value>报价报表（按供应商）</value>
+  </data>
+  <data name="Topis.Report.Purchase.QuotationByMaterial" xml:space="preserve">
+    <value>报价报表（按物资）</value>
+  </data>
+  <data name="Topis.Report.Inventory.ReceiveMaterial" xml:space="preserve">
+    <value>物资收料</value>
+    <comment>ReceiveMaterial</comment>
+  </data>
+  <data name="Topis.Report.Inventory.IssueMaterial" xml:space="preserve">
+    <value>物资发料</value>
+    <comment>IssueMaterial</comment>
+  </data>
+  <data name="Topis.Report.Inventory.TransferBin2BinMaterial" xml:space="preserve">
+    <value>物资转料（库内）</value>
+    <comment>TransferBin2BinMaterial</comment>
+  </data>
+  <data name="Topis.Report.Inventory.TransferWH2WHMaterial" xml:space="preserve">
+    <value>物资转料（库间）</value>
+    <comment>TransferWH2WHMaterial</comment>
+  </data>
+  <data name="Topis.Report.Inventory.TransferDep2DepMaterial" xml:space="preserve">
+    <value>物资转料（库外）</value>
+    <comment>TransferDep2DepMaterial</comment>
+  </data>
+  <data name="Topis.Report.Inventory.ReserveMaterial" xml:space="preserve">
+    <value>物资预留料</value>
+    <comment>ReserveMaterial</comment>
+  </data>
+  <data name="Topis.Report.Inventory.AdjustInMaterial" xml:space="preserve">
+    <value>物资盘赢</value>
+    <comment>AdjustInMaterial</comment>
+  </data>
+  <data name="Topis.Report.Inventory.AdjustOutMaterial" xml:space="preserve">
+    <value>物资盘亏</value>
+    <comment>AdjustOutMaterial</comment>
+  </data>
+  <data name="Topis.Report.Inventory.WHPurchaseOrderMaterial" xml:space="preserve">
+    <value>物资采购订单</value>
+    <comment>WHPurchaseOrderMaterial</comment>
+  </data>
+  <data name="Topis.Report.Inventory.InventoryMaterial" xml:space="preserve">
+    <value>物资盘存</value>
+    <comment>InventoryMaterial</comment>
+  </data>
+  <data name="Topis.Configuration.GenerateIDRule" xml:space="preserve">
+    <value>生成编号规则</value>
+    <comment>GenerateIDRule</comment>
+  </data>
+  <data name="Topis.Inventory.Transfer" xml:space="preserve">
+    <value>转料</value>
+    <comment>Transfer</comment>
+  </data>
+  <data name="Topis.Inventory.Adjust" xml:space="preserve">
+    <value>盘库</value>
+    <comment>Adjust</comment>
+  </data>
+  <data name="Topis.Report.Purchase.MRTracking" xml:space="preserve">
+    <value>物资申请单跟踪</value>
+    <comment>MRTracking</comment>
+  </data>
+  <data name="Topis.Report.Purchase.MRWarning" xml:space="preserve">
+    <value>物资申请单警告</value>
+    <comment>MRWarning</comment>
+  </data>
+  <data name="Topis.Report.Purchase.POTracking" xml:space="preserve">
+    <value>采购订单跟踪</value>
+    <comment>POTracking</comment>
+  </data>
+  <data name="Topis.Report.Purchase.POWarning" xml:space="preserve">
+    <value>采购订单警告</value>
+    <comment>POWarning</comment>
+  </data>
+  <data name="Topis.Management" xml:space="preserve">
+    <value>采办管理</value>
+    <comment>Procurement Management</comment>
+  </data>
+  <data name="Topis.Management.Policy" xml:space="preserve">
+    <value>采办政策程序库</value>
+  </data>
+  <data name="Topis.Management.Policy.Sort" xml:space="preserve">
+    <value>类别</value>
+    <comment>Procurement Policy Sort</comment>
+  </data>
+  <data name="Topis.Contract.ContractStrategy" xml:space="preserve">
+    <value>策略报告</value>
+    <comment>ContractStrategy</comment>
+  </data>
+  <data name="Topis.Contract.TCMeetting" xml:space="preserve">
+    <value>TC会议日程</value>
+    <comment>TCMeetting</comment>
+  </data>
+  <data name="Topis.Contract.ITB" xml:space="preserve">
+    <value>ITB</value>
+    <comment>ITB</comment>
+  </data>
+  <data name="Topis.Contract.BIDOpenAndEval" xml:space="preserve">
+    <value>开标评标</value>
+    <comment>BID Open And Evaluation</comment>
+  </data>
+  <data name="Topis.Contract.BIDOpenAndEval.BIDOpen" xml:space="preserve">
+    <value>开标</value>
+    <comment>BID Open</comment>
+  </data>
+  <data name="Topis.Contract.BIDOpenAndEval.CommReport" xml:space="preserve">
+    <value>商务报告</value>
+    <comment>Commercial Report</comment>
+  </data>
+  <data name="Topis.Contract.BIDOpenAndEval.IntegReport" xml:space="preserve">
+    <value>综合报告</value>
+    <comment>Integerate Report</comment>
+  </data>
+  <data name="Topis.Contract.BIDOpenAndEval.TechReport" xml:space="preserve">
+    <value>技术报告</value>
+    <comment>Technical Report</comment>
+  </data>
+  <data name="Topis.Contract.Contract" xml:space="preserve">
+    <value>合同</value>
+    <comment>Contract</comment>
+  </data>
+  <data name="Topis.Contract.Letter" xml:space="preserve">
+    <value>信件</value>
+    <comment>Letter</comment>
+  </data>
+  <data name="Topis.Configuration.ContractConfiguration" xml:space="preserve">
+    <value>合同业务配置</value>
+    <comment>合同业务配置</comment>
+  </data>
+  <data name="Topis.Configuration.ContractConfiguration.CommGroup" xml:space="preserve">
+    <value>商务评标小组配置</value>
+    <comment>商务评标小组配置</comment>
+  </data>
+  <data name="Topis.Configuration.ContractConfiguration.TechGroup" xml:space="preserve">
+    <value>技术评标小组配置</value>
+    <comment>Technique Evaluation Group</comment>
+  </data>
+  <data name="Topis.Configuration.ContractConfiguration.ConfirmerGroup" xml:space="preserve">
+    <value>审核配置</value>
+    <comment>Confirmer Group</comment>
+  </data>
+  <data name="Topis.Configuration.ContractConfiguration.SealConfig" xml:space="preserve">
+    <value>密封标标准配置</value>
+    <comment>Seal Configuration</comment>
+  </data>
+  <data name="Topis.Configuration.ContractConfiguration.TCGroup" xml:space="preserve">
+    <value>TC 小组配置</value>
+    <comment>TC Group</comment>
+  </data>
+  <data name="Topis.Configuration.ContractConfiguration.ViewerGroup" xml:space="preserve">
+    <value>默认附加查看人配置</value>
+    <comment>Viewer Group</comment>
+  </data>
+  <data name="Topis.Configuration.ContractConfiguration.SRRemark" xml:space="preserve">
+    <value>SR描述配置</value>
+    <comment>SR Description</comment>
+  </data>
+  <data name="Topis.Contract.TCMeettingMinutes" xml:space="preserve">
+    <value>TC会议纪要</value>
+    <comment>TC minutes</comment>
+  </data>
+  <data name="Topis.Report.Contract_Report" xml:space="preserve">
+    <value>合同相关的报表</value>
+    <comment>Contract_Report</comment>
+  </data>
+  <data name="Topis.Report.Contract_Report.ReportCancaledContract" xml:space="preserve">
+    <value>取消的合同报表</value>
+    <comment>Report Cancaled Contract</comment>
+  </data>
+  <data name="Topis.Report.Contract_Report.ReportContract3" xml:space="preserve">
+    <value>3个月内合同报表</value>
+    <comment>ReportContract3</comment>
+  </data>
+  <data name="Topis.Report.Contract_Report.ReportContract6" xml:space="preserve">
+    <value>半年内合同报表</value>
+    <comment>Report Contract 6 Months</comment>
+  </data>
+  <data name="Topis.Report.Contract_Report.ReportCurrentContract" xml:space="preserve">
+    <value>当前合同报表</value>
+    <comment>ReportCurrentContract</comment>
+  </data>
+  <data name="Topis.Report.Contract_Report.ReportFinishContract" xml:space="preserve">
+    <value>合同终止报表</value>
+    <comment>Finish Contract</comment>
+  </data>
+  <data name="Topis.Report.Contract_Report.ReportPandingContract" xml:space="preserve">
+    <value>合同挂起报表</value>
+    <comment>Panding Contract</comment>
+  </data>
+  <data name="Topis.Report.Delay_Report.ReportCommBID" xml:space="preserve">
+    <value>商务评标报表</value>
+    <comment>Comm BID</comment>
+  </data>
+  <data name="Topis.Report.Delay_Report" xml:space="preserve">
+    <value>延期文件报表</value>
+    <comment>Comm BID</comment>
+  </data>
+  <data name="Topis.Report.Delay_Report.ReportCommConfirm" xml:space="preserve">
+    <value>商务报告审核报表</value>
+    <comment>Comm Confirm</comment>
+  </data>
+  <data name="Topis.Report.Delay_Report.ReportCommOpen" xml:space="preserve">
+    <value>商务开标报表</value>
+    <comment>Commercial Open</comment>
+  </data>
+  <data name="Topis.Report.Delay_Report.ReportContractAward" xml:space="preserve">
+    <value>合同授标报表</value>
+    <comment>ContractAward</comment>
+  </data>
+  <data name="Topis.Report.Delay_Report.ReportContractModify" xml:space="preserve">
+    <value>合同修改报表</value>
+    <comment>ContractModify</comment>
+  </data>
+  <data name="Topis.Report.Delay_Report.ReportContractValid" xml:space="preserve">
+    <value>合同生效报表</value>
+    <comment>ContractValid</comment>
+  </data>
+  <data name="Topis.Report.Delay_Report.ReportITBConfirm" xml:space="preserve">
+    <value>ITB审核报表</value>
+    <comment>ITB Confirm</comment>
+  </data>
+  <data name="Topis.Report.Delay_Report.ReportITBEdit" xml:space="preserve">
+    <value>ITB编制报表</value>
+    <comment>ITB Edit</comment>
+  </data>
+  <data name="Topis.Report.Delay_Report.ReportITBFinish" xml:space="preserve">
+    <value>截标报表</value>
+    <comment>ITB Finish</comment>
+  </data>
+  <data name="Topis.Report.Delay_Report.ReportTC" xml:space="preserve">
+    <value>TC会议报表</value>
+    <comment>TC Meetting</comment>
+  </data>
+  <data name="Topis.Report.Delay_Report.ReportTechBID" xml:space="preserve">
+    <value>技术评标报表</value>
+    <comment>Technique BID Report</comment>
+  </data>
+  <data name="Topis.Report.Delay_Report.ReportTechConfirm" xml:space="preserve">
+    <value>技术报告通过TC审核报表</value>
+    <comment>Technique Confirm Report</comment>
+  </data>
+  <data name="Topis.Report.Delay_Report.ReportTechOpen" xml:space="preserve">
+    <value>技术开标报表</value>
+    <comment>Technique Open Report</comment>
+  </data>
+  <data name="Topis.Report.Delay_Report.ReportTenderDocValid" xml:space="preserve">
+    <value>招标文件生效报表</value>
+    <comment>Tender Doc Valid Report</comment>
+  </data>
+  <data name="Topis.Report.SR_Report" xml:space="preserve">
+    <value>SR状态跟踪报表</value>
+    <comment>SR Report</comment>
+  </data>
+  <data name="Topis.Report.SR_Report.ReportCommercialBID" xml:space="preserve">
+    <value>商务评标的SR报表</value>
+    <comment>Commercial BID Report</comment>
+  </data>
+  <data name="Topis.Report.SR_Report.ReportCommercialTC" xml:space="preserve">
+    <value>商务报告待TC会议处理的SR报表</value>
+    <comment>CommercialTC</comment>
+  </data>
+  <data name="Topis.Report.SR_Report.ReportContractStrategy" xml:space="preserve">
+    <value>策略报告阶段的SR报表</value>
+    <comment>Contract Strategy Report</comment>
+  </data>
+  <data name="Topis.Report.SR_Report.ReportContractStrategyTC" xml:space="preserve">
+    <value>策略报告待TC会议处理的SR报表</value>
+    <comment>Contract Strategy TC Report</comment>
+  </data>
+  <data name="Topis.Report.SR_Report.ReportForITB" xml:space="preserve">
+    <value>等待ITB的SR报表</value>
+    <comment>For BID Report</comment>
+  </data>
+  <data name="Topis.Report.SR_Report.ReportITB" xml:space="preserve">
+    <value>处于ITB状态的SR报表</value>
+    <comment>ITB Report</comment>
+  </data>
+  <data name="Topis.Report.SR_Report.ReportITBFinished" xml:space="preserve">
+    <value>截标SR报表</value>
+    <comment>ITB Finished Report</comment>
+  </data>
+  <data name="Topis.Report.SR_Report.ReportNew" xml:space="preserve">
+    <value>新建的SR报表</value>
+    <comment>New SR Report</comment>
+  </data>
+  <data name="Topis.Report.SR_Report.ReportServiceRequest" xml:space="preserve">
+    <value>SR报表</value>
+    <comment>SR Report</comment>
+  </data>
+  <data name="Topis.Report.SR_Report.ReportSRConfirmBack" xml:space="preserve">
+    <value>审核退回的SR报表</value>
+    <comment>Confirm Back SR Report</comment>
+  </data>
+  <data name="Topis.Report.SR_Report.ReportSRProcessing" xml:space="preserve">
+    <value>待审核的SR报表</value>
+    <comment>Processing SR Report</comment>
+  </data>
+  <data name="Topis.Report.SR_Report.ReportTechBID" xml:space="preserve">
+    <value>技术评标的SR报表</value>
+    <comment>Technique BID Report</comment>
+  </data>
+  <data name="Topis.Report.SR_Report.ReportTechTC" xml:space="preserve">
+    <value>技术报告待TC会议处理的SR报表</value>
+    <comment>Technique TC</comment>
+  </data>
+  <data name="Topis.Contract.AtachmentManagment" xml:space="preserve">
+    <value>附件管理</value>
+    <comment>AttachmentManagment</comment>
+  </data>
+  <data name="Topis.Contract.Award" xml:space="preserve">
+    <value>授权</value>
+    <comment>Award</comment>
+  </data>
+  <data name="Topis.Management.Policy.Management" xml:space="preserve">
+    <value>采办政策管理</value>
+  </data>
+  <data name="Topis.Management.Contract.Category" xml:space="preserve">
+    <value>合同/标书类别</value>
+    <comment>Contract</comment>
+  </data>
+  <data name="Topis.Management.Contract.OrigContract.OrigContract" xml:space="preserve">
+    <value>原始合同/标书管理</value>
+    <comment>Contract</comment>
+  </data>
+  <data name="Topis.Management.Contract.PriceContract.PriceContract" xml:space="preserve">
+    <value>合同价格管理</value>
+    <comment>Contract</comment>
+  </data>
+  <data name="Topis.Management.Contract.RefeContract.RefeContract" xml:space="preserve">
+    <value>参考合同/标书管理</value>
+    <comment>Contract</comment>
+  </data>
+  <data name="Topis.Management.Contract.Search" xml:space="preserve">
+    <value>综合查询</value>
+    <comment>Contract</comment>
+  </data>
+  <data name="Topis.Management.Contract.StdContract.StdContract" xml:space="preserve">
+    <value>标准合同/标书管理</value>
+    <comment>Contract</comment>
+  </data>
+  <data name="Topis.Contract.Unlock" xml:space="preserve">
+    <value>密封标解锁</value>
+    <comment>Unlock</comment>
+  </data>
+  <data name="Topis.Contract.ModelDoc" xml:space="preserve">
+    <value>模板维护</value>
+    <comment>ModelDoc</comment>
+  </data>
+  <data name="Topis.Contract.SRTracking" xml:space="preserve">
+    <value>SR跟踪</value>
+  </data>
+  <data name="Topis.Management.Contract" xml:space="preserve">
+    <value>合同/标书模板库</value>
+  </data>
+  <data name="Topis.Management.Policy.Search" xml:space="preserve">
+    <value>采办政策搜索</value>
+  </data>
+  <data name="Topis.Configuration.AllProject" xml:space="preserve">
+    <value>项目信息</value>
+  </data>
+  <data name="Topis.Configuration.ContractMode" xml:space="preserve">
+    <value>合同模式</value>
+  </data>
+  <data name="Topis.Management.AbroadData.Report" xml:space="preserve">
+    <value>报表</value>
+    <comment>Report</comment>
+  </data>
+  <data name="Topis.Management.AbroadData.OperationData" xml:space="preserve">
+    <value>业务数据</value>
+    <comment>Operation data</comment>
+  </data>
+  <data name="Topis.Configuration.ContractConfiguration.ProcurementManager" xml:space="preserve">
+    <value>采办经理配置</value>
+    <comment>Procurement Manager Configuration</comment>
+  </data>
+  <data name="Topis.Contract.ITBStart" xml:space="preserve">
+    <value>发标</value>
+    <comment>ITB Start</comment>
+  </data>
+  <data name="Topis.Contract.ITBFinish" xml:space="preserve">
+    <value>截标</value>
+    <comment>ITB Finish</comment>
+  </data>
+  <data name="Topis.Configuration.UserManagement.Employee" xml:space="preserve">
+    <value>员工</value>
+  </data>
+  <data name="Topis.Configuration.BasicInfo.BasicTables" xml:space="preserve">
+    <value>基本表</value>
+  </data>
+  <data name="Topis.BasicInfo" xml:space="preserve">
+    <value>基础配置</value>
+  </data>
+  <data name="Topis.BasicConfig.Bin" xml:space="preserve">
+    <value>库位</value>
+  </data>
+  <data name="Topis.BasicConfig.CurrencyExchangeRate" xml:space="preserve">
+    <value>汇率</value>
+  </data>
+  <data name="Topis.BasicConfig.ExchangeRateHistory" xml:space="preserve">
+    <value>历史汇率</value>
+  </data>
+  <data name="Topis.BasicConfig.UOM" xml:space="preserve">
+    <value>单位</value>
+  </data>
+  <data name="Topis.BasicConfig.WareHouse" xml:space="preserve">
+    <value>库房</value>
+  </data>
+  <data name="Topis.Configuration.Authority" xml:space="preserve">
+    <value>系统权限</value>
+  </data>
+  <data name="Topis.Configuration.CalCurrency" xml:space="preserve">
+    <value>本位/核算币</value>
+  </data>
+  <data name="Topis.Configuration.Currency" xml:space="preserve">
+    <value>货币</value>
+  </data>
+  <data name="Topis.Configuration.Department" xml:space="preserve">
+    <value>部门</value>
+  </data>
+  <data name="Topis.Configuration.DepartmentEmployee" xml:space="preserve">
+    <value>部门员工</value>
+  </data>
+  <data name="Topis.Configuration.MaterialCode" xml:space="preserve">
+    <value>物资编码规则</value>
+  </data>
+  <data name="Topis.Configuration.ModifyPassword" xml:space="preserve">
+    <value>修改密码</value>
+  </data>
+  <data name="Topis.Configuration.PositionType" xml:space="preserve">
+    <value>职务</value>
+  </data>
+  <data name="Topis.Configuration.Projects" xml:space="preserve">
+    <value>项目信息</value>
+  </data>
+  <data name="Topis.Configuration.Role" xml:space="preserve">
+    <value>角色</value>
+  </data>
+  <data name="Topis.Configuration.BasicType" xml:space="preserve">
+    <value>基本类型</value>
+  </data>
+  <data name="Topis.BasicConfig" xml:space="preserve">
+    <value>基础配置</value>
+  </data>
+  <data name="Topis.TendorOperation" xml:space="preserve">
+    <value>招标流程</value>
+  </data>
+  <data name="Topis.TendorOperation.ServiceRequistion" xml:space="preserve">
+    <value>服务申请</value>
+  </data>
+  <data name="Topis.TendorOperation.ProcurementPolicy" xml:space="preserve">
+    <value>采办策略</value>
+  </data>
+  <data name="Topis.TendorOperation.ITB" xml:space="preserve">
+    <value>标书撰写</value>
+  </data>
+  <data name="Topis.TendorOperation.Approve" xml:space="preserve">
+    <value>审批</value>
+  </data>
+  <data name="Topis.TenderConfig" xml:space="preserve">
+    <value>招标配置</value>
+  </data>
+  <data name="Topis.TenderConfig.SealConfig" xml:space="preserve">
+    <value>密封标金额</value>
+  </data>
+  <data name="Topis.TenderConfig.ApproveFlow" xml:space="preserve">
+    <value>审批流程</value>
+  </data>
+  <data name="Topis.TenderConfig.DefaultTCGroup" xml:space="preserve">
+    <value>招标委员会</value>
+  </data>
+  <data name="Topis.TenderConfig.DefaultGroup" xml:space="preserve">
+    <value>招标小组</value>
+  </data>
+  <data name="Topis.TenderConfig.VendorAppraise" xml:space="preserve">
+    <value>评比表</value>
+  </data>
+  <data name="Topis.ProcurementManagement" xml:space="preserve">
+    <value>采办管理</value>
+  </data>
+  <data name="Topis.ProcurementManagement.VendorDatabase" xml:space="preserve">
+    <value>供应商数据库</value>
+  </data>
+  <data name="Topis.ProcurementManagement.VendorDatabase.VendorPrejudication" xml:space="preserve">
+    <value>供应商预审</value>
+  </data>
+  <data name="Topis.ProcurementManagement.VendorDatabase.BusyHistory" xml:space="preserve">
+    <value>业务历史</value>
+  </data>
+  <data name="Topis.ProcurementManagement.VendorDatabase.CreditAppraise" xml:space="preserve">
+    <value>信誉评价</value>
+  </data>
+  <data name="Topis.ProcurementManagement.VendorDatabase.Database" xml:space="preserve">
+    <value>供应商库</value>
+  </data>
+  <data name="Topis.ProcurementManagement.TenderManagement" xml:space="preserve">
+    <value>TC会议</value>
+  </data>
+  <data name="Topis.ProcurementManagement.TenderManagement.TenderBulletin" xml:space="preserve">
+    <value>招标公告</value>
+  </data>
+  <data name="Topis.Configuration.UserRole" xml:space="preserve">
+    <value>用户角色</value>
+    <comment>UserRole</comment>
+  </data>
+  <data name="Topis.ProcurementManagement.VendorDatabase.VendorsPermited" xml:space="preserve">
+    <value>供应商名录</value>
+  </data>
+  <data name="Topis.ProcurementManagement.VendorDatabase.SearchContact" xml:space="preserve">
+    <value>查询联系人</value>
+  </data>
+  <data name="Topis.ProcurementManagement.VendorDatabase.DealHistory" xml:space="preserve">
+    <value>查询合同</value>
+  </data>
+  <data name="Topis.ProcurementManagement.VendorDatabase.BlackList" xml:space="preserve">
+    <value>黑名单</value>
+  </data>
+  <data name="Topis.ProcurementManagement.VendorDatabase.VendorRegister" xml:space="preserve">
+    <value>供应商注册</value>
+  </data>
+  <data name="Topis.ProcurementManagement.VendorDatabase.VendorModification" xml:space="preserve">
+    <value>修改日志</value>
+  </data>
+  <data name="Topis.ProcurementManagement.TenderManagement.TCSchedule" xml:space="preserve">
+    <value>TC日程</value>
+  </data>
+  <data name="Topis.ProcurementManagement.TenderManagement.TCSummary" xml:space="preserve">
+    <value>TC纪要</value>
+  </data>
+  <data name="Topis.Tendor" xml:space="preserve">
+    <value>招标业务</value>
+  </data>
+  <data name="Topis.Tendor.SR" xml:space="preserve">
+    <value>服务申请</value>
+  </data>
+  <data name="Topis.TenderConfig.VendorPlan" xml:space="preserve">
+    <value>招标计划</value>
+  </data>
+  <data name="Topis.BasicConfig.VendorEvaluateStandard" xml:space="preserve">
+    <value>供应商分数评价标准</value>
+  </data>
+  <data name="Topis.BasicConfig.VendorGradeEvaluateStandard" xml:space="preserve">
+    <value>供应商等级评价标准</value>
+  </data>
+  <data name="Topis.BasicConfig.VendorAssociationName" xml:space="preserve">
+    <value>供应商关联关系</value>
+  </data>
+  <data name="Topis.TendorOperation.SuperView" xml:space="preserve">
+    <value>超级察看</value>
+  </data>
+  <data name="Topis.ProcurementManagement.ContractDatabase" xml:space="preserve">
+    <value>合同数据库</value>
+  </data>
+  <data name="Topis.ProcurementManagement.ContractDatabase.ContractCategory" xml:space="preserve">
+    <value>合同类别</value>
+  </data>
+  <data name="Topis.ProcurementManagement.ContractDatabase.Contract" xml:space="preserve">
+    <value>合同数据库</value>
+  </data>
+  <data name="Topis.ProcurementManagement.ContractDatabase.VendorSearch" xml:space="preserve">
+    <value>合同查询</value>
+  </data>
+  <data name="Topis.ProcurementManagement.ContractDatabase.ExecuteManagement" xml:space="preserve">
+    <value>合同执行管理</value>
+  </data>
+  <data name="Topis.ProcurementManagement.ContractDatabase.ContractPayment" xml:space="preserve">
+    <value>付款登记</value>
+  </data>
+  <data name="Topis.ProcurementManagement.ITBDocumentDatabase" xml:space="preserve">
+    <value>标书数据库</value>
+  </data>
+  <data name="Topis.ProcurementManagement.ITBDocumentDatabase.ITBDocument" xml:space="preserve">
+    <value>标书数据库</value>
+  </data>
+  <data name="Topis.TendorOperation.TenderSend" xml:space="preserve">
+    <value>发标</value>
+  </data>
+  <data name="Topis.TendorOperation.TenderEnd" xml:space="preserve">
+    <value>截标</value>
+  </data>
+  <data name="Topis.TendorOperation.TenderOpen" xml:space="preserve">
+    <value>开标</value>
+  </data>
+  <data name="Topis.AppoveFlow" xml:space="preserve">
+    <value>审批流程</value>
+  </data>
+  <data name="Topis.AppoveFlow.ApproveProcess" xml:space="preserve">
+    <value>审批处理</value>
+  </data>
+  <data name="Topis.AppoveFlow.ApproveProcedure" xml:space="preserve">
+    <value>审批进程</value>
+  </data>
+  <data name="Topis.TendorOperation.TenderEvaluation" xml:space="preserve">
+    <value>技术评标</value>
+  </data>
+  <data name="Topis.TendorOperation.TenderBulletin" xml:space="preserve">
+    <value>招标公告</value>
+  </data>
+  <data name="Topis.TenderConfig.SRPlanType" xml:space="preserve">
+    <value>申请类别</value>
+  </data>
+  <data name="Topis.TendorOperation.CommTenderEvaluation" xml:space="preserve">
+    <value>商务评标</value>
+  </data>
+  <data name="Topis.TendorOperation.ContractSign" xml:space="preserve">
+    <value>招标合同签订</value>
+  </data>
+  <data name="Topis.ProcurementManagement.VendorDatabase.VendorPrejudication.Application" xml:space="preserve">
+    <value>申请注册</value>
+  </data>
+  <data name="Topis.ProcurementManagement.VendorDatabase.VendorPrejudication.Submit" xml:space="preserve">
+    <value>提交审批</value>
+  </data>
+  <data name="Topis.ProcurementManagement.VendorDatabase.VendorPrejudication.SubmitFailure" xml:space="preserve">
+    <value>预审未通过</value>
+  </data>
+  <data name="Topis.ProcurementManagement.VendorDatabase.VendorPrejudication.SuccessfullyRegister" xml:space="preserve">
+    <value>注册通过</value>
+  </data>
+  <data name="Topis.TendorOperation.NoFlowContractSign" xml:space="preserve">
+    <value>直接合同签订</value>
+  </data>
+  <data name="Topis.ReportSystem" xml:space="preserve">
+    <value>业务报表</value>
+  </data>
+  <data name="Topis.ReportSystem.VendorDatabaseReportSystem" xml:space="preserve">
+    <value>供应商数据库报表</value>
+  </data>
+  <data name="Topis.ReportSystem.VendorDatabaseReportSystem.VendorReport" xml:space="preserve">
+    <value>供应商统计报表</value>
+  </data>
+  <data name="Topis.ReportSystem.VendorDatabaseReportSystem.VendorReport1" xml:space="preserve">
+    <value>合同金额统计报表</value>
+  </data>
+  <data name="Topis.ReportSystem.ContractDatabaseReportSystem" xml:space="preserve">
+    <value>合同数据库报表</value>
+  </data>
+  <data name="Topis.ReportSystem.ContractDatabaseReportSystem.ContractReport" xml:space="preserve">
+    <value>合同统计报表</value>
+  </data>
+  <data name="Topis.ReportSystem.ContractDatabaseReportSystem.ContractReport1" xml:space="preserve">
+    <value>承包商统计报表</value>
+  </data>
+  <data name="Topis.ReportSystem.ContractDatabaseReportSystem.ContractReport2" xml:space="preserve">
+    <value>关联合同统计报表</value>
+  </data>
+  <data name="Topis.ReportSystem.SRReportSystem" xml:space="preserve">
+    <value>服务申请数据库报表</value>
+  </data>
+  <data name="Topis.ReportSystem.SRReportSystem.SRReport" xml:space="preserve">
+    <value>服务申请统计报表</value>
+  </data>
+  <data name="Topis.ReportSystem.SRReportSystem.SRReport1" xml:space="preserve">
+    <value>服务申请跟踪表</value>
+  </data>
+  <data name="Topis.ReportSystem.ITBDocumentReportSystem" xml:space="preserve">
+    <value>标书数据库报表</value>
+  </data>
+  <data name="Topis.ReportSystem.ITBDocumentReportSystem.ITBDocumentReport" xml:space="preserve">
+    <value>标书统计报表</value>
+  </data>
+  <data name="Topis.TendorOperation.FlowTrack" xml:space="preserve">
+    <value>SR跟踪</value>
+  </data>
+  <data name="Topis.BasicConfig.SubProject" xml:space="preserve">
+    <value>子项目</value>
+  </data>
+  <data name="Topis.MaterialManagement" xml:space="preserve">
+    <value>物资管理</value>
+  </data>
+  <data name="Topis.MaterialManagement.MaterialCatalog" xml:space="preserve">
+    <value>物资分类</value>
+  </data>
+  <data name="Topis.BasicConfig.AFE" xml:space="preserve">
+    <value>资金预算</value>
+  </data>
+  <data name="Topis.MaterialManagement.MaterialCode" xml:space="preserve">
+    <value>物资编码</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseManagment" xml:space="preserve">
+    <value>库存管理</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseManagment.POSearch" xml:space="preserve">
+    <value>订单查询</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseManagment.BinSearch" xml:space="preserve">
+    <value>库位查询</value>
+  </data>
+  <data name="Topis.BasicConfig.ABCCalssScale" xml:space="preserve">
+    <value>ABC设置</value>
+  </data>
+  <data name="Topis.MaterialManagement.POHistory" xml:space="preserve">
+    <value>采购历史</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseManagment.MaterialHistory" xml:space="preserve">
+    <value>物资历史</value>
+  </data>
+  <data name="Topis.BasicConfig.MaxMinMaterial" xml:space="preserve">
+    <value>定义库容</value>
+  </data>
+  <data name="Topis.BasicConfig.ImportantMaterial" xml:space="preserve">
+    <value>重要物资</value>
+  </data>
+  <data name="Topis.WareHouse" xml:space="preserve">
+    <value>库房</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseOperation.Receive" xml:space="preserve">
+    <value>收料</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseOperation.Issue" xml:space="preserve">
+    <value>发料</value>
+  </data>
+  <data name="Topis.MaterialManagement.MaterialHistory" xml:space="preserve">
+    <value>物资历史</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseManagment.InStoreMaterialDetail" xml:space="preserve">
+    <value>库存明细
+</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseOperation" xml:space="preserve">
+    <value>库房业务</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseOperation.Return" xml:space="preserve">
+    <value>返料</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseOperation.Transfer" xml:space="preserve">
+    <value>转料</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseOperation.Transfer.TransferBin2Bin" xml:space="preserve">
+    <value>库内转料</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseOperation.Transfer.TransferWH2WH" xml:space="preserve">
+    <value>库间转料</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseOperation.Transfer.TransferDEP2DEP" xml:space="preserve">
+    <value>库外转料</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseOperation.Preserve.Preserve" xml:space="preserve">
+    <value>预留</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseOperation.Reject" xml:space="preserve">
+    <value>报废与处置</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseOperation.Borrow" xml:space="preserve">
+    <value>借料</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseManagment.MaterialCapacity" xml:space="preserve">
+    <value>库存预警</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseOperation.DirectArrivalMaterial" xml:space="preserve">
+    <value>直达料</value>
+  </data>
+  <data name="Topis.WareHouse.Inventory" xml:space="preserve">
+    <value>库房盘点</value>
+  </data>
+  <data name="Topis.WareHouse.Inventory.CheckStock" xml:space="preserve">
+    <value>盘库单</value>
+  </data>
+  <data name="Topis.WareHouse.Inventory.InventoryReport" xml:space="preserve">
+    <value>盘存报表</value>
+  </data>
+  <data name="Topis.WareHouse.Inventory.AdjustIn" xml:space="preserve">
+    <value>盘盈</value>
+  </data>
+  <data name="Topis.WareHouse.Inventory.AdjustOut" xml:space="preserve">
+    <value>盘亏</value>
+  </data>
+  <data name="Topis.ReportSystem.WareHouse" xml:space="preserve">
+    <value>库房报表</value>
+  </data>
+  <data name="Topis.ReportSystem.WareHouse.AdjustIn" xml:space="preserve">
+    <value>盘盈报表</value>
+  </data>
+  <data name="Topis.ReportSystem.WareHouse.InStoreMaterialDetail" xml:space="preserve">
+    <value>库存明细报表</value>
+  </data>
+  <data name="Topis.ReportSystem.WareHouse.Issue" xml:space="preserve">
+    <value>发料报表</value>
+  </data>
+  <data name="Topis.ReportSystem.WareHouse.Preserve" xml:space="preserve">
+    <value>预留料报表</value>
+  </data>
+  <data name="Topis.ReportSystem.WareHouse.PurchaseOrder" xml:space="preserve">
+    <value>采购订单收发存报表</value>
+  </data>
+  <data name="Topis.ReportSystem.WareHouse.Receive" xml:space="preserve">
+    <value>收料报表</value>
+  </data>
+  <data name="Topis.ReportSystem.WareHouse.Return" xml:space="preserve">
+    <value>返料报表</value>
+  </data>
+  <data name="Topis.ReportSystem.WareHouse.TransferBin2Bin" xml:space="preserve">
+    <value>库内转料报表</value>
+  </data>
+  <data name="Topis.ReportSystem.WareHouse.TransferDep2Dep" xml:space="preserve">
+    <value>库外转料报表</value>
+  </data>
+  <data name="Topis.ReportSystem.WareHouse.TransferWH2WH" xml:space="preserve">
+    <value>库间转料报表</value>
+  </data>
+  <data name="Topis.Statistic" xml:space="preserve">
+    <value>统计分析</value>
+  </data>
+  <data name="Topis.Statistic.FinancingUseAnalysis" xml:space="preserve">
+    <value>资金占用</value>
+  </data>
+  <data name="Topis.Statistic.MaterialUseAnalysis" xml:space="preserve">
+    <value>物资使用</value>
+  </data>
+  <data name="Topis.ProcurementManagement.ContractDatabase.PurchaseOrder" xml:space="preserve">
+    <value>采购订单</value>
+  </data>
+  <data name="Topis.ReportSystem.WareHouse.InventoryReport" xml:space="preserve">
+    <value>盘存报表</value>
+  </data>
+  <data name="Topis.ReportSystem.WareHouse.POInWareHouse" xml:space="preserve">
+    <value>订单金额报表</value>
+  </data>
+  <data name="Topis.DocumentManagement" xml:space="preserve">
+    <value>文档管理</value>
+  </data>
+  <data name="Topis.DocumentManagement.AttachmentManagment" xml:space="preserve">
+    <value>附件管理</value>
+  </data>
+  <data name="Topis.DocumentManagement.DocumentModel" xml:space="preserve">
+    <value>文件柜</value>
+  </data>
+  <data name="Topis.DocumentManagement.DocumentModelCategory" xml:space="preserve">
+    <value>文件分类</value>
+  </data>
+  <data name="Topis.BasicConfig.WareHouseEmployee" xml:space="preserve">
+    <value>库房员工</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseOperation.Preserve" xml:space="preserve">
+    <value>预留料</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseOperation.Preserve.CancelPreserve" xml:space="preserve">
+    <value>撤消预留</value>
+  </data>
+  <data name="Topis.ReportSystem.WareHouse.AdjustOut" xml:space="preserve">
+    <value>盘亏报表</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseManagment.ABCClass" xml:space="preserve">
+    <value>ABC物资明细</value>
+  </data>
+  <data name="Topis.ProcurementManagement.VendorDatabase.VendorMaterialHistory" xml:space="preserve">
+    <value>物资历史</value>
+  </data>
+  <data name="Topis.WareHouse.WareHouseManagment.InterfaceOfFinance" xml:space="preserve">
+    <value>财务接口</value>
+  </data>
+  <data name="Topis.Statistic.ImportantMaterialFinancingUseAnalysis" xml:space="preserve">
+    <value>重点物资资金占用</value>
+  </data>
+  <data name="Topis.MaterialPurchase.MaterialRequest" xml:space="preserve">
+    <value>物资申请</value>
+  </data>
+  <data name="Topis.MaterialPurchase" xml:space="preserve">
+    <value>物资采购</value>
+  </data>
+  <data name="Topis.MaterialPurchase.EnquiryPrice" xml:space="preserve">
+    <value>询价</value>
+  </data>
+  <data name="Topis.MaterialPurchase.Quotation" xml:space="preserve">
+    <value>报价</value>
+  </data>
+  <data name="Topis.MaterialPurchase.BIDEvaluation" xml:space="preserve">
+    <value>评标</value>
+  </data>
+  <data name="Topis.MaterialPurchase.POBidFlow" xml:space="preserve">
+    <value>订单签订</value>
+  </data>
+  <data name="Topis.MaterialPurchase.PONOBidFlow" xml:space="preserve">
+    <value>订单签订</value>
+  </data>
+  <data name="Topis.TendorOperation.ProcurementStrategy" xml:space="preserve">
+    <value>相关策略</value>
+  </data>
+  <data name="Topis.TendorOperation.ProcurementStrategy.ProcurementPolicy" xml:space="preserve">
+    <value>服务申请策略</value>
+  </data>
+  <data name="Topis.TendorOperation.ProcurementStrategy.MRStrategy" xml:space="preserve">
+    <value>物资采办策略</value>
+  </data>
+  <data name="Topis.TendorOperation.POSign" xml:space="preserve">
+    <value>招标订单签订</value>
+  </data>
+  <data name="Topis.MaterialPurchase.NoFlowPOSign" xml:space="preserve">
+    <value>直接订单签订</value>
+  </data>
+  <data name="Topis.BasicConfig.EnquiryComments" xml:space="preserve">
+    <value>询价备注</value>
+  </data>
+  <data name="Topis.ReportSystem.MaterialPurchase" xml:space="preserve">
+    <value>物资采购报表</value>
+  </data>
+  <data name="Topis.ReportSystem.MaterialPurchase.EnquiryByBuyer" xml:space="preserve">
+    <value>询价(按采购员)</value>
+  </data>
+  <data name="Topis.ReportSystem.MaterialPurchase.POTracking" xml:space="preserve">
+    <value>订单跟踪</value>
+  </data>
+  <data name="Topis.ReportSystem.MaterialPurchase.POWarning" xml:space="preserve">
+    <value>订单预警</value>
+  </data>
+  <data name="Topis.ReportSystem.MaterialPurchase.PurchaseOrderByBuyer" xml:space="preserve">
+    <value>订单(按采购员)</value>
+  </data>
+  <data name="Topis.ReportSystem.MaterialPurchase.PurchaseOrderByMaterial" xml:space="preserve">
+    <value>订单(按物资)</value>
+  </data>
+  <data name="Topis.ReportSystem.MaterialPurchase.PurchaseOrderByVendor" xml:space="preserve">
+    <value>订单(按供应商)</value>
+  </data>
+  <data name="Topis.ReportSystem.MaterialPurchase.QuotationByMaterial" xml:space="preserve">
+    <value>报价(按物资)</value>
+  </data>
+  <data name="Topis.ReportSystem.MaterialPurchase.QuotationByVendor" xml:space="preserve">
+    <value>报价(按供应商)</value>
+  </data>
+  <data name="Topis.ReportSystem.MaterialPurchase.MRByBuyer" xml:space="preserve">
+    <value>物资申请(按采购员)</value>
+  </data>
+</root>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<!--
+select distinct
+'<data name="'+AuthorityType+'">
+	<value>'+AuthorityType+'</value>
+	<comment>'+AuthorityType+'</comment>
+</data>'
+from Authority
+	-->
+	<data name="Add">
+		<value>Add</value>
+		<comment>Add</comment>
+	</data>
+	<data name="AddCatalog">
+		<value>Add Catalog</value>
+		<comment>AddCatalog</comment>
+	</data>
+	<data name="Cancel">
+		<value>Cancel</value>
+		<comment>Cancel</comment>
+	</data>
+	<data name="ChangeCatalog">
+		<value>Change Catalog</value>
+		<comment>ChangeCatalog</comment>
+	</data>
+	<data name="Confirm">
+		<value>Confirm</value>
+		<comment>Confirm</comment>
+	</data>
+	<data name="ConfirmDue">
+		<value>Confirm Due</value>
+		<comment>ConfirmDue</comment>
+	</data>
+	<data name="Delete">
+		<value>Delete</value>
+		<comment>Delete</comment>
+	</data>
+	<data name="DeleteCatalog">
+		<value>Delete Catalog</value>
+		<comment>DeleteCatalog</comment>
+	</data>
+	<data name="Expire">
+		<value>Expire</value>
+		<comment>Expire</comment>
+	</data>
+	<data name="Print">
+		<value>Print</value>
+		<comment>Print</comment>
+	</data>
+	<data name="Set">
+		<value>Set</value>
+		<comment>Set</comment>
+	</data>
+	<data name="SetPasswd">
+		<value>Set Password</value>
+		<comment>SetPasswd</comment>
+	</data>
+	<data name="Update">
+		<value>Update</value>
+		<comment>Update</comment>
+	</data>
+	<data name="UpdateBin">
+		<value>Update Bin</value>
+		<comment>UpdateBin</comment>
+	</data>
+	<data name="UpdateCatalog">
+		<value>Update Catalog</value>
+		<comment>UpdateCatalog</comment>
+	</data>
+	<data name="UpdateDue">
+		<value>Update Due</value>
+		<comment>UpdateDue</comment>
+	</data>
+	<data name="View">
+		<value>Entrance</value>
+		<comment>Entrance</comment>
+	</data>
+	<data name="ViewSingle">
+		<value>View</value>
+		<comment>View</comment>
+	</data>
+	<data name="AdvancedSearch">
+		<value>Advanced Search</value>
+		<comment>AdvancedSearch</comment>
+	</data>
+	<data name="AddFromMR">
+		<value>Add from MR</value>
+		<comment>AddFromMR</comment>
+	</data>
+	<data name="Create">
+		<value>Create</value>
+		<comment>Create</comment>
+	</data>
+	<data name="Super">
+		<value>Super</value>
+		<comment>Super</comment>
+	</data>
+	<data name="Void">
+		<value>Void</value>
+		<comment>Void</comment>
+	</data>
+	<data name="CatalogNew">
+		<value>Create Catalog</value>
+		<comment>CatalogNew</comment>
+	</data>
+	<data name="CatalogModify">
+		<value>Modify Catalog</value>
+		<comment>CatalogModify</comment>
+	</data>
+	<data name="CatalogDelete">
+		<value>Delete Catalog</value>
+		<comment>CatalogDelete</comment>
+	</data>
+	<data name="AttDelete">
+		<value>Delete Attachment</value>
+		<comment>AttDelete</comment>
+	</data>
+	<data name="AttNew">
+		<value>Add Model Attachment</value>
+		<comment>AttNew</comment>
+	</data>
+	<data name="Search">
+		<value>Search</value>
+		<comment>Search</comment>
+	</data>
+	<data name="AllProject">
+		<value>Operate all project</value>
+		<comment>Operate all project</comment>
+	</data>
+	<data name="AllProjectView">
+		<value>View all project</value>
+		<comment>View all project</comment>
+	</data>
+	<data name="UploadITB">
+		<value>Upload ITB</value>
+	</data>
+	<data name="UploadContract">
+		<value>Upload Contract</value>
+	</data>
+	<data name="Record">
+		<value>Record</value>
+		<comment>Record</comment>
+	</data>
+	<data name="Recive">
+		<value>Recive</value>
+		<comment>Recive</comment>
+	</data>
+	<data name="Operator">
+		<value>Operator</value>
+		<comment>Operator</comment>
+	</data>
+</root>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="Title">
+		<value>页头</value>
+	</data>
+	<data name="litHelp">
+		<value>帮助</value>
+	</data>
+	<data name="litLogout">
+		<value>注销</value>
+	</data>
+	<data name="litSelectLanguage">
+		<value>选择语言:</value>
+	</data>
+	<data name="litRefreshTree">
+		<value>刷新树菜单</value>
+	</data>
+	<data name="btnSetLanguage">
+		<value>设置</value>
+	</data>
+	<data name="btnHideTree">
+		<value>隐藏菜单</value>
+	</data>
+	<data name="btnShowTree">
+		<value>显示菜单</value>
+	</data>
+			<data name="litHideTree">
+		<value>隐藏菜单</value>
+	</data>
+	<data name="litShowTree">
+		<value>显示菜单</value>
+	</data>
+	<data name="litLicensedTo">
+		<value>授权给： </value>
+	</data>
+	<data name="sLogoutAlert">
+		<value>确定要注销本系统吗？ </value>
+	</data>
+</root>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="gcLogTime">
+		<value>Time</value>
+	</data>
+	<data name="gcUser">
+		<value>User</value>
+	</data>
+	<data name="gcModuleID">
+		<value>Module</value>
+	</data>
+	<data name="gcLogType">
+		<value>Type</value>
+	</data>
+	<data name="gcLogDescription">
+		<value>Description</value>
+	</data>
+	<data name="gcLogIP">
+		<value>IP</value>
+	</data>
+	<data name="gcPlatform">
+		<value>Platform</value>
+	</data>
+	<data name="gcBrowser">
+		<value>Browser</value>
+	</data>
+	<data name="gcLanguage">
+		<value>Language</value>
+	</data>
+	<data name="uSelectType">
+		<value>Select LogType</value>
+	</data>
+	<data name="uSelectPlatform">
+		<value>Select Platform</value>
+	</data>
+	<data name="uSelectBrowser">
+		<value>Select Browser</value>
+	</data>
+	<data name="uSelectLanguage">
+		<value>Select Language</value>
+	</data>
+	<data name="litDateFrom">
+		<value>Date From</value>
+	</data>
+	<data name="litDateTo">
+		<value>To</value>
+	</data>
+	<data name="ErrorWhenQuery">
+		<value>Error occured when querying data from database, please check your input!</value>
+	</data>
+	<data name="btnSearch">
+		<value>Search</value>
+	</data>
+	<data name="UserSystemLog">
+		<value>Personal Log</value>
+	</data>
+</root>

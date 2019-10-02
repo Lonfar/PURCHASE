@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="Topis.BasicConfig.Bin.Add">
+		<value>添加库位信息</value>
+	</data>
+	<data name="Topis.BasicConfig.Bin.Delete">
+		<value>删除 库位信息</value>
+	</data>
+	<data name="Topis.BasicConfig.Bin.Update">
+		<value>修改库位信息</value>
+	</data>
+	<data name="Topis.BasicConfig.Bin.View">
+		<value>查看 库位信息</value>
+	</data>
+	<data name="Topis.BasicConfig.CurrencyExchangeRate.Add">
+		<value>添加 汇率信息</value>
+	</data>
+	<data name="Topis.BasicConfig.CurrencyExchangeRate.Delete">
+		<value>删除  汇率信息</value>
+	</data>
+	<data name="Topis.BasicConfig.CurrencyExchangeRate.Update">
+		<value>修改汇率信息</value>
+	</data>
+	<data name="Topis.BasicConfig.CurrencyExchangeRate.View">
+		<value>查看汇率信息</value>
+	</data>
+	<data name="Topis.BasicConfig.ExchangeRateHistory.Add">
+		<value>添加 历史汇率信息</value>
+	</data>
+	<data name="Topis.BasicConfig.ExchangeRateHistory.Delete">
+		<value>删除历史汇率信息</value>
+	</data>
+	<data name="Topis.BasicConfig.ExchangeRateHistory.Update">
+		<value>修改 历史汇率信息</value>
+	</data>
+	<data name="Topis.BasicConfig.ExchangeRateHistory.View">
+		<value>查看历史汇率信息</value>
+	</data>
+	<data name="Topis.BasicConfig.UOM.Add">
+		<value>添加 单位信息</value>
+	</data>
+	<data name="Topis.BasicConfig.UOM.Delete">
+		<value>删除单位信息</value>
+	</data>
+	<data name="Topis.BasicConfig.UOM.Update">
+		<value>修改单位信息</value>
+	</data>
+	<data name="Topis.BasicConfig.UOM.View">
+		<value>查看 单位信息</value>
+	</data>
+	<data name="Topis.BasicConfig.WareHouse.Add">
+		<value>添加 库房信息</value>
+	</data>
+	<data name="Topis.BasicConfig.WareHouse.Delete">
+		<value>删除库房信息</value>
+	</data>
+	<data name="Topis.BasicConfig.WareHouse.Update">
+		<value>修改 库房信息</value>
+	</data>
+	<data name="Topis.BasicConfig.WareHouse.View">
+		<value>查看 库房信息</value>
+	</data>
+	<data name="Topis.Configuration.Authority.Add">
+		<value>添加 权限</value>
+	</data>
+	<data name="Topis.Configuration.Authority.Delete">
+		<value>删除权限</value>
+	</data>
+	<data name="Topis.Configuration.Authority.Update">
+		<value>修改 权限</value>
+	</data>
+	<data name="Topis.Configuration.Authority.View">
+		<value>查询、查看权限</value>
+	</data>
+	<data name="Topis.Configuration.Authority.ViewSingle">
+		<value>查看单个 权限</value>
+	</data>
+	<data name="Topis.Configuration.CalCurrency.Add">
+		<value>添加  核算币</value>
+	</data>
+	<data name="Topis.Configuration.CalCurrency.Delete">
+		<value>删除 核算币</value>
+	</data>
+	<data name="Topis.Configuration.CalCurrency.Update">
+		<value>修改 核算币</value>
+	</data>
+	<data name="Topis.Configuration.CalCurrency.View">
+		<value>查询、查看 核算币</value>
+	</data>
+	<data name="Topis.Configuration.CalCurrency.ViewSingle">
+		<value>查看单个核算币</value>
+	</data>
+	<data name="Topis.Configuration.Currency.Add">
+		<value>添加货币信息</value>
+	</data>
+	<data name="Topis.Configuration.Currency.Delete">
+		<value>删除货币信息</value>
+	</data>
+	<data name="Topis.Configuration.Currency.Update">
+		<value>修改货币信息</value>
+	</data>
+	<data name="Topis.Configuration.Currency.View">
+		<value>参看、查询货币信息</value>
+	</data>
+	<data name="Topis.Configuration.Currency.ViewSingle">
+		<value>查看单个货币信息</value>
+	</data>
+	<data name="Topis.Configuration.Department.Add">
+		<value>添加部门信息</value>
+	</data>
+	<data name="Topis.Configuration.Department.Delete">
+		<value>删除部门信息</value>
+	</data>
+	<data name="Topis.Configuration.Department.Update">
+		<value>修改部门信息</value>
+	</data>
+	<data name="Topis.Configuration.Department.View">
+		<value>查看、查询部门信息</value>
+	</data>
+	<data name="Topis.Configuration.Department.ViewSingle">
+		<value>查看 单个部门信息</value>
+	</data>
+	<data name="Topis.Configuration.DepartmentEmployee.Add">
+		<value>添加部门员工信息</value>
+	</data>
+	<data name="Topis.Configuration.DepartmentEmployee.Delete">
+		<value>删除部门员工信息</value>
+	</data>
+	<data name="Topis.Configuration.DepartmentEmployee.Update">
+		<value>修改部门修改信息</value>
+	</data>
+	<data name="Topis.Configuration.DepartmentEmployee.View">
+		<value>查看、查询部门员工信息</value>
+	</data>
+	<data name="Topis.Configuration.DepartmentEmployee.ViewSingle">
+		<value>查看单个部门员工信息</value>
+	</data>
+	<data name="Topis.Configuration.Employee.Add">
+		<value>添加员工信息</value>
+	</data>
+	<data name="Topis.Configuration.Employee.Delete">
+		<value>删除 员工信息</value>
+	</data>
+	<data name="Topis.Configuration.Employee.Update">
+		<value>修改员工信息</value>
+	</data>
+	<data name="Topis.Configuration.Employee.View">
+		<value>查看、查询员工信息</value>
+	</data>
+	<data name="Topis.Configuration.Employee.ViewSingle">
+		<value>查看单个员工信息</value>
+	</data>
+	<data name="Topis.Configuration.GenerateIDRule.Add">
+		<value>添加编码生成规则信息</value>
+	</data>
+	<data name="Topis.Configuration.GenerateIDRule.Delete">
+		<value>删除 编码生成规则信息</value>
+	</data>
+	<data name="Topis.Configuration.GenerateIDRule.Update">
+		<value>修改 编码生成规则信息</value>
+	</data>
+	<data name="Topis.Configuration.GenerateIDRule.View">
+		<value>查看、查询编码生成规则信息</value>
+	</data>
+	<data name="Topis.Configuration.GenerateIDRule.ViewSingle">
+		<value>查看 单个编码生成规则信息</value>
+	</data>
+	<data name="Topis.Configuration.MaterialCode.Add">
+		<value>添加 物资编码信息</value>
+	</data>
+	<data name="Topis.Configuration.MaterialCode.Delete">
+		<value>删除物资编码信息</value>
+	</data>
+	<data name="Topis.Configuration.MaterialCode.Update">
+		<value>修改 物资编码信息</value>
+	</data>
+	<data name="Topis.Configuration.MaterialCode.View">
+		<value>查看、查询物资编码信息</value>
+	</data>
+	<data name="Topis.Configuration.MaterialCode.ViewSingle">
+		<value>查看单个物资编码信息</value>
+	</data>
+	<data name="Topis.Configuration.ModifyPassword.Add">
+		<value>添加 密码修改信息</value>
+	</data>
+	<data name="Topis.Configuration.ModifyPassword.Delete">
+		<value>删除密码修改信息</value>
+	</data>
+	<data name="Topis.Configuration.ModifyPassword.Update">
+		<value>修改密码修改信息</value>
+	</data>
+	<data name="Topis.Configuration.ModifyPassword.View">
+		<value>查看、查询密码修改信息</value>
+	</data>
+	<data name="Topis.Configuration.ModifyPassword.ViewSingle">
+		<value>查看单条密码修改信息</value>
+	</data>
+	<data name="Topis.Configuration.PositionType.Add">
+		<value>添加 职务类型信息</value>
+	</data>
+	<data name="Topis.Configuration.PositionType.Delete">
+		<value>删除职务类型信息</value>
+	</data>
+	<data name="Topis.Configuration.PositionType.Update">
+		<value>修改职务类型信息</value>
+	</data>
+	<data name="Topis.Configuration.PositionType.View">
+		<value>查看、查询职务类型信息</value>
+	</data>
+	<data name="Topis.Configuration.PositionType.ViewSingle">
+		<value>查看 single PositionType in public page</value>
+	</data>
+	<data name="Topis.Configuration.Projects.Add">
+		<value>添加P信息</value>
+	</data>
+	<data name="Topis.Configuration.Projects.Delete">
+		<value>删除信息</value>
+	</data>
+	<data name="Topis.Configuration.Projects.Update">
+		<value>修改 信息</value>
+	</data>
+	<data name="Topis.Configuration.Projects.View">
+		<value>查询、查看项目信息</value>
+	</data>
+	<data name="Topis.Configuration.Projects.ViewSingle">
+		<value>查看单条项目信息</value>
+	</data>
+	<data name="Topis.Configuration.Role.Add">
+		<value>添加角色信息</value>
+	</data>
+	<data name="Topis.Configuration.Role.Delete">
+		<value>删除 角色信息</value>
+	</data>
+	<data name="Topis.Configuration.Role.Update">
+		<value>修改 角色信息</value>
+	</data>
+	<data name="Topis.Configuration.Role.View">
+		<value>查看、查询角色信息</value>
+	</data>
+	<data name="Topis.Configuration.Role.ViewSingle">
+		<value>查看角色信息</value>
+	</data>
+</root>

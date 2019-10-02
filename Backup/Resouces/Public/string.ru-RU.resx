@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="sModule">
+		<value>Модуль：</value>
+	</data>
+	<data name="sSecurityAlt">
+		<value>Безопасность</value>
+	</data>
+	<data name="sSecurityTitle">
+		<value>Просмотреть все права и пользователи данного модуля</value>
+	</data>
+	<data name="sHelpAlt">
+		<value>Справка</value>
+	</data>
+	<data name="sHelpTitle">
+		<value>Просмотреть справку данного модуля</value>
+	</data>
+	<data name="sHelpInvalidTitle">
+		<value>Справка（невозможно）</value>
+	</data>
+	<data name="sBackAlt">
+		<value>Назад</value>
+	</data>
+	<data name="sBackTitle">
+		<value>Назад</value>
+	</data>
+	<data name="sForwardAlt">
+		<value>Вперёд</value>
+	</data>
+	<data name="sForwardTitle">
+		<value>Вперёд</value>
+	</data>
+	<data name="sTotalRecords">
+		<value>Число записей：</value>
+	</data>
+	<data name="sTotalPages">
+		<value>Страницы：</value>
+	</data>
+	<data name="sCurrentPage">
+		<value>Текущая：</value>
+	</data>
+	<data name="litZoom">
+		<value>Масштабирование</value>
+	</data>
+	<data name="btnExport">
+		<value>[Экспорт]</value>
+	</data>
+	<data name="btnPrint">
+		<value>[Печать]</value>
+	</data>
+	<data name="sCannotPreview">
+		<value>Вследствие ограничения безопасности браузера, не может использовать эту функцию. Пожалуйста, используйте, на браузере меню «файл—предварительный осмотр печати», или параметр, степень безопасности браузера ниже!</value>
+	</data>
+	<data name="sCannotPageSetup">
+		<value>Вследствие ограничения безопасности браузера, не может использовать эту функцию. Пожалуйста, используйте, на браузере меню «файл—предварительный осмотр печати», или параметр, степень безопасности браузера ниже!</value>
+	</data>
+	<data name="Status">
+		<value>Статус：</value>
+	</data>
+	<data name="Blank">
+		<value></value>
+	</data>
+	<data name="btnPrint">
+		<value>Печать</value>
+	</data>
+	<data name="litZoom">
+		<value>Масштабирование</value>
+	</data>
+	<data name="btnNext">
+		<value>Следующая страница</value>
+	</data>
+	<data name="btnLast">
+		<value>Последняя страница</value>
+	</data>
+	<data name="btnTurnTo">
+		<value>Переход к</value>
+	</data>
+	<data name="Num">
+		<value>№</value>
+	</data>
+	<data name="btnSubmit">
+		<value>Переход к</value>
+	</data>
+	<data name="Refresh">
+		<value>Обновлять материалы</value>
+	</data>
+	<data name="ApproveInfo">
+		<value>Cостояние поверки</value>
+	</data>
+	<data name="Attachment">
+		<value>Приложение</value>
+	</data>
+	<data name="Print">
+		<value>Печать</value>
+	</data>
+	<data name="Submit">
+		<value>Отправка</value>
+	</data>
+	<data name="Cancel">
+		<value>Отзыв</value>
+	</data>
+	<data name="Approved">
+		<value>Утвержён</value>
+	</data>
+	<data name="Yes">
+		<value>Да</value>
+	</data>
+	<data name="No">
+		<value>Нет</value>
+	</data>
+	<data name="btnClose">
+		<value>Закрывание</value>
+	</data>
+	<data name="TrueTo">
+		<value>Переход на страницу</value>
+	</data>
+	<data name="SRDateFrom">
+		<value>Дата с:</value>
+	</data>
+	<data name="SRDateTo">
+		<value>По:</value>
+	</data>
+	<data name="NoChildInfoSelected">
+		<value>Введёте полные информации.</value>
+	</data>
+</root>

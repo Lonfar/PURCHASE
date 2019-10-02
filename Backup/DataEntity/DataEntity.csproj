@@ -1,0 +1,600 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DFBA324A-1DD1-4218-878A-6C0701C05235}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>DataEntity</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>DataEntity</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Cnwit.Utility, Version=1.0.3000.31788, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Common, Version=2.0.3100.31726, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="DictionaryAccess, Version=2.0.3002.31076, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApproveProcess\DAEApprovedBusinesProcedureView.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ApproveProcess\DAEApproveProcessing.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ApproveProcess\DAEApproveProcessing_Edit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CEntityUitlity.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CInStoreMaterialDetailAccess.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CInterfaceOfFinanceAccess.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\BasicInfo\DAEABCCalssScale.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\BasicInfo\DAEABCCalssScaleEdit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\BasicInfo\DAEAFE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\BasicInfo\DAEAFEEdit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\BasicInfo\DAEBasicInfoBin.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\BasicInfo\DAEBasicInfoWareHouseEmployee.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\BasicInfo\DAEBasicInfoWareHouseEmployee_Edit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\BasicInfo\DAEBasicTables.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\BasicInfo\DAEBIBIN.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\BasicInfo\DAEBIDepartEmployee.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\BasicInfo\DAEBIDepartment.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\BasicInfo\DAEBIER.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\BasicInfo\DAEBITables.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\BasicInfo\DAEImportantMaterial.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\BasicInfo\DAEImportantMaterialEdit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\BasicInfo\DAEMaxMinMaterial.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\BasicInfo\DAEMaxMinMaterialEdit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\BasicInfo\DAESRPlanType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\BasicInfo\DAEWareHouse.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\BasicInfo\DAEWareHouseEdit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\TenderConfig\DAEApproveFlow.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\TenderConfig\DAEDefaultConfig.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\TenderConfig\DAEDefaultGroup.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\TenderConfig\DAEDefaultTCGroup.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\TenderConfig\DAESealConfig.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\TenderConfig\DAETenderGroup.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\TenderConfig\DAETenderPlan.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\TenderConfig\DAETenderPlan_Edit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\UserManagement\DAERole.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAEBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAEDesktop.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAEFileSubmit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAEStateEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DocumentManagement\DAEDocumentModel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DocumentManagement\DAEDocumentModelCategory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DocumentManagement\DAEDocumentModelCategoryEdit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DocumentManagement\DAEDocumentModelEdit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MaterialManagement\DAEMaterialCatalog.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MaterialManagement\DAEMaterialCatalogEdit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MaterialManagement\DAEMaterialCode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MaterialManagement\DAEMaterialCodeEdit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MaterialPurchase\DAEBIDEvaluation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MaterialPurchase\DAEEnquiryPrice.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MaterialPurchase\DAEGetExcelData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MaterialPurchase\DAEMaterialRequest.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MaterialPurchase\DAEMisDepApprove.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MaterialPurchase\DAENoFlowPOSign.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MaterialPurchase\DAEPOBidFlow.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MaterialPurchase\DAEPONoBidFlow.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MaterialPurchase\DAEQuotation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Model\CInStoreMaterialDetail.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Model\CInterfaceOfFinance.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProcurementManagement\ContractDatabase\DAEContractCatagory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProcurementManagement\ContractDatabase\DAEContractDatabase_Edit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProcurementManagement\ContractDatabase\DAEContractExecute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProcurementManagement\ContractDatabase\DAEPO_Print.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProcurementManagement\ContractDatabase\DAEPurchaseOrder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProcurementManagement\ContractDatabase\DAEPurchaseOrderEdit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProcurementManagement\ITBDocumentDatabase\DAEITBDocument.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProcurementManagement\TenderManagement\DAETCMeetingReport.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProcurementManagement\TenderManagement\DAETCSchedule.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProcurementManagement\TenderManagement\DAETenderBulletin.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProcurementManagement\TenderManagement\DAETenderBulletin_Edit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProcurementManagement\VendorDatabase\DAEOperationhistory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProcurementManagement\VendorDatabase\DAEVenderRegister.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProcurementManagement\VendorDatabase\DAEVendorAssociationName.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProcurementManagement\VendorDatabase\DAEVendorBlackList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProcurementManagement\VendorDatabase\DAEVendorEvaluateStandard.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProcurementManagement\VendorDatabase\DAEVendorGradeEvaluateStandard.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProcurementManagement\VendorDatabase\DAEVendorList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProcurementManagement\VendorDatabase\DAEVendorList_Edit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProcurementManagement\VendorDatabase\DAEVendorMaterial.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProcurementManagement\VendorDatabase\DAEVendorPrejudication.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProcurementManagement\VendorDatabase\DAEVendorPrejudicationResult.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProcurementManagement\VendorDatabase\DAEVendorPrejudication_Edit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProcurementManagement\VendorDatabase\DAEVendorSubmit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Public\DAESearchList.cs" />
+    <Compile Include="Report\MaterialPurchase\DAEEnquiryByBuyer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Report\MaterialPurchase\DAEMRByBuyer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Report\MaterialPurchase\DAEPOWarning.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Report\MaterialPurchase\DAEPurchaseOrderByVendor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Report\MaterialPurchase\DAEQuotationByMaterial.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Report\MaterialPurchase\DAEQuotationByVendor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Report\WareHouse\DAEAdjustIn.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Report\WareHouse\DAEAdjustOut.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Report\WareHouse\DAEInStoreMaterialDetailReport.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Report\WareHouse\DAEInventoryReport.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Report\WareHouse\DAEIssue.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Report\WareHouse\DAEPOInWareHouse.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Report\WareHouse\DAEReportPreserve.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Report\WareHouse\DAEReportPurchaseOrder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Report\WareHouse\DAEReportReceive.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Report\WareHouse\DAEReportReturn.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Report\WareHouse\DAETransferBin2Bin.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Report\WareHouse\DAETransferDep2Dep.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Report\WareHouse\DAETransferWH2WHReport.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Statistic\DAEFinancingUseAnalysis.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Statistic\DAEMaterialUseAnalysis.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TENDOROPERATION\DAECommEvaluation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TENDOROPERATION\DAEContractSign.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TENDOROPERATION\DAEITBDocumentWrite.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TENDOROPERATION\DAEMRStrategy.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TENDOROPERATION\DAENoFlowContractSign.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TENDOROPERATION\DAEPOSign.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TENDOROPERATION\DAEServiceRequistion.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TENDOROPERATION\DAEServiceRequistion_Edit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TENDOROPERATION\DAESRTrace.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TENDOROPERATION\DAETCStrategy.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TENDOROPERATION\DAETCStrategy_Edit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TENDOROPERATION\DAETenderEvaluation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TENDOROPERATION\DAETenderExpiry_Edit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TENDOROPERATION\DAETenderOpen.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TENDOROPERATION\DAETenderSend.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TENDOROPERATION\DAETenderSend_Edit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\Inventory\DAEAdjustIn.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\Inventory\DAEAdjustInEdit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\Inventory\DAEAdjustInPrint.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\Inventory\DAEAdjustOut.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\Inventory\DAEAdjustOutEdit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\Inventory\DAEAdjustOutPrint.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\Inventory\DAECheckStock.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\Inventory\DAECheckStockReport.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\WareHouseManagment\DAEABCClass.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\WareHouseManagment\DAEInStoreMaterialDetail.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\WareHouseManagment\DAEMaterialCapacity.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\WareHouseOperation\DAEBorrow.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\WareHouseOperation\DAEBorrowEdit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\WareHouseOperation\DAEBorrowPrint.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\WareHouseOperation\DAEDirectArrivalMaterial.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\WareHouseOperation\DAEDirectArrivalMaterialPrint.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\WareHouseOperation\DAEIssue.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\WareHouseOperation\DAEIssueEdit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\WareHouseOperation\DAEIssuePrint.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\WareHouseOperation\DAEPreservePrint.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\WareHouseOperation\DAEReceive.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\WareHouseOperation\DAEReceivePrint.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\WareHouseOperation\DAEReject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\WareHouseOperation\DAERejectEdit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\WareHouseOperation\DAERejectPrint.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\WareHouseOperation\DAEReturn.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\WareHouseOperation\DAEReturnEdit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\WareHouseOperation\DAEReturnPrint.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\WareHouseOperation\Preserve\DAECancelPreserve.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\WareHouseOperation\Preserve\DAECancelPreserveEdit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\WareHouseOperation\Preserve\DAEPreserve.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\WareHouseOperation\Preserve\DAEPreserveEdit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\WareHouseOperation\Transfer\DAETransferBin2Bin.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\WareHouseOperation\Transfer\DAETransferBin2BinEdit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\WareHouseOperation\Transfer\DAETransferBin2BinPrint.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\WareHouseOperation\Transfer\DAETransferDEP2DEP.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\WareHouseOperation\Transfer\DAETransferDEP2DEPEdit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\WareHouseOperation\Transfer\DAETransferDEP2DEPPrint.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\WareHouseOperation\Transfer\DAETransferWH2WH.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\WareHouseOperation\Transfer\DAETransferWH2WHEdit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WareHouse\WareHouseOperation\Transfer\DAETransferWH2WHPrint.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <None Include="DocumentManagement\vssver.scc" />
+    <None Include="MaterialPurchase\vssver.scc" />
+    <None Include="Model\vssver.scc" />
+    <None Include="Report\MaterialPurchase\vssver.scc" />
+    <None Include="Report\WareHouse\vssver.scc" />
+    <None Include="Statistic\vssver.scc" />
+    <None Include="WareHouse\WareHouseOperation\Preserve\vssver.scc" />
+    <None Include="WareHouse\WareHouseOperation\Transfer\vssver.scc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Configuration\AuthorityManagement\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

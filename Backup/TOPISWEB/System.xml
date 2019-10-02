@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+		<WareHouse>
+				<!-- 定义系统的价格方式(1:PO价,2:移动平均价-->
+				<PriceType  value="1"></PriceType>
+				<Approve>
+					<!-- 定义收料的审核方式(1:直接通过,2:走流程-->
+					<Receive value="1"></Receive>
+					<!-- 定义借料的审核方式(1:直接通过,2:走流程-->
+					<Borrow	value="1"></Borrow>
+					<!-- 定义预留料的审核方式(1:直接通过,2:走流程-->
+					<Preserve value="1"></Preserve>
+					<!-- 定义撤销预留的审核方式(1:直接通过,2:走流程-->
+					<CancelPreserve	value="1"></CancelPreserve>
+					<!-- 定义直达料的审核方式(1:直接通过,2:走流程-->
+					<DirectArrivalMaterial value="1"></DirectArrivalMaterial>
+					<!-- 定义发料的审核方式(1:直接通过,2:走流程-->
+					<Issue	value="1"></Issue>
+					<!-- 定义返料的审核方式(1:直接通过,2:走流程-->
+					<Return value="1"></Return>
+					<!-- 定义报废与处置的审核方式(1:直接通过,2:走流程-->
+					<Reject	value="1"></Reject>
+					<!-- 定义库内转料的审核方式(1:直接通过,2:走流程-->
+					<TransferBin2Bin value="1"></TransferBin2Bin>
+					<!-- 定义库外转料的审核方式(1:直接通过,2:走流程-->
+					<TransferDEP2DEP value="1"></TransferDEP2DEP>
+					<!-- 定义库间转料的审核方式(1:直接通过,2:走流程-->
+					<TransferWH2WH value="1"></TransferWH2WH>
+					<!-- 定义盘赢的审核方式(1:直接通过,2:走流程-->
+					<AdjustIn	value="1"></AdjustIn>
+					<!-- 定义盘亏的审核方式(1:直接通过,2:走流程-->
+					<AdjustOut	value="1"></AdjustOut>
+				</Approve>
+		</WareHouse>
+		<MaterialPurchase>
+				<!-- 定义订单签定的类型 1.签定订单带评标单，2签定订单不带评标单-->
+				<PoSignType value="1"></PoSignType>
+				<!-- 定义MR的是否审批(0:走审批流程,1:不走审批流程,2:直接审批通过,不用批复、登记等-->
+				<MRApproveType  value="2"></MRApproveType>
+				<!-- 定义询价单是否审批(0:走审批流程,2:直接审批通过-->
+				<EPEnquiryPrice  value="2"></EPEnquiryPrice>
+				<!-- 定义评标单是否审批(0:走审批流程,2:直接审批通过-->
+				<BIDEvaluation  value="2"></BIDEvaluation>
+				<!-- 定义采购单是否审批(0:走审批流程,2:直接审批通过-->
+				<PurchaseOrder  value="2"></PurchaseOrder>
+		</MaterialPurchase>
+		<ProcurementManagement>
+			<VendorDataBase>
+			
+				<!-- 定义是否需要在预审通过以后用邮件通知供应商，0为不发邮件，1为发邮件-->
+				<VendorPrejudicationSendMail value = "0"></VendorPrejudicationSendMail>
+				<VendorMailSubject value=""></VendorMailSubject>
+				<VendorMailBody value=""></VendorMailBody>
+				<FromAddress value=""></FromAddress>
+				
+			</VendorDataBase>
+		</ProcurementManagement>
+		<TENDOROPERATION>
+			<!-- 定义商务评标的审核方式(1:直接通过,2:走流程-->
+			<CommEvaluation value="1"></CommEvaluation>
+			
+			<!-- 定义技术评标的审核方式(1:直接通过,2:走流程-->
+			<TechEvaluation value="1"></TechEvaluation>
+		</TENDOROPERATION>
+
+
+    <SystemConfig>
+      <!-- 合同执行情况的有效天数警告,当时间小于ValidDays的目标值时用更换Css警告 Added by Liujun at 11.22-->
+      <ValidDays value="10"/>
+      <!-- 定义SR的审批类型(0:走审批流程,1:不走审批流程,保存后就算通过-->
+      <SRApproveType value="0"/>
+      <!-- 定义SR金额的级别-->
+      <SRPlanAmountLevel value="500000"/>
+      <!-- 货币单位,默认为美元-->
+      <Currency value="USD"/>
+      <!-- 设置物资分类树的深度 , 初始化时应为0-->
+      <MaterialCatalogDeep value="2"/>
+    </SystemConfig>
+  
+</configuration>

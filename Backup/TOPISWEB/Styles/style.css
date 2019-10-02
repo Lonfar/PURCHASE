@@ -1,0 +1,66 @@
+.text01 {
+	font-size: 12px;
+	font-weight: normal;
+	color: #494949;
+	text-decoration: none;
+	line-height: 150%;
+}
+
+.link01:link {
+	FONT-SIZE: 13px;
+	COLOR: #000000;
+	font-weight: bold;
+	text-decoration: none;
+}
+.link01:visited {
+	FONT-SIZE: 13px;
+	COLOR: #000000;
+	font-weight: bold;
+	text-decoration: none;
+
+}
+.link01:active {
+	FONT-SIZE: 13px;
+	COLOR: #000000;
+	font-weight: bold;
+	text-decoration: none;
+}
+.link01:hover {
+	FONT-SIZE: 13px;
+	COLOR: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+	background-color: #0099FF;
+}
+.link02:link {
+	FONT-SIZE: 12px;
+	COLOR: #333333;
+	font-weight: normal;
+	text-decoration: none;
+}
+.link02:visited {
+	FONT-SIZE: 12px;
+	COLOR: #000000;
+	font-weight: normal;
+	text-decoration: none;
+
+}
+.link02:active {
+	FONT-SIZE: 12px;
+	COLOR: #000000;
+	font-weight: normal;
+	text-decoration: none;
+}
+.link02:hover {
+	FONT-SIZE: 12px;
+	COLOR: #FFFFFF;
+	font-weight: normal;
+	text-decoration: none;
+	background-color: #99CCFF;
+}
+INPUT.buttonface {
+	BORDER-RIGHT: #003366 1px solid; BORDER-TOP: #000000 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: #000000 1px solid; COLOR: #000000; BORDER-BOTTOM: #000000 1px solid; HEIGHT: 20px; BACKGROUND-COLOR: #ddedfd
+}
+INPUT.inputtext {
+	BORDER-RIGHT: #003366 1px solid; BORDER-TOP: #003366 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: #003366 1px solid; COLOR: #0066cc; BORDER-BOTTOM: #000000 1px solid; HEIGHT: 15px; BACKGROUND-COLOR: #ffffff
+}
